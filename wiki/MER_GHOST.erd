@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<diagram version="1" name="GHOST.erd">
+	<entities>
+		<data-source id="sqlite_jdbc-17fddb30b5f-55f15f0100a0d7d1">
+			<entity id="1" name="actions" fq-name="actions" order="0" x="20" y="4202"/>
+			<entity id="2" name="api_keys" fq-name="api_keys" order="1" x="1095" y="4164"/>
+			<entity id="3" name="benefits" fq-name="benefits" order="2" x="758" y="2020"/>
+			<entity id="4" name="brute" fq-name="brute" order="3" x="1095" y="20"/>
+			<entity id="5" name="custom_theme_settings" fq-name="custom_theme_settings" order="4" x="20" y="1850"/>
+			<entity id="6" name="email_batches" fq-name="email_batches" order="5" x="214" y="531"/>
+			<entity id="7" name="email_recipients" fq-name="email_recipients" order="6" x="20" y="598"/>
+			<entity id="8" name="emails" fq-name="emails" order="7" x="502" y="493"/>
+			<entity id="9" name="integrations" fq-name="integrations" order="8" x="214" y="1390"/>
+			<entity id="10" name="invites" fq-name="invites" order="9" x="758" y="4183"/>
+			<entity id="11" name="labels" fq-name="labels" order="10" x="758" y="2619"/>
+			<entity id="12" name="members" fq-name="members" order="11" x="836" y="3103"/>
+			<entity id="13" name="members_cancel_events" fq-name="members_cancel_events" order="12" x="502" y="3026"/>
+			<entity id="14" name="members_email_change_events" fq-name="members_email_change_events" order="13" x="502" y="3168"/>
+			<entity id="15" name="members_labels" fq-name="members_labels" order="14" x="502" y="2647"/>
+			<entity id="16" name="members_login_events" fq-name="members_login_events" order="15" x="502" y="3350"/>
+			<entity id="17" name="members_paid_subscription_events" fq-name="members_paid_subscription_events" order="16" x="502" y="3473"/>
+			<entity id="18" name="members_payment_events" fq-name="members_payment_events" order="17" x="502" y="3691"/>
+			<entity id="19" name="members_product_events" fq-name="members_product_events" order="18" x="959" y="2350"/>
+			<entity id="20" name="members_products" fq-name="members_products" order="19" x="502" y="2505"/>
+			<entity id="21" name="members_status_events" fq-name="members_status_events" order="20" x="502" y="3871"/>
+			<entity id="22" name="members_stripe_customers" fq-name="members_stripe_customers" order="21" x="502" y="2789"/>
+			<entity id="23" name="members_stripe_customers_subscriptions" fq-name="members_stripe_customers_subscriptions" order="22" x="214" y="2767"/>
+			<entity id="24" name="members_subscribe_events" fq-name="members_subscribe_events" order="23" x="502" y="4032"/>
+			<entity id="25" name="migrations" fq-name="migrations" order="24" x="758" y="29"/>
+			<entity id="26" name="migrations_lock" fq-name="migrations_lock" order="25" x="942" y="29"/>
+			<entity id="27" name="mobiledoc_revisions" fq-name="mobiledoc_revisions" order="26" x="214" y="1850"/>
+			<entity id="28" name="oauth" fq-name="oauth" order="27" x="935" y="1473"/>
+			<entity id="29" name="offer_redemptions" fq-name="offer_redemptions" order="28" x="20" y="2974"/>
+			<entity id="30" name="offers" fq-name="offers" order="29" x="214" y="2386"/>
+			<entity id="31" name="permissions" fq-name="permissions" order="30" x="502" y="4193"/>
+			<entity id="32" name="permissions_roles" fq-name="permissions_roles" order="31" x="20" y="39"/>
+			<entity id="33" name="permissions_users" fq-name="permissions_users" order="32" x="214" y="39"/>
+			<entity id="34" name="posts" fq-name="posts" order="33" x="758" y="739"/>
+			<entity id="35" name="posts_authors" fq-name="posts_authors" order="34" x="963" y="1301"/>
+			<entity id="36" name="posts_meta" fq-name="posts_meta" order="35" x="502" y="977"/>
+			<entity id="37" name="posts_products" fq-name="posts_products" order="36" x="502" y="1688"/>
+			<entity id="38" name="posts_tags" fq-name="posts_tags" order="37" x="502" y="351"/>
+			<entity id="39" name="products" fq-name="products" order="38" x="758" y="2181"/>
+			<entity id="40" name="products_benefits" fq-name="products_benefits" order="39" x="912" y="2061"/>
+			<entity id="41" name="roles" fq-name="roles" order="40" x="942" y="1831"/>
+			<entity id="42" name="roles_users" fq-name="roles_users" order="41" x="502" y="39"/>
+			<entity id="43" name="sessions" fq-name="sessions" order="42" x="758" y="1840"/>
+			<entity id="44" name="settings" fq-name="settings" order="43" x="942" y="4183"/>
+			<entity id="45" name="snippets" fq-name="snippets" order="44" x="1095" y="1831"/>
+			<entity id="46" name="stripe_prices" fq-name="stripe_prices" order="45" x="214" y="2092"/>
+			<entity id="47" name="stripe_products" fq-name="stripe_products" order="46" x="502" y="2162"/>
+			<entity id="48" name="tags" fq-name="tags" order="47" x="758" y="171"/>
+			<entity id="49" name="temp_member_analytic_events" fq-name="temp_member_analytic_events" order="48" x="214" y="4202"/>
+			<entity id="50" name="tokens" fq-name="tokens" order="49" x="502" y="1850"/>
+			<entity id="51" name="users" fq-name="users" order="50" x="758" y="1318"/>
+			<entity id="52" name="webhooks" fq-name="webhooks" order="51" x="20" y="1343"/>
+		</data-source>
+	</entities>
+	<relations>
+		<relation name="FK_products_benefits_benefits" fq-name="products_benefits.FK_products_benefits_benefits" type="fk" pk-ref="3" fk-ref="40"/>
+		<relation name="FK_email_recipients_email_batches" fq-name="email_recipients.FK_email_recipients_email_batches" type="fk" pk-ref="6" fk-ref="7"/>
+		<relation name="FK_email_batches_emails" fq-name="email_batches.FK_email_batches_emails" type="fk" pk-ref="8" fk-ref="6"/>
+		<relation name="FK_email_recipients_emails_2" fq-name="email_recipients.FK_email_recipients_emails_2" type="fk" pk-ref="8" fk-ref="7"/>
+		<relation name="FK_webhooks_integrations" fq-name="webhooks.FK_webhooks_integrations" type="fk" pk-ref="9" fk-ref="52"/>
+		<relation name="FK_members_labels_labels" fq-name="members_labels.FK_members_labels_labels" type="fk" pk-ref="11" fk-ref="15"/>
+		<relation name="FK_members_cancel_events_members" fq-name="members_cancel_events.FK_members_cancel_events_members" type="fk" pk-ref="12" fk-ref="13"/>
+		<relation name="FK_members_email_change_events_members" fq-name="members_email_change_events.FK_members_email_change_events_members" type="fk" pk-ref="12" fk-ref="14"/>
+		<relation name="FK_members_labels_members_2" fq-name="members_labels.FK_members_labels_members_2" type="fk" pk-ref="12" fk-ref="15"/>
+		<relation name="FK_members_login_events_members" fq-name="members_login_events.FK_members_login_events_members" type="fk" pk-ref="12" fk-ref="16"/>
+		<relation name="FK_members_paid_subscription_events_members" fq-name="members_paid_subscription_events.FK_members_paid_subscription_events_members" type="fk" pk-ref="12" fk-ref="17"/>
+		<relation name="FK_members_payment_events_members" fq-name="members_payment_events.FK_members_payment_events_members" type="fk" pk-ref="12" fk-ref="18"/>
+		<relation name="FK_members_product_events_members" fq-name="members_product_events.FK_members_product_events_members" type="fk" pk-ref="12" fk-ref="19"/>
+		<relation name="FK_members_products_members" fq-name="members_products.FK_members_products_members" type="fk" pk-ref="12" fk-ref="20"/>
+		<relation name="FK_members_status_events_members" fq-name="members_status_events.FK_members_status_events_members" type="fk" pk-ref="12" fk-ref="21"/>
+		<relation name="FK_members_stripe_customers_members" fq-name="members_stripe_customers.FK_members_stripe_customers_members" type="fk" pk-ref="12" fk-ref="22"/>
+		<relation name="FK_members_subscribe_events_members" fq-name="members_subscribe_events.FK_members_subscribe_events_members" type="fk" pk-ref="12" fk-ref="24"/>
+		<relation name="FK_offer_redemptions_members" fq-name="offer_redemptions.FK_offer_redemptions_members" type="fk" pk-ref="12" fk-ref="29">
+			<bend type="abs" x="214" y="3319"/>
+			<bend type="abs" x="502" y="3319"/>
+		</relation>
+		<relation name="FK_members_stripe_customers_subscriptions_members_stripe_customers" fq-name="members_stripe_customers_subscriptions.FK_members_stripe_customers_subscriptions_members_stripe_customers" type="fk" pk-ref="22" fk-ref="23"/>
+		<relation name="FK_offer_redemptions_members_stripe_customers_subscriptions_2" fq-name="offer_redemptions.FK_offer_redemptions_members_stripe_customers_subscriptions_2" type="fk" pk-ref="23" fk-ref="29"/>
+		<relation name="FK_offer_redemptions_offers_3" fq-name="offer_redemptions.FK_offer_redemptions_offers_3" type="fk" pk-ref="30" fk-ref="29"/>
+		<relation name="FK_posts_authors_posts" fq-name="posts_authors.FK_posts_authors_posts" type="fk" pk-ref="34" fk-ref="35"/>
+		<relation name="FK_posts_meta_posts" fq-name="posts_meta.FK_posts_meta_posts" type="fk" pk-ref="34" fk-ref="36"/>
+		<relation name="FK_posts_products_posts" fq-name="posts_products.FK_posts_products_posts" type="fk" pk-ref="34" fk-ref="37"/>
+		<relation name="FK_posts_tags_posts" fq-name="posts_tags.FK_posts_tags_posts" type="fk" pk-ref="34" fk-ref="38"/>
+		<relation name="FK_members_product_events_products_2" fq-name="members_product_events.FK_members_product_events_products_2" type="fk" pk-ref="39" fk-ref="19"/>
+		<relation name="FK_members_products_products_2" fq-name="members_products.FK_members_products_products_2" type="fk" pk-ref="39" fk-ref="20"/>
+		<relation name="FK_offers_products" fq-name="offers.FK_offers_products" type="fk" pk-ref="39" fk-ref="30"/>
+		<relation name="FK_posts_products_products_2" fq-name="posts_products.FK_posts_products_products_2" type="fk" pk-ref="39" fk-ref="37"/>
+		<relation name="FK_products_benefits_products_2" fq-name="products_benefits.FK_products_benefits_products_2" type="fk" pk-ref="39" fk-ref="40"/>
+		<relation name="FK_stripe_products_products" fq-name="stripe_products.FK_stripe_products_products" type="fk" pk-ref="39" fk-ref="47"/>
+		<relation name="FK_stripe_prices_stripe_products" fq-name="stripe_prices.FK_stripe_prices_stripe_products" type="fk" pk-ref="47" fk-ref="46"/>
+		<relation name="FK_posts_tags_tags_2" fq-name="posts_tags.FK_posts_tags_tags_2" type="fk" pk-ref="48" fk-ref="38"/>
+		<relation name="FK_oauth_users" fq-name="oauth.FK_oauth_users" type="fk" pk-ref="51" fk-ref="28"/>
+		<relation name="FK_posts_authors_users_2" fq-name="posts_authors.FK_posts_authors_users_2" type="fk" pk-ref="51" fk-ref="35"/>
+	</relations>
+</diagram>
