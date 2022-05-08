@@ -1,0 +1,25 @@
+{
+  "USERNAME_EID": "#ember7",
+  "USERNAME": "frogelez@zenware.com.co",
+  "PASSWORD_EID": "#ember9",
+  "PASSWORD": "uv#N48tZj-eRnuF",
+  "BTN_SIGNIN_EID": "#ember11",
+  "POST_TITLE_ECLASS": ".gh-editor-title",
+  "ADD_IMAGE_ECLASS": ".gh-editor-feature-image-unsplash",
+  "INSERT_IMAGE_ECLASS": ".gh-unsplash-photo-footer .gh-unsplash-button",
+  "CONTENT_ECLASS": ".koenig-editor__editor",
+  "PLUS_ADD_ECLASS": ".koenig-plus-menu-button",
+  "YOUTUBE_LINK": "https://www.youtube.com/watch?v=5qap5aO4i9A&ab_channel=LofiGirl",
+  "YOUTUBE_XPATH": ".koenig-cardmenu>div:nth-child(20)",
+  "YOUTUBE_INPUT_XPATH": ".koenig-editor__editor-wrapper > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > input:nth-child(1)",
+  "UNSPLASH_XPATH": ".koenig-cardmenu>div:nth-child(22)",
+  "POST_ONLIST_CLASS": ".gh-list-data",
+  "OPEN_SETTINGS_CLASS": ".settings-menu-toggle",
+  "TAG_INPUT_CLASS": ".ember-power-select-trigger-multiple-input",
+  "TAG_ADD_CLASS": ".ember-power-select-dropdown",
+  "TAG_NAME_ID": "#tag-name",
+  "TAG_BTN_SAVE_ID": ".gh-canvas-header-content > section:nth-child(2) > button",
+  "POST_ACCESS_SELECT_XPATH": ".settings-menu-content > form:nth-child(1) > div:nth-child(4) > div:nth-child(2) > span:nth-child(1) > select:nth-child(1)",
+  "MEMBERS_POST_ACCESS": "members"
+
+}
