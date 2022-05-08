@@ -1,4 +1,4 @@
-Feature: Listar, Agregar, Actualizar y Publicar POST
+Feature: Actualizar POST
 
 @user8 @web
 Scenario: Como un usuario inicio sesión cambio el acceso a un post

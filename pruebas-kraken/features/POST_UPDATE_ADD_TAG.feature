@@ -1,4 +1,4 @@
-Feature: Listar, Agregar, Actualizar y Publicar POST
+Feature: Actualizar POST
 
 @user7 @web
 Scenario: Como un usuario inicio sesión creo un tag a continuación lo agrego a un post
@@ -12,7 +12,7 @@ Scenario: Como un usuario inicio sesión creo un tag a continuación lo agrego a
     Given I navigate to page "http://localhost:2368/ghost/#/tags/new"
     And I set text "TAG TEST" on element with xpath "<TAG_NAME_ID>"
     And I click element with xpath "<TAG_BTN_SAVE_ID>"
-    Then I navigate to page "http://localhost:2368/ghost/#/posts"
+    Then I navigate to page "http://localhost:2368/ghost/#/posts?type=draft"
     And I click element with xpath "<POST_ONLIST_CLASS>"
     And I wait for 1 seconds
     Then I click element with xpath "<CONTENT_ECLASS>"

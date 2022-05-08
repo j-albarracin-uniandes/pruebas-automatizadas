@@ -1,4 +1,4 @@
-Feature: Listar, Agregar, Actualizar y Publicar POST
+Feature: Actualizar POST
 
 @user9 @web
 Scenario: Como un usuario inicio sesión y edito un post con un imagen y texto
