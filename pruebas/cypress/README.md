@@ -1,6 +1,7 @@
 # Pruebas con Cypress
 
 *  [Escenarios de prueba](https://github.com/j-albarracin-uniandes/pruebas-automatizadas/wiki/semana-5#parte-n-1-funcionalidad-pruebas-e2e-con-cypress)
+*  [Pros y contras de cypress](https://github.com/j-albarracin-uniandes/pruebas-automatizadas/wiki/semana-5#pros)
 
 ## Ejecuciónm de los escenarios
 
