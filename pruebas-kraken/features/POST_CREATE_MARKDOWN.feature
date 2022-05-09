@@ -1,7 +1,7 @@
 Feature: Crear POST
 
 @user5 @web
-Scenario: Como un usuario inicio sesión y creo un post con video de youtube
+Scenario: Como un usuario inicio sesión y creo un post draf con markdown
     Given I navigate to page "http://localhost:2368/ghost/#/signin"
     And I wait for 1 seconds
     And I set text "<USERNAME>" on element with xpath "<USERNAME_EID>"
