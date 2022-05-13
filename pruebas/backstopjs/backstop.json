@@ -12,151 +12,188 @@
     "scenarios": [
         {
             "label": "Actions -- Crear post con video de YouTube (1).png",
-            "url": "file:///D:/Jhon/Educacion/MISO/Pruebas automatizadas de software/backstopjs/v4/Actions -- Crear post con video de YouTube (1).png"
+            "url": "file:///D:/Jhon/Educacion/MISO/Pruebas automatizadas de software/backstopjs/v4/Actions -- Crear post con video de YouTube (1).png",
+            "misMatchThreshold": 8
         },
         {
             "label": "Actions -- Crear post con video de YouTube (10).png",
-            "url": "file:///D:/Jhon/Educacion/MISO/Pruebas automatizadas de software/backstopjs/v4/Actions -- Crear post con video de YouTube (10).png"
+            "url": "file:///D:/Jhon/Educacion/MISO/Pruebas automatizadas de software/backstopjs/v4/Actions -- Crear post con video de YouTube (10).png",
+            "misMatchThreshold": 8
         },
         {
             "label": "Actions -- Crear post con video de YouTube (2).png",
-            "url": "file:///D:/Jhon/Educacion/MISO/Pruebas automatizadas de software/backstopjs/v4/Actions -- Crear post con video de YouTube (2).png"
+            "url": "file:///D:/Jhon/Educacion/MISO/Pruebas automatizadas de software/backstopjs/v4/Actions -- Crear post con video de YouTube (2).png",
+            "misMatchThreshold": 8
         },
         {
             "label": "Actions -- Crear post con video de YouTube (3).png",
-            "url": "file:///D:/Jhon/Educacion/MISO/Pruebas automatizadas de software/backstopjs/v4/Actions -- Crear post con video de YouTube (3).png"
+            "url": "file:///D:/Jhon/Educacion/MISO/Pruebas automatizadas de software/backstopjs/v4/Actions -- Crear post con video de YouTube (3).png",
+            "misMatchThreshold": 8
         },
         {
             "label": "Actions -- Crear post con video de YouTube (4).png",
-            "url": "file:///D:/Jhon/Educacion/MISO/Pruebas automatizadas de software/backstopjs/v4/Actions -- Crear post con video de YouTube (4).png"
+            "url": "file:///D:/Jhon/Educacion/MISO/Pruebas automatizadas de software/backstopjs/v4/Actions -- Crear post con video de YouTube (4).png",
+            "misMatchThreshold": 8
         },
         {
             "label": "Actions -- Crear post con video de YouTube (5).png",
-            "url": "file:///D:/Jhon/Educacion/MISO/Pruebas automatizadas de software/backstopjs/v4/Actions -- Crear post con video de YouTube (5).png"
+            "url": "file:///D:/Jhon/Educacion/MISO/Pruebas automatizadas de software/backstopjs/v4/Actions -- Crear post con video de YouTube (5).png",
+            "misMatchThreshold": 8
         },
         {
             "label": "Actions -- Crear post con video de YouTube (6).png",
-            "url": "file:///D:/Jhon/Educacion/MISO/Pruebas automatizadas de software/backstopjs/v4/Actions -- Crear post con video de YouTube (6).png"
+            "url": "file:///D:/Jhon/Educacion/MISO/Pruebas automatizadas de software/backstopjs/v4/Actions -- Crear post con video de YouTube (6).png",
+            "misMatchThreshold": 8
         },
         {
             "label": "Actions -- Crear post con video de YouTube (7).png",
-            "url": "file:///D:/Jhon/Educacion/MISO/Pruebas automatizadas de software/backstopjs/v4/Actions -- Crear post con video de YouTube (7).png"
+            "url": "file:///D:/Jhon/Educacion/MISO/Pruebas automatizadas de software/backstopjs/v4/Actions -- Crear post con video de YouTube (7).png",
+            "misMatchThreshold": 8
         },
         {
             "label": "Actions -- Crear post con video de YouTube (8).png",
-            "url": "file:///D:/Jhon/Educacion/MISO/Pruebas automatizadas de software/backstopjs/v4/Actions -- Crear post con video de YouTube (8).png"
+            "url": "file:///D:/Jhon/Educacion/MISO/Pruebas automatizadas de software/backstopjs/v4/Actions -- Crear post con video de YouTube (8).png",
+            "misMatchThreshold": 8
         },
         {
             "label": "Actions -- Crear post con video de YouTube (9).png",
-            "url": "file:///D:/Jhon/Educacion/MISO/Pruebas automatizadas de software/backstopjs/v4/Actions -- Crear post con video de YouTube (9).png"
+            "url": "file:///D:/Jhon/Educacion/MISO/Pruebas automatizadas de software/backstopjs/v4/Actions -- Crear post con video de YouTube (9).png",
+            "misMatchThreshold": 8
         },
         {
             "label": "Actions -- Crear post con video de YouTube.png",
-            "url": "file:///D:/Jhon/Educacion/MISO/Pruebas automatizadas de software/backstopjs/v4/Actions -- Crear post con video de YouTube.png"
+            "url": "file:///D:/Jhon/Educacion/MISO/Pruebas automatizadas de software/backstopjs/v4/Actions -- Crear post con video de YouTube.png",
+            "misMatchThreshold": 8
         },
         {
             "label": "Actions -- Editar post con video de YouTube (1).png",
-            "url": "file:///D:/Jhon/Educacion/MISO/Pruebas automatizadas de software/backstopjs/v4/Actions -- Editar post con video de YouTube (1).png"
+            "url": "file:///D:/Jhon/Educacion/MISO/Pruebas automatizadas de software/backstopjs/v4/Actions -- Editar post con video de YouTube (1).png",
+            "misMatchThreshold": 8
         },
         {
             "label": "Actions -- Editar post con video de YouTube (2).png",
-            "url": "file:///D:/Jhon/Educacion/MISO/Pruebas automatizadas de software/backstopjs/v4/Actions -- Editar post con video de YouTube (2).png"
+            "url": "file:///D:/Jhon/Educacion/MISO/Pruebas automatizadas de software/backstopjs/v4/Actions -- Editar post con video de YouTube (2).png",
+            "misMatchThreshold": 8
         },
         {
             "label": "Actions -- Editar post con video de YouTube (3).png",
-            "url": "file:///D:/Jhon/Educacion/MISO/Pruebas automatizadas de software/backstopjs/v4/Actions -- Editar post con video de YouTube (3).png"
+            "url": "file:///D:/Jhon/Educacion/MISO/Pruebas automatizadas de software/backstopjs/v4/Actions -- Editar post con video de YouTube (3).png",
+            "misMatchThreshold": 8
         },
         {
             "label": "Actions -- Editar post con video de YouTube (4).png",
-            "url": "file:///D:/Jhon/Educacion/MISO/Pruebas automatizadas de software/backstopjs/v4/Actions -- Editar post con video de YouTube (4).png"
+            "url": "file:///D:/Jhon/Educacion/MISO/Pruebas automatizadas de software/backstopjs/v4/Actions -- Editar post con video de YouTube (4).png",
+            "misMatchThreshold": 8
         },
         {
             "label": "Actions -- Editar post con video de YouTube (5).png",
-            "url": "file:///D:/Jhon/Educacion/MISO/Pruebas automatizadas de software/backstopjs/v4/Actions -- Editar post con video de YouTube (5).png"
+            "url": "file:///D:/Jhon/Educacion/MISO/Pruebas automatizadas de software/backstopjs/v4/Actions -- Editar post con video de YouTube (5).png",
+            "misMatchThreshold": 8
         },
         {
             "label": "Actions -- Editar post con video de YouTube (6).png",
-            "url": "file:///D:/Jhon/Educacion/MISO/Pruebas automatizadas de software/backstopjs/v4/Actions -- Editar post con video de YouTube (6).png"
+            "url": "file:///D:/Jhon/Educacion/MISO/Pruebas automatizadas de software/backstopjs/v4/Actions -- Editar post con video de YouTube (6).png",
+            "misMatchThreshold": 8
         },
         {
             "label": "Actions -- Editar post con video de YouTube (7).png",
-            "url": "file:///D:/Jhon/Educacion/MISO/Pruebas automatizadas de software/backstopjs/v4/Actions -- Editar post con video de YouTube (7).png"
+            "url": "file:///D:/Jhon/Educacion/MISO/Pruebas automatizadas de software/backstopjs/v4/Actions -- Editar post con video de YouTube (7).png",
+            "misMatchThreshold": 8
         },
         {
             "label": "Actions -- Editar post con video de YouTube (8).png",
-            "url": "file:///D:/Jhon/Educacion/MISO/Pruebas automatizadas de software/backstopjs/v4/Actions -- Editar post con video de YouTube (8).png"
+            "url": "file:///D:/Jhon/Educacion/MISO/Pruebas automatizadas de software/backstopjs/v4/Actions -- Editar post con video de YouTube (8).png",
+            "misMatchThreshold": 8
         },
         {
             "label": "Actions -- Editar post con video de YouTube (9).png",
-            "url": "file:///D:/Jhon/Educacion/MISO/Pruebas automatizadas de software/backstopjs/v4/Actions -- Editar post con video de YouTube (9).png"
+            "url": "file:///D:/Jhon/Educacion/MISO/Pruebas automatizadas de software/backstopjs/v4/Actions -- Editar post con video de YouTube (9).png",
+            "misMatchThreshold": 8
         },
         {
             "label": "Actions -- Editar post con video de YouTube.png",
-            "url": "file:///D:/Jhon/Educacion/MISO/Pruebas automatizadas de software/backstopjs/v4/Actions -- Editar post con video de YouTube.png"
+            "url": "file:///D:/Jhon/Educacion/MISO/Pruebas automatizadas de software/backstopjs/v4/Actions -- Editar post con video de YouTube.png",
+            "misMatchThreshold": 8
         },
         {
             "label": "Actions -- Eliminar vista posts (1).png",
-            "url": "file:///D:/Jhon/Educacion/MISO/Pruebas automatizadas de software/backstopjs/v4/Actions -- Eliminar vista posts (1).png"
+            "url": "file:///D:/Jhon/Educacion/MISO/Pruebas automatizadas de software/backstopjs/v4/Actions -- Eliminar vista posts (1).png",
+            "misMatchThreshold": 8
         },
         {
             "label": "Actions -- Eliminar vista posts (2).png",
-            "url": "file:///D:/Jhon/Educacion/MISO/Pruebas automatizadas de software/backstopjs/v4/Actions -- Eliminar vista posts (2).png"
+            "url": "file:///D:/Jhon/Educacion/MISO/Pruebas automatizadas de software/backstopjs/v4/Actions -- Eliminar vista posts (2).png",
+            "misMatchThreshold": 8
         },
         {
             "label": "Actions -- Eliminar vista posts (3).png",
-            "url": "file:///D:/Jhon/Educacion/MISO/Pruebas automatizadas de software/backstopjs/v4/Actions -- Eliminar vista posts (3).png"
+            "url": "file:///D:/Jhon/Educacion/MISO/Pruebas automatizadas de software/backstopjs/v4/Actions -- Eliminar vista posts (3).png",
+            "misMatchThreshold": 8
         },
         {
             "label": "Actions -- Eliminar vista posts (4).png",
-            "url": "file:///D:/Jhon/Educacion/MISO/Pruebas automatizadas de software/backstopjs/v4/Actions -- Eliminar vista posts (4).png"
+            "url": "file:///D:/Jhon/Educacion/MISO/Pruebas automatizadas de software/backstopjs/v4/Actions -- Eliminar vista posts (4).png",
+            "misMatchThreshold": 8
         },
         {
             "label": "Actions -- Eliminar vista posts (5).png",
-            "url": "file:///D:/Jhon/Educacion/MISO/Pruebas automatizadas de software/backstopjs/v4/Actions -- Eliminar vista posts (5).png"
+            "url": "file:///D:/Jhon/Educacion/MISO/Pruebas automatizadas de software/backstopjs/v4/Actions -- Eliminar vista posts (5).png",
+            "misMatchThreshold": 8
         },
         {
             "label": "Actions -- Eliminar vista posts (6).png",
-            "url": "file:///D:/Jhon/Educacion/MISO/Pruebas automatizadas de software/backstopjs/v4/Actions -- Eliminar vista posts (6).png"
+            "url": "file:///D:/Jhon/Educacion/MISO/Pruebas automatizadas de software/backstopjs/v4/Actions -- Eliminar vista posts (6).png",
+            "misMatchThreshold": 8
         },
         {
             "label": "Actions -- Eliminar vista posts (7).png",
-            "url": "file:///D:/Jhon/Educacion/MISO/Pruebas automatizadas de software/backstopjs/v4/Actions -- Eliminar vista posts (7).png"
+            "url": "file:///D:/Jhon/Educacion/MISO/Pruebas automatizadas de software/backstopjs/v4/Actions -- Eliminar vista posts (7).png",
+            "misMatchThreshold": 8
         },
         {
             "label": "Actions -- Eliminar vista posts (8).png",
-            "url": "file:///D:/Jhon/Educacion/MISO/Pruebas automatizadas de software/backstopjs/v4/Actions -- Eliminar vista posts (8).png"
+            "url": "file:///D:/Jhon/Educacion/MISO/Pruebas automatizadas de software/backstopjs/v4/Actions -- Eliminar vista posts (8).png",
+            "misMatchThreshold": 8
         },
         {
             "label": "Actions -- Eliminar vista posts (9).png",
-            "url": "file:///D:/Jhon/Educacion/MISO/Pruebas automatizadas de software/backstopjs/v4/Actions -- Eliminar vista posts (9).png"
+            "url": "file:///D:/Jhon/Educacion/MISO/Pruebas automatizadas de software/backstopjs/v4/Actions -- Eliminar vista posts (9).png",
+            "misMatchThreshold": 8
         },
         {
             "label": "Actions -- Eliminar vista posts.png",
-            "url": "file:///D:/Jhon/Educacion/MISO/Pruebas automatizadas de software/backstopjs/v4/Actions -- Eliminar vista posts.png"
+            "url": "file:///D:/Jhon/Educacion/MISO/Pruebas automatizadas de software/backstopjs/v4/Actions -- Eliminar vista posts.png",
+            "misMatchThreshold": 8
         },
         {
             "label": "Actions -- Guardar vista posts (1).png",
-            "url": "file:///D:/Jhon/Educacion/MISO/Pruebas automatizadas de software/backstopjs/v4/Actions -- Guardar vista posts (1).png"
+            "url": "file:///D:/Jhon/Educacion/MISO/Pruebas automatizadas de software/backstopjs/v4/Actions -- Guardar vista posts (1).png",
+            "misMatchThreshold": 8
         },
         {
             "label": "Actions -- Guardar vista posts (2).png",
-            "url": "file:///D:/Jhon/Educacion/MISO/Pruebas automatizadas de software/backstopjs/v4/Actions -- Guardar vista posts (2).png"
+            "url": "file:///D:/Jhon/Educacion/MISO/Pruebas automatizadas de software/backstopjs/v4/Actions -- Guardar vista posts (2).png",
+            "misMatchThreshold": 8
         },
         {
             "label": "Actions -- Guardar vista posts (3).png",
-            "url": "file:///D:/Jhon/Educacion/MISO/Pruebas automatizadas de software/backstopjs/v4/Actions -- Guardar vista posts (3).png"
+            "url": "file:///D:/Jhon/Educacion/MISO/Pruebas automatizadas de software/backstopjs/v4/Actions -- Guardar vista posts (3).png",
+            "misMatchThreshold": 8
         },
         {
             "label": "Actions -- Guardar vista posts (4).png",
-            "url": "file:///D:/Jhon/Educacion/MISO/Pruebas automatizadas de software/backstopjs/v4/Actions -- Guardar vista posts (4).png"
+            "url": "file:///D:/Jhon/Educacion/MISO/Pruebas automatizadas de software/backstopjs/v4/Actions -- Guardar vista posts (4).png",
+            "misMatchThreshold": 8
         },
         {
             "label": "Actions -- Guardar vista posts (5).png",
-            "url": "file:///D:/Jhon/Educacion/MISO/Pruebas automatizadas de software/backstopjs/v4/Actions -- Guardar vista posts (5).png"
+            "url": "file:///D:/Jhon/Educacion/MISO/Pruebas automatizadas de software/backstopjs/v4/Actions -- Guardar vista posts (5).png",
+            "misMatchThreshold": 8
         },
         {
             "label": "Actions -- Guardar vista posts.png",
-            "url": "file:///D:/Jhon/Educacion/MISO/Pruebas automatizadas de software/backstopjs/v4/Actions -- Guardar vista posts.png"
+            "url": "file:///D:/Jhon/Educacion/MISO/Pruebas automatizadas de software/backstopjs/v4/Actions -- Guardar vista posts.png",
+            "misMatchThreshold": 8
         }
     ],
     "paths": {

@@ -21,7 +21,7 @@ if folderOption != "0":
 
 for esc in filesV3:
     scenarios.append({"label": esc, "url": "file:///" +
-                     backstopFolder+folderPath+esc})
+                     backstopFolder+folderPath+esc, "misMatchThreshold": 8})
 
 
 with open("./backstop.json", "r") as f:
