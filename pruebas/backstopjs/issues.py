@@ -50,8 +50,8 @@ for idx, x in enumerate(issuesList):
     misMatchThreshold = str(x["pair"]["misMatchThreshold"])
     misMatchPercentage = x["pair"]["diff"]["misMatchPercentage"]
     hotxixName = "[HOTFIX-VRT-"+id+"]"+label
-    pathReference = "https://raw.githubusercontent.com/j-albarracin-uniandes/pruebas-automatizadas/blob/master/pruebas/backstopjs/backstop_data/bitmaps_reference/"
-    pathTest = "https://raw.githubusercontent.com/j-albarracin-uniandes/pruebas-automatizadas/tree/master/pruebas/backstopjs/backstop_data/bitmaps_test/20220513-141203/failed_diff_"
+    pathReference = "https://raw.githubusercontent.com/j-albarracin-uniandes/pruebas-automatizadas/master/pruebas/backstopjs/backstop_data/bitmaps_reference/"
+    pathTest = "https://raw.githubusercontent.com/j-albarracin-uniandes/pruebas-automatizadas/master/pruebas/backstopjs/backstop_data/bitmaps_test/20220513-141203/failed_diff_"
 
     with open("./issues/list/"+hotxixName+".md", "a", encoding='utf-8') as file:
         imgV3 = pathReference+x["pair"]["fileName"]
