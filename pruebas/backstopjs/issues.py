@@ -52,10 +52,10 @@ for idx, x in enumerate(issuesList):
     hotxixName = "[HOTFIX-VRT-"+id+"]"+label
     pathReference = "https://raw.githubusercontent.com/j-albarracin-uniandes/pruebas-automatizadas/master/pruebas/backstopjs/backstop_data/bitmaps_reference/"
     pathTest = "https://raw.githubusercontent.com/j-albarracin-uniandes/pruebas-automatizadas/master/pruebas/backstopjs/backstop_data/bitmaps_test/20220513-141203/failed_diff_"
-    pathV4="https://raw.githubusercontent.com/j-albarracin-uniandes/pruebas-automatizadas/master/pruebas/backstopjs/v4/"
+    pathV4 = "https://raw.githubusercontent.com/j-albarracin-uniandes/pruebas-automatizadas/master/pruebas/backstopjs/v4/"
     with open("./issues/list/"+hotxixName+".md", "a", encoding='utf-8') as file:
         imgV3 = pathReference+x["pair"]["fileName"]
-        imgV4 = pathV4+x["pair"]["label"].replace(" ","%20")
+        imgV4 = pathV4+x["pair"]["label"].replace(" ", "%20")
         tmgDiff = pathTest+x["pair"]["fileName"]
         numeroV3 = "3.42"
         numeroV4 = "4.41.3"
@@ -65,7 +65,7 @@ for idx, x in enumerate(issuesList):
         file.write("## Comportamiento Actual:"+"\n\n")
         file.write(
             "La diferencia de la regresión visual dio como resultado: "+misMatchPercentage+"\n\n")
-        file.write("# Evidencias"+hotxixName+"\n\n")
+        file.write("# Evidencias"+"\n\n")
         file.write("### Diferencias "+"\n\n")
         file.write("![tmgDiff]("+tmgDiff+")"+"\n\n")
         file.write("### Versión "+numeroV3+"\n\n")

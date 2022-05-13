@@ -6,7 +6,7 @@ Se espera que el porcentaje de diferencia de la regresión visual entre las imag
 
 La diferencia de la regresión visual dio como resultado: 86.23
 
-# Evidencias[HOTFIX-VRT-30]Actions -- Guardar vista posts (3).png
+# Evidencias
 
 ### Diferencias 
 
