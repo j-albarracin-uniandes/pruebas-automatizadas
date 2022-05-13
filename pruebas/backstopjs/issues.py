@@ -45,7 +45,7 @@ issuesList = [k for k in getJson()["tests"] if 'pass' != k["status"]]
 
 
 for idx, x in enumerate(issuesList):
-    id = str(idx)+1
+    id = str(idx+1)
     label = x["pair"]["label"]
     misMatchThreshold = str(x["pair"]["misMatchThreshold"])
     misMatchPercentage = x["pair"]["diff"]["misMatchPercentage"]
