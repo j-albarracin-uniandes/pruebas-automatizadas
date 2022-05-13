@@ -13,8 +13,8 @@
 ### Instrucciones
 *  Instalar cyprees en una terminal con el comando npm install -g cypress
 *  Reemplazar el contenido de la carpeta "integration" con el contenido de las carpetas semana 5 y semana 6  
-*  Reemplazar el email de usuario que tenga de acceso de la linea de código 5 de los archivos [ghost.json"versión 3.42"]() y [ghost.json"versión 4.41.3"]()() 
-*  Reemplazar el password de usuario que tenga de acceso de la linea de código 6 del archivos [ghost.json"versión 3.42"]() y [ghost.json"versión 4.41.3"]()() 
+*  Reemplazar el email de usuario que tenga de acceso de la linea de código 5 de los archivos [ghost.json"versión 3.42"](https://github.com/j-albarracin-uniandes/pruebas-automatizadas/blob/master/pruebas/cypress/semana6/testv3/ghost.json) y [ghost.json"versión 4.41.3"](https://github.com/j-albarracin-uniandes/pruebas-automatizadas/blob/master/pruebas/cypress/semana6/testv4/ghost.json) 
+*  Reemplazar el password de usuario que tenga de acceso de la linea de código 6 del archivos [ghost.json"versión 3.42"](https://github.com/j-albarracin-uniandes/pruebas-automatizadas/blob/master/pruebas/cypress/semana6/testv3/ghost.json) y [ghost.json"versión 4.41.3"](https://github.com/j-albarracin-uniandes/pruebas-automatizadas/blob/master/pruebas/cypress/semana6/testv4/ghost.json) 
 *  Ingresar a la carpeta de cyprres en la terminal y ejecutar el comando cypress open. Al hacer esto se abrira la interfaz grafica de cypress
 *  En la pestaña "Tests" de la interfaz dar click en boton "Run test" para ejecutar todas las pruebas.
 
