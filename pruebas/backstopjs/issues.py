@@ -50,8 +50,8 @@ for idx, x in enumerate(issuesList):
     misMatchThreshold = str(x["pair"]["misMatchThreshold"])
     misMatchPercentage = x["pair"]["diff"]["misMatchPercentage"]
     hotxixName = "[HOTFIX-VRT-"+id+"]"+label
-    pathReference = "https://github.com/j-albarracin-uniandes/pruebas-automatizadas/blob/master/pruebas/backstopjs/backstop_data/bitmaps_reference/"
-    pathTest = "https://github.com/j-albarracin-uniandes/pruebas-automatizadas/tree/master/pruebas/backstopjs/backstop_data/bitmaps_test/20220513-141203/failed_diff_"
+    pathReference = "https://raw.githubusercontent.com/j-albarracin-uniandes/pruebas-automatizadas/blob/master/pruebas/backstopjs/backstop_data/bitmaps_reference/"
+    pathTest = "https://raw.githubusercontent.com/j-albarracin-uniandes/pruebas-automatizadas/tree/master/pruebas/backstopjs/backstop_data/bitmaps_test/20220513-141203/failed_diff_"
 
     with open("./issues/list/"+hotxixName+".md", "a", encoding='utf-8') as file:
         imgV3 = pathReference+x["pair"]["fileName"]
@@ -68,7 +68,7 @@ for idx, x in enumerate(issuesList):
         file.write("### Versión "+numeroV3+"\n\n")
         file.write("![imgV3]("+imgV3+")"+"\n\n")
         file.write("### Versión "+numeroV4+"\n\n")
-        file.write("<img src="+imgV4+" alt="4" width="100%"/> +"\n\n")
+        file.write("<img src="+imgV4+" alt='4' width='100%'/>"+"\n\n")
         file.write("# Contexto"+"\n\n")
         file.write("+ **Ghost version:** "+numeroV3+", "+numeroV4+"\n\n")
         file.write("+ **Navegador:** Google Chrome 1000.04896.60"+"\n\n")
