@@ -55,7 +55,7 @@ for idx, x in enumerate(issuesList):
     pathV4="https://raw.githubusercontent.com/j-albarracin-uniandes/pruebas-automatizadas/master/pruebas/backstopjs/v4/"
     with open("./issues/list/"+hotxixName+".md", "a", encoding='utf-8') as file:
         imgV3 = pathReference+x["pair"]["fileName"]
-        imgV4 = pathV4+x["pair"]["fileName"]
+        imgV4 = pathV4+x["pair"]["label"]
         tmgDiff = pathTest+x["pair"]["fileName"]
         numeroV3 = "3.42"
         numeroV4 = "4.41.3"
@@ -71,7 +71,7 @@ for idx, x in enumerate(issuesList):
         file.write("### Versión "+numeroV3+"\n\n")
         file.write("![imgV3]("+imgV3+")"+"\n\n")
         file.write("### Versión "+numeroV4+"\n\n")
-        file.write("![imgV3]("+imgV4+")"+"\n\n")
+        file.write("![imgV4]("+imgV4+")"+"\n\n")
         file.write("# Contexto"+"\n\n")
         file.write("+ **Ghost version:** v"+numeroV3+", v"+numeroV4+"\n\n")
         file.write("+ **Navegador:** Google Chrome 1000.04896.60"+"\n\n")
