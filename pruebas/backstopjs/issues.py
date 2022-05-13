@@ -55,7 +55,7 @@ for idx, x in enumerate(issuesList):
     pathV4="https://raw.githubusercontent.com/j-albarracin-uniandes/pruebas-automatizadas/master/pruebas/backstopjs/v4/"
     with open("./issues/list/"+hotxixName+".md", "a", encoding='utf-8') as file:
         imgV3 = pathReference+x["pair"]["fileName"]
-        imgV4 = pathV4+x["pair"]["label"]
+        imgV4 = pathV4+x["pair"]["label"].replace(" ","%20")
         tmgDiff = pathTest+x["pair"]["fileName"]
         numeroV3 = "3.42"
         numeroV4 = "4.41.3"

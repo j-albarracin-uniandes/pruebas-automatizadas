@@ -1,6 +1,6 @@
 # [HOTFIX-VRT-33]Actions -- Guardar vista posts.png
 
-Se espera que el porcentaje de diferencia de la regresión visual entre las imagenes [Actions -- Guardar vista posts.png (Ghost v3.42) ](https://raw.githubusercontent.com/j-albarracin-uniandes/pruebas-automatizadas/master/pruebas/backstopjs/backstop_data/bitmaps_reference/host_Actions_--_Guardar_vista_postspng_0_document_0_default.png) y [Actions -- Guardar vista posts.png (Ghost v4.41.3) ](https://raw.githubusercontent.com/j-albarracin-uniandes/pruebas-automatizadas/master/pruebas/backstopjs/v4/Actions -- Guardar vista posts.png)  en la prueba fuese inferior a 8 %
+Se espera que el porcentaje de diferencia de la regresión visual entre las imagenes [Actions -- Guardar vista posts.png (Ghost v3.42) ](https://raw.githubusercontent.com/j-albarracin-uniandes/pruebas-automatizadas/master/pruebas/backstopjs/backstop_data/bitmaps_reference/host_Actions_--_Guardar_vista_postspng_0_document_0_default.png) y [Actions -- Guardar vista posts.png (Ghost v4.41.3) ](https://raw.githubusercontent.com/j-albarracin-uniandes/pruebas-automatizadas/master/pruebas/backstopjs/v4/Actions%20--%20Guardar%20vista%20posts.png)  en la prueba fuese inferior a 8 %
 
 ## Comportamiento Actual:
 
@@ -18,7 +18,7 @@ La diferencia de la regresión visual dio como resultado: 9.82
 
 ### Versión 4.41.3
 
-![imgV4](https://raw.githubusercontent.com/j-albarracin-uniandes/pruebas-automatizadas/master/pruebas/backstopjs/v4/Actions -- Guardar vista posts.png)
+![imgV4](https://raw.githubusercontent.com/j-albarracin-uniandes/pruebas-automatizadas/master/pruebas/backstopjs/v4/Actions%20--%20Guardar%20vista%20posts.png)
 
 # Contexto
 
