@@ -7,6 +7,10 @@ context("Actions", () => {
     cy.get(gC.signin.selectors.password).type(gC.signin.user.password);
     cy.get(gC.signin.selectors.submit ).click();
   });
+    
+  Cypress.on('uncaught:exception', (err, runnable) => {
+    return false;
+  });
 
 it("Filtrar posts por Drafts", () => {
     cy.visit(gC.host + "#/posts?type=draft");
@@ -354,4 +358,119 @@ it("Filtrar posts por Drafts", () => {
     cy.get(".gh-nav-view-list").should("not.contain", "Custom view");
     cy.screenshot();
   });
+
+    it('PRUEBA #17 - Crear pagina nueva, crear tag, la publica y listar por tag creado', () => {
+
+        cy.get('.gh-nav-top').contains('Pages').click()
+        cy.wait(1000)
+        cy.screenshot()
+
+        cy.url().should('eq', 'http://localhost:3001/ghost/#/pages')
+        cy.get('.view-actions').contains('New page').click()
+        cy.wait(1000)
+        cy.screenshot()
+
+        cy.url().should('eq', 'http://localhost:3001/ghost/#/editor/page')
+        const titulPagina = "pagina con tag semana 5";
+        const contenidoPagina = "contenido de pagina con tag";
+        cy.get('.gh-koenig-editor-pane').find('textarea').type(titulPagina)
+        cy.screenshot()
+
+        cy.get('.gh-koenig-editor-pane').get('.koenig-editor__editor-wrapper').type(contenidoPagina)
+        cy.screenshot()
+
+        cy.get('.post-settings').click()
+        cy.wait(1000)
+        cy.screenshot()
+
+        cy.get('#tag-input').find('input').type(titulPagina)
+        cy.screenshot()
+
+        cy.get('.ember-power-select-option').click()
+        cy.wait(1000)
+        cy.screenshot()
+
+        cy.get('.close.settings-menu-header-action').click()
+        cy.wait(1000)
+        cy.screenshot()
+
+        cy.get('.gh-publishmenu-trigger').contains('Publish').click()
+        cy.wait(1000)
+        cy.screenshot()
+
+        cy.get('.gh-publishmenu-dropdown').contains('Set it live now').click()
+        cy.wait(1000)
+        cy.screenshot()
+
+        cy.get('.gh-publishmenu-dropdown').get('.gh-publishmenu-footer').contains('Publish').click()
+        cy.wait(1000)
+        cy.screenshot()
+
+        cy.get('.gh-notification.gh-notification-passive').should('contain', 'Published')
+        cy.get('.gh-notification-actions').should('contain', 'View Page')
+        const titulPaginaSepareted = titulPagina.replace(/ /g,"-")
+        cy.get('.gh-notification-actions').find('a').should('have.attr', 'href').and('include', titulPaginaSepareted)
+
+        cy.get('.gh-editor-header').contains('Pages').click()
+        cy.wait(1000)
+        cy.screenshot()
+
+        cy.get('.gh-canvas-header.post-header').contains('All tags').click()
+        cy.wait(1000)
+        cy.screenshot()
+
+        cy.get('.ember-power-select-dropdown--active').find('ul').find('li').contains(titulPagina).click()
+        cy.wait(1000)
+        cy.screenshot()
+
+        cy.url().should('eq', 'http://localhost:3001/ghost/#/pages?tag=pagina-con-tag-semana-5')
+
+    })
+
+    it('PRUEBA #19 - Elimina pagina con tag ', () => {
+
+        cy.get('.gh-nav-top').contains('Pages').click()
+        cy.wait(1000)
+        cy.screenshot()
+
+        cy.url().should('eq', 'http://localhost:3001/ghost/#/pages')
+        cy.get('.view-actions').contains('All pages').click()
+        cy.wait(1000)
+        cy.screenshot()
+
+        cy.get('#ember-basic-dropdown-wormhole').contains('Published pages').click()
+        cy.wait(1000)
+        cy.screenshot()
+        cy.url().should('eq', 'http://localhost:3001/ghost/#/pages?type=published')
+
+        const titulPagina = "pagina con tag semana 5";
+        cy.get('.gh-contentfilter').contains('All tags').click()
+        cy.wait(1000)
+        cy.screenshot()
+
+        cy.get('.ember-power-select-dropdown--active').find('ul').find('li').contains(titulPagina).click()
+        cy.wait(1000)
+        cy.screenshot()
+
+        cy.get('.gh-list').find('li').get('.gh-posts-list-item.gh-list-row').contains(titulPagina).click()
+        cy.wait(1000)
+        cy.screenshot()
+        cy.url().should('contain', 'http://localhost:3001/ghost/#/editor/page')
+
+        cy.get('.post-settings').click()
+        cy.wait(1000)
+        cy.screenshot()
+
+        cy.get('.settings-menu-content').find('form').find('button').get('.settings-menu-delete-button').click()
+        cy.wait(1000)
+
+        cy.get('.modal-content').get('.modal-footer').get('.gh-btn.gh-btn-red.gh-btn-icon.ember-view').find('span').click({ force: true })
+        cy.wait(50)
+        cy.screenshot()
+        cy.wait(1000)
+        cy.screenshot()
+
+    })
+  
+  
 });
