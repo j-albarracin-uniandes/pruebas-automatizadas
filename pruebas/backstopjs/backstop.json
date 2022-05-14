@@ -1,10 +1,15 @@
 {
-    "id": "host",
+    "id": "backstop_default",
     "viewports": [
         {
-            "label": "default",
-            "width": 800,
-            "height": 600
+            "label": "phone",
+            "width": 320,
+            "height": 480
+        },
+        {
+            "label": "tablet",
+            "width": 1024,
+            "height": 768
         }
     ],
     "onBeforeScript": "puppet/onBefore.js",
@@ -12,187 +17,302 @@
     "scenarios": [
         {
             "label": "Actions -- Crear post con video de YouTube (1).png",
-            "url": "file:///D:/Jhon/Educacion/MISO/Pruebas automatizadas de software/backstopjs/v4/Actions -- Crear post con video de YouTube (1).png",
+            "url": "file:///C:/Proyectos/pruebas-automatizadas/pruebas/backstopjs/v4/Actions -- Crear post con video de YouTube (1).png",
             "misMatchThreshold": 8
         },
         {
             "label": "Actions -- Crear post con video de YouTube (10).png",
-            "url": "file:///D:/Jhon/Educacion/MISO/Pruebas automatizadas de software/backstopjs/v4/Actions -- Crear post con video de YouTube (10).png",
+            "url": "file:///C:/Proyectos/pruebas-automatizadas/pruebas/backstopjs/v4/Actions -- Crear post con video de YouTube (10).png",
             "misMatchThreshold": 8
         },
         {
             "label": "Actions -- Crear post con video de YouTube (2).png",
-            "url": "file:///D:/Jhon/Educacion/MISO/Pruebas automatizadas de software/backstopjs/v4/Actions -- Crear post con video de YouTube (2).png",
+            "url": "file:///C:/Proyectos/pruebas-automatizadas/pruebas/backstopjs/v4/Actions -- Crear post con video de YouTube (2).png",
             "misMatchThreshold": 8
         },
         {
             "label": "Actions -- Crear post con video de YouTube (3).png",
-            "url": "file:///D:/Jhon/Educacion/MISO/Pruebas automatizadas de software/backstopjs/v4/Actions -- Crear post con video de YouTube (3).png",
+            "url": "file:///C:/Proyectos/pruebas-automatizadas/pruebas/backstopjs/v4/Actions -- Crear post con video de YouTube (3).png",
             "misMatchThreshold": 8
         },
         {
             "label": "Actions -- Crear post con video de YouTube (4).png",
-            "url": "file:///D:/Jhon/Educacion/MISO/Pruebas automatizadas de software/backstopjs/v4/Actions -- Crear post con video de YouTube (4).png",
+            "url": "file:///C:/Proyectos/pruebas-automatizadas/pruebas/backstopjs/v4/Actions -- Crear post con video de YouTube (4).png",
             "misMatchThreshold": 8
         },
         {
             "label": "Actions -- Crear post con video de YouTube (5).png",
-            "url": "file:///D:/Jhon/Educacion/MISO/Pruebas automatizadas de software/backstopjs/v4/Actions -- Crear post con video de YouTube (5).png",
+            "url": "file:///C:/Proyectos/pruebas-automatizadas/pruebas/backstopjs/v4/Actions -- Crear post con video de YouTube (5).png",
             "misMatchThreshold": 8
         },
         {
             "label": "Actions -- Crear post con video de YouTube (6).png",
-            "url": "file:///D:/Jhon/Educacion/MISO/Pruebas automatizadas de software/backstopjs/v4/Actions -- Crear post con video de YouTube (6).png",
+            "url": "file:///C:/Proyectos/pruebas-automatizadas/pruebas/backstopjs/v4/Actions -- Crear post con video de YouTube (6).png",
             "misMatchThreshold": 8
         },
         {
             "label": "Actions -- Crear post con video de YouTube (7).png",
-            "url": "file:///D:/Jhon/Educacion/MISO/Pruebas automatizadas de software/backstopjs/v4/Actions -- Crear post con video de YouTube (7).png",
+            "url": "file:///C:/Proyectos/pruebas-automatizadas/pruebas/backstopjs/v4/Actions -- Crear post con video de YouTube (7).png",
             "misMatchThreshold": 8
         },
         {
             "label": "Actions -- Crear post con video de YouTube (8).png",
-            "url": "file:///D:/Jhon/Educacion/MISO/Pruebas automatizadas de software/backstopjs/v4/Actions -- Crear post con video de YouTube (8).png",
+            "url": "file:///C:/Proyectos/pruebas-automatizadas/pruebas/backstopjs/v4/Actions -- Crear post con video de YouTube (8).png",
             "misMatchThreshold": 8
         },
         {
             "label": "Actions -- Crear post con video de YouTube (9).png",
-            "url": "file:///D:/Jhon/Educacion/MISO/Pruebas automatizadas de software/backstopjs/v4/Actions -- Crear post con video de YouTube (9).png",
+            "url": "file:///C:/Proyectos/pruebas-automatizadas/pruebas/backstopjs/v4/Actions -- Crear post con video de YouTube (9).png",
             "misMatchThreshold": 8
         },
         {
             "label": "Actions -- Crear post con video de YouTube.png",
-            "url": "file:///D:/Jhon/Educacion/MISO/Pruebas automatizadas de software/backstopjs/v4/Actions -- Crear post con video de YouTube.png",
+            "url": "file:///C:/Proyectos/pruebas-automatizadas/pruebas/backstopjs/v4/Actions -- Crear post con video de YouTube.png",
             "misMatchThreshold": 8
         },
         {
             "label": "Actions -- Editar post con video de YouTube (1).png",
-            "url": "file:///D:/Jhon/Educacion/MISO/Pruebas automatizadas de software/backstopjs/v4/Actions -- Editar post con video de YouTube (1).png",
+            "url": "file:///C:/Proyectos/pruebas-automatizadas/pruebas/backstopjs/v4/Actions -- Editar post con video de YouTube (1).png",
             "misMatchThreshold": 8
         },
         {
             "label": "Actions -- Editar post con video de YouTube (2).png",
-            "url": "file:///D:/Jhon/Educacion/MISO/Pruebas automatizadas de software/backstopjs/v4/Actions -- Editar post con video de YouTube (2).png",
+            "url": "file:///C:/Proyectos/pruebas-automatizadas/pruebas/backstopjs/v4/Actions -- Editar post con video de YouTube (2).png",
             "misMatchThreshold": 8
         },
         {
             "label": "Actions -- Editar post con video de YouTube (3).png",
-            "url": "file:///D:/Jhon/Educacion/MISO/Pruebas automatizadas de software/backstopjs/v4/Actions -- Editar post con video de YouTube (3).png",
+            "url": "file:///C:/Proyectos/pruebas-automatizadas/pruebas/backstopjs/v4/Actions -- Editar post con video de YouTube (3).png",
             "misMatchThreshold": 8
         },
         {
             "label": "Actions -- Editar post con video de YouTube (4).png",
-            "url": "file:///D:/Jhon/Educacion/MISO/Pruebas automatizadas de software/backstopjs/v4/Actions -- Editar post con video de YouTube (4).png",
+            "url": "file:///C:/Proyectos/pruebas-automatizadas/pruebas/backstopjs/v4/Actions -- Editar post con video de YouTube (4).png",
             "misMatchThreshold": 8
         },
         {
             "label": "Actions -- Editar post con video de YouTube (5).png",
-            "url": "file:///D:/Jhon/Educacion/MISO/Pruebas automatizadas de software/backstopjs/v4/Actions -- Editar post con video de YouTube (5).png",
+            "url": "file:///C:/Proyectos/pruebas-automatizadas/pruebas/backstopjs/v4/Actions -- Editar post con video de YouTube (5).png",
             "misMatchThreshold": 8
         },
         {
             "label": "Actions -- Editar post con video de YouTube (6).png",
-            "url": "file:///D:/Jhon/Educacion/MISO/Pruebas automatizadas de software/backstopjs/v4/Actions -- Editar post con video de YouTube (6).png",
+            "url": "file:///C:/Proyectos/pruebas-automatizadas/pruebas/backstopjs/v4/Actions -- Editar post con video de YouTube (6).png",
             "misMatchThreshold": 8
         },
         {
             "label": "Actions -- Editar post con video de YouTube (7).png",
-            "url": "file:///D:/Jhon/Educacion/MISO/Pruebas automatizadas de software/backstopjs/v4/Actions -- Editar post con video de YouTube (7).png",
+            "url": "file:///C:/Proyectos/pruebas-automatizadas/pruebas/backstopjs/v4/Actions -- Editar post con video de YouTube (7).png",
             "misMatchThreshold": 8
         },
         {
             "label": "Actions -- Editar post con video de YouTube (8).png",
-            "url": "file:///D:/Jhon/Educacion/MISO/Pruebas automatizadas de software/backstopjs/v4/Actions -- Editar post con video de YouTube (8).png",
+            "url": "file:///C:/Proyectos/pruebas-automatizadas/pruebas/backstopjs/v4/Actions -- Editar post con video de YouTube (8).png",
             "misMatchThreshold": 8
         },
         {
             "label": "Actions -- Editar post con video de YouTube (9).png",
-            "url": "file:///D:/Jhon/Educacion/MISO/Pruebas automatizadas de software/backstopjs/v4/Actions -- Editar post con video de YouTube (9).png",
+            "url": "file:///C:/Proyectos/pruebas-automatizadas/pruebas/backstopjs/v4/Actions -- Editar post con video de YouTube (9).png",
             "misMatchThreshold": 8
         },
         {
             "label": "Actions -- Editar post con video de YouTube.png",
-            "url": "file:///D:/Jhon/Educacion/MISO/Pruebas automatizadas de software/backstopjs/v4/Actions -- Editar post con video de YouTube.png",
+            "url": "file:///C:/Proyectos/pruebas-automatizadas/pruebas/backstopjs/v4/Actions -- Editar post con video de YouTube.png",
             "misMatchThreshold": 8
         },
         {
             "label": "Actions -- Eliminar vista posts (1).png",
-            "url": "file:///D:/Jhon/Educacion/MISO/Pruebas automatizadas de software/backstopjs/v4/Actions -- Eliminar vista posts (1).png",
+            "url": "file:///C:/Proyectos/pruebas-automatizadas/pruebas/backstopjs/v4/Actions -- Eliminar vista posts (1).png",
             "misMatchThreshold": 8
         },
         {
             "label": "Actions -- Eliminar vista posts (2).png",
-            "url": "file:///D:/Jhon/Educacion/MISO/Pruebas automatizadas de software/backstopjs/v4/Actions -- Eliminar vista posts (2).png",
+            "url": "file:///C:/Proyectos/pruebas-automatizadas/pruebas/backstopjs/v4/Actions -- Eliminar vista posts (2).png",
             "misMatchThreshold": 8
         },
         {
             "label": "Actions -- Eliminar vista posts (3).png",
-            "url": "file:///D:/Jhon/Educacion/MISO/Pruebas automatizadas de software/backstopjs/v4/Actions -- Eliminar vista posts (3).png",
+            "url": "file:///C:/Proyectos/pruebas-automatizadas/pruebas/backstopjs/v4/Actions -- Eliminar vista posts (3).png",
             "misMatchThreshold": 8
         },
         {
             "label": "Actions -- Eliminar vista posts (4).png",
-            "url": "file:///D:/Jhon/Educacion/MISO/Pruebas automatizadas de software/backstopjs/v4/Actions -- Eliminar vista posts (4).png",
+            "url": "file:///C:/Proyectos/pruebas-automatizadas/pruebas/backstopjs/v4/Actions -- Eliminar vista posts (4).png",
             "misMatchThreshold": 8
         },
         {
             "label": "Actions -- Eliminar vista posts (5).png",
-            "url": "file:///D:/Jhon/Educacion/MISO/Pruebas automatizadas de software/backstopjs/v4/Actions -- Eliminar vista posts (5).png",
+            "url": "file:///C:/Proyectos/pruebas-automatizadas/pruebas/backstopjs/v4/Actions -- Eliminar vista posts (5).png",
             "misMatchThreshold": 8
         },
         {
             "label": "Actions -- Eliminar vista posts (6).png",
-            "url": "file:///D:/Jhon/Educacion/MISO/Pruebas automatizadas de software/backstopjs/v4/Actions -- Eliminar vista posts (6).png",
+            "url": "file:///C:/Proyectos/pruebas-automatizadas/pruebas/backstopjs/v4/Actions -- Eliminar vista posts (6).png",
             "misMatchThreshold": 8
         },
         {
             "label": "Actions -- Eliminar vista posts (7).png",
-            "url": "file:///D:/Jhon/Educacion/MISO/Pruebas automatizadas de software/backstopjs/v4/Actions -- Eliminar vista posts (7).png",
+            "url": "file:///C:/Proyectos/pruebas-automatizadas/pruebas/backstopjs/v4/Actions -- Eliminar vista posts (7).png",
             "misMatchThreshold": 8
         },
         {
             "label": "Actions -- Eliminar vista posts (8).png",
-            "url": "file:///D:/Jhon/Educacion/MISO/Pruebas automatizadas de software/backstopjs/v4/Actions -- Eliminar vista posts (8).png",
+            "url": "file:///C:/Proyectos/pruebas-automatizadas/pruebas/backstopjs/v4/Actions -- Eliminar vista posts (8).png",
             "misMatchThreshold": 8
         },
         {
             "label": "Actions -- Eliminar vista posts (9).png",
-            "url": "file:///D:/Jhon/Educacion/MISO/Pruebas automatizadas de software/backstopjs/v4/Actions -- Eliminar vista posts (9).png",
+            "url": "file:///C:/Proyectos/pruebas-automatizadas/pruebas/backstopjs/v4/Actions -- Eliminar vista posts (9).png",
             "misMatchThreshold": 8
         },
         {
             "label": "Actions -- Eliminar vista posts.png",
-            "url": "file:///D:/Jhon/Educacion/MISO/Pruebas automatizadas de software/backstopjs/v4/Actions -- Eliminar vista posts.png",
+            "url": "file:///C:/Proyectos/pruebas-automatizadas/pruebas/backstopjs/v4/Actions -- Eliminar vista posts.png",
             "misMatchThreshold": 8
         },
         {
             "label": "Actions -- Guardar vista posts (1).png",
-            "url": "file:///D:/Jhon/Educacion/MISO/Pruebas automatizadas de software/backstopjs/v4/Actions -- Guardar vista posts (1).png",
+            "url": "file:///C:/Proyectos/pruebas-automatizadas/pruebas/backstopjs/v4/Actions -- Guardar vista posts (1).png",
             "misMatchThreshold": 8
         },
         {
             "label": "Actions -- Guardar vista posts (2).png",
-            "url": "file:///D:/Jhon/Educacion/MISO/Pruebas automatizadas de software/backstopjs/v4/Actions -- Guardar vista posts (2).png",
+            "url": "file:///C:/Proyectos/pruebas-automatizadas/pruebas/backstopjs/v4/Actions -- Guardar vista posts (2).png",
             "misMatchThreshold": 8
         },
         {
             "label": "Actions -- Guardar vista posts (3).png",
-            "url": "file:///D:/Jhon/Educacion/MISO/Pruebas automatizadas de software/backstopjs/v4/Actions -- Guardar vista posts (3).png",
+            "url": "file:///C:/Proyectos/pruebas-automatizadas/pruebas/backstopjs/v4/Actions -- Guardar vista posts (3).png",
             "misMatchThreshold": 8
         },
         {
             "label": "Actions -- Guardar vista posts (4).png",
-            "url": "file:///D:/Jhon/Educacion/MISO/Pruebas automatizadas de software/backstopjs/v4/Actions -- Guardar vista posts (4).png",
+            "url": "file:///C:/Proyectos/pruebas-automatizadas/pruebas/backstopjs/v4/Actions -- Guardar vista posts (4).png",
             "misMatchThreshold": 8
         },
         {
             "label": "Actions -- Guardar vista posts (5).png",
-            "url": "file:///D:/Jhon/Educacion/MISO/Pruebas automatizadas de software/backstopjs/v4/Actions -- Guardar vista posts (5).png",
+            "url": "file:///C:/Proyectos/pruebas-automatizadas/pruebas/backstopjs/v4/Actions -- Guardar vista posts (5).png",
             "misMatchThreshold": 8
         },
         {
             "label": "Actions -- Guardar vista posts.png",
-            "url": "file:///D:/Jhon/Educacion/MISO/Pruebas automatizadas de software/backstopjs/v4/Actions -- Guardar vista posts.png",
+            "url": "file:///C:/Proyectos/pruebas-automatizadas/pruebas/backstopjs/v4/Actions -- Guardar vista posts.png",
+            "misMatchThreshold": 8
+        },
+        {
+            "label": "Actions -- PRUEBA 17 - Crear pagina nueva, crear tag, la publica y listar por tag creado (1).png",
+            "url": "file:///C:/Proyectos/pruebas-automatizadas/pruebas/backstopjs/v4/Actions -- PRUEBA 17 - Crear pagina nueva, crear tag, la publica y listar por tag creado (1).png",
+            "misMatchThreshold": 8
+        },
+        {
+            "label": "Actions -- PRUEBA 17 - Crear pagina nueva, crear tag, la publica y listar por tag creado (10).png",
+            "url": "file:///C:/Proyectos/pruebas-automatizadas/pruebas/backstopjs/v4/Actions -- PRUEBA 17 - Crear pagina nueva, crear tag, la publica y listar por tag creado (10).png",
+            "misMatchThreshold": 8
+        },
+        {
+            "label": "Actions -- PRUEBA 17 - Crear pagina nueva, crear tag, la publica y listar por tag creado (11).png",
+            "url": "file:///C:/Proyectos/pruebas-automatizadas/pruebas/backstopjs/v4/Actions -- PRUEBA 17 - Crear pagina nueva, crear tag, la publica y listar por tag creado (11).png",
+            "misMatchThreshold": 8
+        },
+        {
+            "label": "Actions -- PRUEBA 17 - Crear pagina nueva, crear tag, la publica y listar por tag creado (12).png",
+            "url": "file:///C:/Proyectos/pruebas-automatizadas/pruebas/backstopjs/v4/Actions -- PRUEBA 17 - Crear pagina nueva, crear tag, la publica y listar por tag creado (12).png",
+            "misMatchThreshold": 8
+        },
+        {
+            "label": "Actions -- PRUEBA 17 - Crear pagina nueva, crear tag, la publica y listar por tag creado (13).png",
+            "url": "file:///C:/Proyectos/pruebas-automatizadas/pruebas/backstopjs/v4/Actions -- PRUEBA 17 - Crear pagina nueva, crear tag, la publica y listar por tag creado (13).png",
+            "misMatchThreshold": 8
+        },
+        {
+            "label": "Actions -- PRUEBA 17 - Crear pagina nueva, crear tag, la publica y listar por tag creado (2).png",
+            "url": "file:///C:/Proyectos/pruebas-automatizadas/pruebas/backstopjs/v4/Actions -- PRUEBA 17 - Crear pagina nueva, crear tag, la publica y listar por tag creado (2).png",
+            "misMatchThreshold": 8
+        },
+        {
+            "label": "Actions -- PRUEBA 17 - Crear pagina nueva, crear tag, la publica y listar por tag creado (3).png",
+            "url": "file:///C:/Proyectos/pruebas-automatizadas/pruebas/backstopjs/v4/Actions -- PRUEBA 17 - Crear pagina nueva, crear tag, la publica y listar por tag creado (3).png",
+            "misMatchThreshold": 8
+        },
+        {
+            "label": "Actions -- PRUEBA 17 - Crear pagina nueva, crear tag, la publica y listar por tag creado (4).png",
+            "url": "file:///C:/Proyectos/pruebas-automatizadas/pruebas/backstopjs/v4/Actions -- PRUEBA 17 - Crear pagina nueva, crear tag, la publica y listar por tag creado (4).png",
+            "misMatchThreshold": 8
+        },
+        {
+            "label": "Actions -- PRUEBA 17 - Crear pagina nueva, crear tag, la publica y listar por tag creado (5).png",
+            "url": "file:///C:/Proyectos/pruebas-automatizadas/pruebas/backstopjs/v4/Actions -- PRUEBA 17 - Crear pagina nueva, crear tag, la publica y listar por tag creado (5).png",
+            "misMatchThreshold": 8
+        },
+        {
+            "label": "Actions -- PRUEBA 17 - Crear pagina nueva, crear tag, la publica y listar por tag creado (6).png",
+            "url": "file:///C:/Proyectos/pruebas-automatizadas/pruebas/backstopjs/v4/Actions -- PRUEBA 17 - Crear pagina nueva, crear tag, la publica y listar por tag creado (6).png",
+            "misMatchThreshold": 8
+        },
+        {
+            "label": "Actions -- PRUEBA 17 - Crear pagina nueva, crear tag, la publica y listar por tag creado (7).png",
+            "url": "file:///C:/Proyectos/pruebas-automatizadas/pruebas/backstopjs/v4/Actions -- PRUEBA 17 - Crear pagina nueva, crear tag, la publica y listar por tag creado (7).png",
+            "misMatchThreshold": 8
+        },
+        {
+            "label": "Actions -- PRUEBA 17 - Crear pagina nueva, crear tag, la publica y listar por tag creado (8).png",
+            "url": "file:///C:/Proyectos/pruebas-automatizadas/pruebas/backstopjs/v4/Actions -- PRUEBA 17 - Crear pagina nueva, crear tag, la publica y listar por tag creado (8).png",
+            "misMatchThreshold": 8
+        },
+        {
+            "label": "Actions -- PRUEBA 17 - Crear pagina nueva, crear tag, la publica y listar por tag creado (9).png",
+            "url": "file:///C:/Proyectos/pruebas-automatizadas/pruebas/backstopjs/v4/Actions -- PRUEBA 17 - Crear pagina nueva, crear tag, la publica y listar por tag creado (9).png",
+            "misMatchThreshold": 8
+        },
+        {
+            "label": "Actions -- PRUEBA 17 - Crear pagina nueva, crear tag, la publica y listar por tag creado.png",
+            "url": "file:///C:/Proyectos/pruebas-automatizadas/pruebas/backstopjs/v4/Actions -- PRUEBA 17 - Crear pagina nueva, crear tag, la publica y listar por tag creado.png",
+            "misMatchThreshold": 8
+        },
+        {
+            "label": "Actions -- PRUEBA 19 - Elimina pagina con tag (1).png",
+            "url": "file:///C:/Proyectos/pruebas-automatizadas/pruebas/backstopjs/v4/Actions -- PRUEBA 19 - Elimina pagina con tag (1).png",
+            "misMatchThreshold": 8
+        },
+        {
+            "label": "Actions -- PRUEBA 19 - Elimina pagina con tag (2).png",
+            "url": "file:///C:/Proyectos/pruebas-automatizadas/pruebas/backstopjs/v4/Actions -- PRUEBA 19 - Elimina pagina con tag (2).png",
+            "misMatchThreshold": 8
+        },
+        {
+            "label": "Actions -- PRUEBA 19 - Elimina pagina con tag (3).png",
+            "url": "file:///C:/Proyectos/pruebas-automatizadas/pruebas/backstopjs/v4/Actions -- PRUEBA 19 - Elimina pagina con tag (3).png",
+            "misMatchThreshold": 8
+        },
+        {
+            "label": "Actions -- PRUEBA 19 - Elimina pagina con tag (4).png",
+            "url": "file:///C:/Proyectos/pruebas-automatizadas/pruebas/backstopjs/v4/Actions -- PRUEBA 19 - Elimina pagina con tag (4).png",
+            "misMatchThreshold": 8
+        },
+        {
+            "label": "Actions -- PRUEBA 19 - Elimina pagina con tag (5).png",
+            "url": "file:///C:/Proyectos/pruebas-automatizadas/pruebas/backstopjs/v4/Actions -- PRUEBA 19 - Elimina pagina con tag (5).png",
+            "misMatchThreshold": 8
+        },
+        {
+            "label": "Actions -- PRUEBA 19 - Elimina pagina con tag (6).png",
+            "url": "file:///C:/Proyectos/pruebas-automatizadas/pruebas/backstopjs/v4/Actions -- PRUEBA 19 - Elimina pagina con tag (6).png",
+            "misMatchThreshold": 8
+        },
+        {
+            "label": "Actions -- PRUEBA 19 - Elimina pagina con tag (7).png",
+            "url": "file:///C:/Proyectos/pruebas-automatizadas/pruebas/backstopjs/v4/Actions -- PRUEBA 19 - Elimina pagina con tag (7).png",
+            "misMatchThreshold": 8
+        },
+        {
+            "label": "Actions -- PRUEBA 19 - Elimina pagina con tag (8).png",
+            "url": "file:///C:/Proyectos/pruebas-automatizadas/pruebas/backstopjs/v4/Actions -- PRUEBA 19 - Elimina pagina con tag (8).png",
+            "misMatchThreshold": 8
+        },
+        {
+            "label": "Actions -- PRUEBA 19 - Elimina pagina con tag.png",
+            "url": "file:///C:/Proyectos/pruebas-automatizadas/pruebas/backstopjs/v4/Actions -- PRUEBA 19 - Elimina pagina con tag.png",
             "misMatchThreshold": 8
         }
     ],

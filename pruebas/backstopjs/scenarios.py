@@ -5,7 +5,7 @@ import json
 reference = "./backstop_data/bitmaps_reference"
 v3Path = "./v3"
 v4Path = "./v4"
-backstopFolder = "D:/Jhon/Educacion/MISO/Pruebas automatizadas de software/backstopjs"
+backstopFolder = "C:/Proyectos/pruebas-automatizadas/pruebas/backstopjs"
 print('Ingrese 0 para v3 o 1 para v4')
 folderOption = input()
 
