@@ -7,6 +7,10 @@ context("Actions", () => {
     cy.get(gC.signin.selectors.password).type(gC.signin.user.password);
     cy.get(gC.signin.selectors.submit ).click();
   });
+  
+  Cypress.on('uncaught:exception', (err, runnable) => {
+    return false;
+  });
     
   Cypress.on('uncaught:exception', (err, runnable) => {
     return false;
@@ -471,6 +475,492 @@ it("Filtrar posts por Drafts", () => {
         cy.screenshot()
 
     })
-  
+
+
+    it('PRUEBA #12 - Crear pagina nueva y publicarla', () => {
+
+        cy.get('.gh-nav-top').contains('Pages').click()
+        cy.wait(1000)
+        cy.screenshot()
+
+        cy.url().should('eq', 'http://localhost:3002/ghost/#/pages')
+        cy.get('.gh-canvas-header-content').contains('New page').click()
+        cy.wait(1000)
+        cy.screenshot()
+
+        cy.url().should('eq', 'http://localhost:3002/ghost/#/editor/page')
+        const titulPagina = "pagina de prueba 1";
+        const contenidoPagina = "contenido de pagina de prueba";
+
+        cy.get('.gh-koenig-editor-pane').get('textarea').type(titulPagina)
+        cy.screenshot()
+
+        cy.get('.gh-koenig-editor-pane').get('.koenig-editor__editor-wrapper').type(contenidoPagina)
+        cy.screenshot()
+
+        cy.get('.gh-editor-header').contains('Publish').click()
+        cy.wait(1000)
+        cy.screenshot()
+
+        cy.get('.gh-publishmenu-dropdown').contains('Set it live now').click()
+        cy.wait(1000)
+        cy.screenshot()
+
+        cy.get('.gh-publishmenu-dropdown').get('.gh-publishmenu-footer').contains('Publish').click()
+        cy.wait(1000)
+        cy.screenshot()
+
+        cy.get('.gh-body-fullscreen').get('.gh-notification-content').should('contain', 'Published')
+        cy.get('.gh-notification-actions').should('contain', 'View Page')
+        const titulPaginaSepareted = titulPagina.replace(/ /g,"-")
+        cy.get('.gh-notification-actions').find('a').should('have.attr', 'href').and('include', titulPaginaSepareted)
+
+    })
+
+    
+    it('PRUEBA #13 - Listar page y ordenar por publicados', () => {
+
+        cy.get('.gh-nav-top').contains('Pages').click()
+        cy.wait(1000)
+        cy.screenshot()
+
+        cy.url().should('eq', 'http://localhost:3002/ghost/#/pages')
+        cy.get('.gh-canvas-header-content').contains('All pages').click()
+        cy.wait(1000)
+        cy.screenshot()
+
+        cy.get('#ember-basic-dropdown-wormhole').contains('Published pages').click()
+        cy.wait(1000)
+        cy.screenshot()
+
+        cy.url().should('eq', 'http://localhost:3002/ghost/#/pages?type=published')
+        cy.get('.gh-list')
+        cy.get('.gh-posts-list-item')
+        cy.get('.gh-post-list-status').should('contain', 'Published')
+        .and('not.contain', 'Draft')
+        .and('not.contain', 'Scheduled')
+
+    })
+
+    
+    it('PRUEBA #14 - Editar pagina previamente creada y publicada', () => {
+
+        cy.get('.gh-nav-top').contains('Pages').click()
+        cy.wait(1000)
+        cy.screenshot()
+
+        cy.url().should('eq', 'http://localhost:3002/ghost/#/pages')
+        cy.get('.gh-canvas-header-content').contains('All pages').click()
+        cy.wait(1000)
+        cy.screenshot()
+
+        cy.get('#ember-basic-dropdown-wormhole').contains('Published pages').click()
+        cy.wait(1000)
+        cy.screenshot()
+
+        cy.url().should('eq', 'http://localhost:3002/ghost/#/pages?type=published')
+        const titulPagina = "pagina de prueba 1";
+        const contenidoPagina = "contenido de pagina de prueba";
+        cy.get('.gh-list').find('li').get('.gh-posts-list-item.gh-list-row').contains(titulPagina).click()
+        cy.wait(1000)
+        cy.screenshot()
+
+        cy.url().should('contain', 'http://localhost:3002/ghost/#/editor/page')
+        const titulPaginaEditado = titulPagina + " Editado";
+        const contenidoPaginaEditado = contenidoPagina + " Editado";
+        cy.get('.gh-koenig-editor-pane').get('textarea').clear().type(titulPaginaEditado)
+        cy.screenshot()
+
+        cy.get('.gh-koenig-editor-pane').get('.koenig-editor__editor-wrapper').clear().type(contenidoPaginaEditado)
+        cy.screenshot()
+
+        cy.get('.gh-editor-header').contains('Update').click()
+        cy.screenshot()
+
+        cy.get('.gh-publishmenu-dropdown').get('.gh-publishmenu-footer').contains('Update').click()
+        cy.wait(1000)
+        cy.screenshot()
+
+        cy.get('.gh-body-fullscreen').get('.gh-notification-content').should('contain', 'Updated')
+        cy.get('.gh-notification-actions').should('contain', 'View Page')
+        const titulPaginaSepareted = titulPagina.replace(/ /g,"-")
+        cy.get('.gh-notification-actions').find('a').should('have.attr', 'href').and('include', titulPaginaSepareted)
+        cy.get('.gh-editor-header').contains('Pages').click()
+        cy.wait(1000)
+        cy.screenshot()
+
+        cy.url().should('eq', 'http://localhost:3002/ghost/#/pages?type=published')
+        cy.get('.gh-list').get('.gh-posts-list-item').get('.gh-post-list-status').should('contain', 'Published')
+        .and('not.contain', 'Draft')
+        .and('not.contain', 'Scheduled')
+        cy.get('.gh-list').get('.gh-posts-list-item').get('.gh-content-entry-title').should('contain', titulPaginaEditado)
+
+    })
+
+    
+    it('PRUEBA #15 - Agregar un tag a una pagina previamente creada y publicada, para hacer filtrado por este', () => {
+
+        cy.get('.gh-nav-top').contains('Pages').click()
+        cy.wait(1000)
+        cy.screenshot()
+
+        cy.url().should('eq', 'http://localhost:3002/ghost/#/pages')
+        cy.get('.gh-canvas-header-content').contains('All pages').click()
+        cy.wait(1000)
+        cy.screenshot()
+
+        cy.get('#ember-basic-dropdown-wormhole').contains('Published pages').click()
+        cy.wait(1000)
+        cy.screenshot()
+
+        cy.url().should('eq', 'http://localhost:3002/ghost/#/pages?type=published')
+        const titulPagina = "pagina de prueba 1";
+        const contenidoPagina = "contenido de pagina de prueba";
+        cy.get('.gh-list').find('li').get('.gh-posts-list-item.gh-list-row').contains(titulPagina).click()
+        cy.wait(1000)
+        cy.screenshot()
+
+        cy.url().should('contain', 'http://localhost:3002/ghost/#/editor/page')
+        const titulPaginaEditado = titulPagina + " Editado";
+        const contenidoPaginaEditado = contenidoPagina + " Editado";
+        cy.get('.gh-koenig-editor-pane').get('textarea').clear().type(titulPaginaEditado)
+        cy.screenshot()
+
+        cy.get('.gh-koenig-editor-pane').get('.koenig-editor__editor-wrapper').clear().type(contenidoPaginaEditado)
+        cy.screenshot()
+
+        cy.get('.settings-menu-toggle').click()
+        cy.wait(1000)
+        cy.screenshot()
+
+        cy.get('#tag-input').find('input').type(titulPagina)
+        cy.screenshot()
+
+        cy.get('.ember-power-select-option').click()
+        cy.wait(1000)
+        cy.screenshot()
+
+        cy.get('.settings-menu-toggle').click()
+        cy.wait(1000)
+        cy.screenshot()
+
+        cy.get('.gh-editor-header').contains('Update').click()
+        cy.wait(1000)
+        cy.screenshot()
+
+        cy.get('.gh-publishmenu-dropdown').get('.gh-publishmenu-footer').contains('Update').click()
+        cy.wait(1000)
+        cy.screenshot()
+
+        cy.get('.gh-body-fullscreen').get('.gh-notification-content').should('contain', 'Updated')
+        cy.get('.gh-notification-actions').should('contain', 'View Page')
+        const titulPaginaSepareted = titulPagina.replace(/ /g,"-")
+        cy.get('.gh-notification-actions').find('a').should('have.attr', 'href').and('include', titulPaginaSepareted)
+
+        cy.get('.gh-editor-header').contains('Pages').click()
+        cy.wait(1000)
+        cy.screenshot()
+
+        cy.url().should('eq', 'http://localhost:3002/ghost/#/pages?type=published')
+        cy.get('.gh-list').get('.gh-posts-list-item').get('.gh-post-list-status').should('contain', 'Published')
+        .and('not.contain', 'Draft')
+        .and('not.contain', 'Scheduled')
+        cy.get('.gh-list').get('.gh-posts-list-item').get('.gh-content-entry-title').should('contain', titulPaginaEditado)
+
+        cy.get('.view-actions-bottom-row').contains('All tags').click()
+        cy.wait(1000)
+        cy.screenshot()
+
+        cy.get('.ember-power-select-dropdown--active').find('ul').find('li').contains(titulPagina).click()
+        cy.wait(1000)
+        cy.screenshot()
+
+        cy.url().should('eq', 'http://localhost:3002/ghost/#/pages?tag=pagina-de-prueba-1&type=published')
+
+    })
+
+
+    it('PRUEBA #16 - Crear pagina dejarla en draf, volver a entrar editarla y publcarla', () => {
+
+        cy.get('.gh-nav-top').contains('Pages').click()
+        cy.wait(1000)
+        cy.screenshot()
+
+        cy.url().should('eq', 'http://localhost:3002/ghost/#/pages')
+        cy.get('.gh-canvas-header-content').contains('New page').click()
+        cy.wait(1000)
+        cy.screenshot()
+
+        cy.url().should('eq', 'http://localhost:3002/ghost/#/editor/page')
+        const titulPagina = "pagina numero 2 inicia como draft";
+        const contenidoPagina = "contenido de pagina de prueba inicia como draft";
+
+        cy.get('.gh-koenig-editor-pane').get('textarea').type(titulPagina)
+        cy.screenshot()
+
+        cy.get('.gh-koenig-editor-pane').get('.koenig-editor__editor-wrapper').type(contenidoPagina)
+        cy.screenshot()
+
+        cy.get('.gh-editor-header').contains('Pages').click()
+        cy.wait(1000)
+        cy.screenshot()
+
+        cy.get('.gh-canvas-header-content').contains('All pages').click()
+        cy.wait(1000)
+        cy.screenshot()
+
+        cy.get('#ember-basic-dropdown-wormhole').contains('Draft pages').click()
+        cy.wait(1000)
+        cy.screenshot()
+
+        cy.url().should('eq', 'http://localhost:3002/ghost/#/pages?type=draft')
+        cy.get('.gh-list')
+        cy.get('.gh-posts-list-item')
+        cy.get('.gh-post-list-status').should('contain', 'Draft')
+        .and('not.contain', 'Published')
+        .and('not.contain', 'Scheduled')
+
+        cy.get('.gh-list').find('li').get('.gh-posts-list-item.gh-list-row').contains(titulPagina).click()
+        cy.wait(1000)
+        cy.screenshot()
+
+        cy.url().should('contain', 'http://localhost:3002/ghost/#/editor/page')
+        const titulPaginaEditada = "pagina numero 2 finaliza como publicada";
+        const contenidoPaginaEditada = "contenido de pagina de prueba finaliza como publicada";
+
+        cy.get('.gh-koenig-editor-pane').get('textarea').clear().type(titulPaginaEditada)
+        cy.screenshot()
+
+        cy.get('.gh-koenig-editor-pane').get('.koenig-editor__editor-wrapper').clear().type(contenidoPaginaEditada)
+        cy.screenshot()
+
+        cy.get('.gh-editor-header').contains('Publish').click()
+        cy.wait(1000)
+        cy.screenshot()
+
+        cy.get('.gh-publishmenu-dropdown').contains('Set it live now').click()
+        cy.wait(1000)
+        cy.screenshot()
+
+        cy.get('.gh-publishmenu-dropdown').get('.gh-publishmenu-footer').contains('Publish').click()
+        cy.wait(1000)
+        cy.screenshot()
+
+        cy.get('.gh-body-fullscreen').get('.gh-notification-content').should('contain', 'Published')
+        cy.get('.gh-notification-actions').should('contain', 'View Page')
+        const titulPaginaSepareted = titulPagina.replace(/ /g,"-")
+        cy.get('.gh-notification-actions').find('a').should('have.attr', 'href').and('include', titulPaginaSepareted)
+
+        cy.get('.gh-editor-header').contains('Pages').click()
+        cy.wait(1000)
+        cy.screenshot()
+
+        cy.url().should('eq', 'http://localhost:3002/ghost/#/pages?type=draft')
+        cy.get('.gh-canvas-header-content').contains('Draft pages').click()
+        cy.wait(1000)
+        cy.screenshot()
+
+        cy.get('#ember-basic-dropdown-wormhole').contains('Published pages').click()
+        cy.wait(1000)
+        cy.screenshot()
+
+    })
+
+    it('PRUEBA #17 - Crear pagina nueva, crear tag, la publica y listar por tag creado', () => {
+
+        cy.get('.gh-nav-top').contains('Pages').click()
+        cy.wait(1000)
+        cy.screenshot()
+
+        cy.url().should('eq', 'http://localhost:3002/ghost/#/pages')
+        cy.get('.gh-canvas-header-content').contains('New page').click()
+        cy.wait(1000)
+        cy.screenshot()
+
+        cy.url().should('eq', 'http://localhost:3002/ghost/#/editor/page')
+        const titulPagina = "pagina con tag semana 5";
+        const contenidoPagina = "contenido de pagina con tag";
+        cy.get('.gh-koenig-editor-pane').get('textarea').type(titulPagina)
+        cy.screenshot()
+
+        cy.get('.gh-koenig-editor-pane').get('.koenig-editor__editor-wrapper').type(contenidoPagina)
+        cy.screenshot()
+
+        cy.get('.settings-menu-toggle').click()
+        cy.wait(1000)
+        cy.screenshot()
+
+        cy.get('#tag-input').find('input').type(titulPagina)
+        cy.screenshot()
+
+        cy.get('.ember-power-select-option').click()
+        cy.wait(1000)
+        cy.screenshot()
+
+        cy.get('.settings-menu-toggle').click()
+        cy.wait(1000)
+        cy.screenshot()
+
+        cy.get('.gh-editor-header').contains('Publish').click()
+        cy.wait(1000)
+        cy.screenshot()
+
+        cy.get('.gh-publishmenu-dropdown').contains('Set it live now').click()
+        cy.wait(1000)
+        cy.screenshot()
+
+        cy.get('.gh-publishmenu-dropdown').get('.gh-publishmenu-footer').contains('Publish').click()
+        cy.wait(1000)
+        cy.screenshot()
+
+        cy.get('.gh-body-fullscreen').get('.gh-notification-content').should('contain', 'Published')
+        cy.get('.gh-notification-actions').should('contain', 'View Page')
+        const titulPaginaSepareted = titulPagina.replace(/ /g,"-")
+        cy.get('.gh-notification-actions').find('a').should('have.attr', 'href').and('include', titulPaginaSepareted)
+
+        cy.get('.gh-editor-header').contains('Pages').click()
+        cy.wait(1000)
+        cy.screenshot()
+
+        cy.get('.view-actions-bottom-row').contains('All tags').click()
+        cy.wait(1000)
+        cy.screenshot()
+
+        cy.get('.ember-power-select-dropdown--active').find('ul').find('li').contains(titulPagina).click()
+        cy.wait(1000)
+        cy.screenshot()
+
+        cy.url().should('eq', 'http://localhost:3002/ghost/#/pages?tag=pagina-con-tag-semana-5')
+
+    })
+
+    it('PRUEBA #18 - Elimina pagina previamente creada', () => {
+        
+        cy.get('.gh-nav-top').contains('Pages').click()
+        cy.wait(1000)
+        cy.screenshot()
+
+        cy.url().should('eq', 'http://localhost:3002/ghost/#/pages')
+        cy.get('.gh-canvas-header-content').contains('All pages').click()
+        cy.wait(1000)
+        cy.screenshot()
+
+        cy.get('#ember-basic-dropdown-wormhole').contains('Published pages').click()
+        cy.wait(1000)
+        cy.screenshot()
+
+        cy.url().should('eq', 'http://localhost:3002/ghost/#/pages?type=published')
+        const titulPagina = "pagina numero 2 finaliza como publicada";
+        cy.get('.gh-list').find('li').get('.gh-posts-list-item.gh-list-row').contains(titulPagina).click()
+        cy.wait(1000)
+        cy.screenshot()
+
+        cy.url().should('contain', 'http://localhost:3002/ghost/#/editor/page')
+        cy.get('.settings-menu-toggle').click()
+        cy.wait(1000)
+        cy.screenshot()
+
+        cy.get('.settings-menu-content').find('form').find('button').get('.settings-menu-delete-button').click()
+        cy.wait(1000)
+
+        cy.get('.modal-content').get('.modal-footer').get('.gh-btn.gh-btn-red.gh-btn-icon.ember-view').find('span').click({ force: true })
+        cy.screenshot()
+        cy.wait(1000)
+
+        cy.get('.view-actions-bottom-row').contains('All tags').click()
+        cy.screenshot()
+        cy.wait(1000)
+
+    })
+
+    
+    it('PRUEBA #19 - Elimina pagina con tag ', () => {
+
+        cy.get('.gh-nav-top').contains('Pages').click()
+        cy.wait(1000)
+        cy.screenshot()
+
+        cy.url().should('eq', 'http://localhost:3002/ghost/#/pages')
+        cy.get('.gh-canvas-header-content').contains('All pages').click()
+        cy.wait(1000)
+        cy.screenshot()
+
+        cy.get('#ember-basic-dropdown-wormhole').contains('Published pages').click()
+        cy.wait(1000)
+        cy.screenshot()
+        cy.url().should('eq', 'http://localhost:3002/ghost/#/pages?type=published')
+
+        const titulPagina = "pagina con tag semana 5";
+        cy.get('.view-actions-bottom-row').contains('All tags').click()
+        cy.wait(1000)
+        cy.screenshot()
+
+        cy.get('.ember-power-select-dropdown--active').find('ul').find('li').contains(titulPagina).click()
+        cy.wait(1000)
+        cy.screenshot()
+
+        cy.get('.gh-list').find('li').get('.gh-posts-list-item.gh-list-row').contains(titulPagina).click()
+        cy.wait(1000)
+        cy.screenshot()
+        cy.url().should('contain', 'http://localhost:3002/ghost/#/editor/page')
+
+        cy.get('.settings-menu-toggle').click()
+        cy.wait(1000)
+        cy.screenshot()
+
+        cy.get('.settings-menu-content').find('form').find('button').get('.settings-menu-delete-button').click()
+        cy.wait(1000)
+
+        cy.get('.modal-content').get('.modal-footer').get('.gh-btn.gh-btn-red.gh-btn-icon.ember-view').find('span').click({ force: true })
+        cy.wait(50)
+        cy.screenshot()
+        cy.wait(1000)
+        cy.screenshot()
+
+    })
+
+    it('PRUEBA #20 - Elimina pagina previamente creada', () => {
+
+        cy.get('.gh-nav-top').contains('Pages').click()
+        cy.wait(1000)
+        cy.screenshot()
+        cy.url().should('eq', 'http://localhost:3002/ghost/#/pages')
+
+        cy.get('.gh-canvas-header-content').contains('All pages').click()
+        cy.wait(1000)
+        cy.screenshot()
+        
+        cy.get('#ember-basic-dropdown-wormhole').contains('Published pages').click()
+        cy.wait(1000)
+        cy.screenshot()
+        cy.url().should('eq', 'http://localhost:3002/ghost/#/pages?type=published')
+
+        const titulPagina = "pagina de prueba 1";
+        cy.get('.view-actions-bottom-row').contains('All tags').click()
+        cy.wait(1000)
+        cy.screenshot()
+
+        cy.get('.ember-power-select-dropdown--active').find('ul').find('li').contains(titulPagina).click()
+        cy.wait(1000)
+        cy.screenshot()
+
+        cy.get('.gh-list').find('li').get('.gh-posts-list-item.gh-list-row').contains(titulPagina).click()
+        cy.wait(1000)
+        cy.screenshot()
+        cy.url().should('contain', 'http://localhost:3002/ghost/#/editor/page')
+
+        cy.get('.settings-menu-toggle').click()
+        cy.wait(1000)
+        cy.screenshot()
+
+        cy.get('.settings-menu-content').find('form').find('button').get('.settings-menu-delete-button').click()
+        cy.wait(1000)
+
+        cy.get('.modal-content').get('.modal-footer').get('.gh-btn.gh-btn-red.gh-btn-icon.ember-view').find('span').click({ force: true })
+        cy.screenshot()
+        cy.wait(1000)
+        cy.screenshot()
+
+    })
   
 });
