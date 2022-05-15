@@ -1,0 +1,54 @@
+{
+  "LOGIN_URL": "http://localhost:3001/ghost/#/signin",
+  "CREATE_POST_URL": "http://localhost:3001/ghost/#/editor/post",
+  "LIST_POST_DRAFT_URL": "http://localhost:3001/ghost/#/editor/post?type=draft",
+  "USERNAME_EID": "#ember8",
+  "USERNAME": "frogelez@zenware.com.co",
+  "PASSWORD_EID": "#ember10",
+  "PASSWORD": "uv#N48tZj-eRnuF",
+  "BTN_SIGNIN_EID": "#ember12",
+  "POST_TITLE_ECLASS": ".gh-editor-title",
+  "ADD_IMAGE_ECLASS": ".gh-editor-feature-image-unsplash",
+  "INSERT_IMAGE_ECLASS": ".gh-unsplash-photo-footer .gh-unsplash-button",
+  "CONTENT_ECLASS": ".koenig-editor__editor",
+  "PLUS_ADD_ECLASS": ".koenig-plus-menu-button",
+  "YOUTUBE_LINK": "https://www.youtube.com/watch?v=5qap5aO4i9A&ab_channel=LofiGirl",
+  "YOUTUBE_XPATH": ".koenig-cardmenu>div:nth-child(10)",
+  "YOUTUBE_INPUT_XPATH": ".b--lightgrey-d2",
+  "UNSPLASH_XPATH": ".koenig-cardmenu>div:nth-child(22)",
+  "POST_ONLIST_CLASS": ".gh-list-data",
+  "OPEN_SETTINGS_CLASS": ".post-settings",
+  "TAG_INPUT_CLASS": ".ember-power-select-trigger-multiple-input",
+  "TAG_ADD_CLASS": ".ember-power-select-dropdown",
+  "TAG_NAME_ID": "#tag-name",
+  "TAG_BTN_SAVE_ID": ".gh-canvas-header-content > section:nth-child(2) > button",
+  "POST_ACCESS_SELECT_XPATH": ".settings-menu-content > form:nth-child(1) > div:nth-child(4) > div:nth-child(2) > span:nth-child(1) > select:nth-child(1)",
+  "MEMBERS_POST_ACCESS": "members",
+
+  "ADD_BUTTON_XPATH": ".koenig-cardmenu>div:nth-child(11)",
+  "ADD_BUTTON_TEXT_XPATH": "input#button-text-input",
+  "ADD_BUTTON_URL_XPATH": "input.gh-input-with-select-input",
+
+  "PUBLISH_MODAL_XPATH": ".gh-publishmenu > div:nth-child(1)",
+  "PUBLISH_BUTTON_XPATH": ".gh-publishmenu-button",
+  "PUBLISH_CONFIRMATION_BUTTON_XPATH": ".gh-btn-black",
+
+  "PUBLISH_SCHEDULE_BUTTON_XPATH": ".gh-publishmenu-section > div:nth-child(2)",
+  "PUBLISH_SCHEDULE_INPUT_XPATH":".gh-date-time-picker-date input:nth-child(1)",
+  "PUBLISH_SCHEDULE_DATE": "2025-06-09",
+
+  "FILTER_VIEW_XPATH":".gh-contentfilter-actions button:nth-child(1)",
+  "FILTER_VIEW_INPUT_XPATH":".gh-input",
+  "FILTER_VIEW_BUTTON_SAVE_XPATH":".gh-btn-black",
+
+  "POST_MARKDOWN": ".koenig-cardmenu>div:nth-child(3)",
+  "POST_MARKDOWN_ASTERISK": ".fa-list-ol",
+  "POST_MARKDOWN_CONTENT": ".cm-variable-2",
+
+  "POST_FEATURED_LABEL": ".input-toggle-component",
+
+  "CODE_INJ_BUTTON": ".nav-list-block > li:nth-child(5) > button:nth-child(1)",
+  "CODE_INJ_TEXT": "#post-setting-codeinjection-foot > div:nth-child(2) > div:nth-child(6) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(5) > div:nth-child(1) > pre:nth-child(2) > span:nth-child(1)",
+  "HTML_TEXT_FOOTER": "<footer> <p>Author: Franz</p> <p><a href='mailto:frogelez@zenware.com.co'>frogelez@zenware.com.co</a></p> </footer>"
+
+}
