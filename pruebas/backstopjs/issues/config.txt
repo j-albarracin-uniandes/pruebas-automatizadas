@@ -1,0 +1,2946 @@
+report({
+  "testSuite": "BackstopJS",
+  "tests": [
+    {
+      "pair": {
+        "reference": "..\\bitmaps_reference\\backstop_default_Actions_--_Crear_post_con_video_de_YouTube_1png_0_document_0_phone.png",
+        "test": "..\\bitmaps_test\\20220514-114921\\backstop_default_Actions_--_Crear_post_con_video_de_YouTube_1png_0_document_0_phone.png",
+        "selector": "document",
+        "fileName": "backstop_default_Actions_--_Crear_post_con_video_de_YouTube_1png_0_document_0_phone.png",
+        "label": "Actions -- Crear post con video de YouTube (1).png",
+        "misMatchThreshold": 8,
+        "url": "file:///C:/Proyectos/pruebas-automatizadas/pruebas/backstopjs/v4/Actions -- Crear post con video de YouTube (1).png",
+        "expect": 0,
+        "viewportLabel": "phone",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 4.155598958333333,
+          "misMatchPercentage": "4.16",
+          "analysisTime": 48
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "..\\bitmaps_reference\\backstop_default_Actions_--_Crear_post_con_video_de_YouTube_1png_0_document_1_tablet.png",
+        "test": "..\\bitmaps_test\\20220514-114921\\backstop_default_Actions_--_Crear_post_con_video_de_YouTube_1png_0_document_1_tablet.png",
+        "selector": "document",
+        "fileName": "backstop_default_Actions_--_Crear_post_con_video_de_YouTube_1png_0_document_1_tablet.png",
+        "label": "Actions -- Crear post con video de YouTube (1).png",
+        "misMatchThreshold": 8,
+        "url": "file:///C:/Proyectos/pruebas-automatizadas/pruebas/backstopjs/v4/Actions -- Crear post con video de YouTube (1).png",
+        "expect": 0,
+        "viewportLabel": "tablet",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 6.722005208333333,
+          "misMatchPercentage": "6.72",
+          "analysisTime": 174
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "..\\bitmaps_reference\\backstop_default_Actions_--_Crear_post_con_video_de_YouTube_10png_0_document_0_phone.png",
+        "test": "..\\bitmaps_test\\20220514-114921\\backstop_default_Actions_--_Crear_post_con_video_de_YouTube_10png_0_document_0_phone.png",
+        "selector": "document",
+        "fileName": "backstop_default_Actions_--_Crear_post_con_video_de_YouTube_10png_0_document_0_phone.png",
+        "label": "Actions -- Crear post con video de YouTube (10).png",
+        "misMatchThreshold": 8,
+        "url": "file:///C:/Proyectos/pruebas-automatizadas/pruebas/backstopjs/v4/Actions -- Crear post con video de YouTube (10).png",
+        "expect": 0,
+        "viewportLabel": "phone",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 10.936197916666666,
+          "misMatchPercentage": "10.94",
+          "analysisTime": 59
+        },
+        "diffImage": "..\\bitmaps_test\\20220514-114921\\failed_diff_backstop_default_Actions_--_Crear_post_con_video_de_YouTube_10png_0_document_0_phone.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "..\\bitmaps_reference\\backstop_default_Actions_--_Crear_post_con_video_de_YouTube_10png_0_document_1_tablet.png",
+        "test": "..\\bitmaps_test\\20220514-114921\\backstop_default_Actions_--_Crear_post_con_video_de_YouTube_10png_0_document_1_tablet.png",
+        "selector": "document",
+        "fileName": "backstop_default_Actions_--_Crear_post_con_video_de_YouTube_10png_0_document_1_tablet.png",
+        "label": "Actions -- Crear post con video de YouTube (10).png",
+        "misMatchThreshold": 8,
+        "url": "file:///C:/Proyectos/pruebas-automatizadas/pruebas/backstopjs/v4/Actions -- Crear post con video de YouTube (10).png",
+        "expect": 0,
+        "viewportLabel": "tablet",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 17.42731730143229,
+          "misMatchPercentage": "17.43",
+          "analysisTime": 160
+        },
+        "diffImage": "..\\bitmaps_test\\20220514-114921\\failed_diff_backstop_default_Actions_--_Crear_post_con_video_de_YouTube_10png_0_document_1_tablet.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "..\\bitmaps_reference\\backstop_default_Actions_--_Crear_post_con_video_de_YouTube_2png_0_document_0_phone.png",
+        "test": "..\\bitmaps_test\\20220514-114921\\backstop_default_Actions_--_Crear_post_con_video_de_YouTube_2png_0_document_0_phone.png",
+        "selector": "document",
+        "fileName": "backstop_default_Actions_--_Crear_post_con_video_de_YouTube_2png_0_document_0_phone.png",
+        "label": "Actions -- Crear post con video de YouTube (2).png",
+        "misMatchThreshold": 8,
+        "url": "file:///C:/Proyectos/pruebas-automatizadas/pruebas/backstopjs/v4/Actions -- Crear post con video de YouTube (2).png",
+        "expect": 0,
+        "viewportLabel": "phone",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 0.9036458333333334,
+          "misMatchPercentage": "0.90",
+          "analysisTime": 54
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "..\\bitmaps_reference\\backstop_default_Actions_--_Crear_post_con_video_de_YouTube_2png_0_document_1_tablet.png",
+        "test": "..\\bitmaps_test\\20220514-114921\\backstop_default_Actions_--_Crear_post_con_video_de_YouTube_2png_0_document_1_tablet.png",
+        "selector": "document",
+        "fileName": "backstop_default_Actions_--_Crear_post_con_video_de_YouTube_2png_0_document_1_tablet.png",
+        "label": "Actions -- Crear post con video de YouTube (2).png",
+        "misMatchThreshold": 8,
+        "url": "file:///C:/Proyectos/pruebas-automatizadas/pruebas/backstopjs/v4/Actions -- Crear post con video de YouTube (2).png",
+        "expect": 0,
+        "viewportLabel": "tablet",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 1.3315836588541665,
+          "misMatchPercentage": "1.33",
+          "analysisTime": 121
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "..\\bitmaps_reference\\backstop_default_Actions_--_Crear_post_con_video_de_YouTube_3png_0_document_0_phone.png",
+        "test": "..\\bitmaps_test\\20220514-114921\\backstop_default_Actions_--_Crear_post_con_video_de_YouTube_3png_0_document_0_phone.png",
+        "selector": "document",
+        "fileName": "backstop_default_Actions_--_Crear_post_con_video_de_YouTube_3png_0_document_0_phone.png",
+        "label": "Actions -- Crear post con video de YouTube (3).png",
+        "misMatchThreshold": 8,
+        "url": "file:///C:/Proyectos/pruebas-automatizadas/pruebas/backstopjs/v4/Actions -- Crear post con video de YouTube (3).png",
+        "expect": 0,
+        "viewportLabel": "phone",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 2.8567708333333335,
+          "misMatchPercentage": "2.86",
+          "analysisTime": 61
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "..\\bitmaps_reference\\backstop_default_Actions_--_Crear_post_con_video_de_YouTube_3png_0_document_1_tablet.png",
+        "test": "..\\bitmaps_test\\20220514-114921\\backstop_default_Actions_--_Crear_post_con_video_de_YouTube_3png_0_document_1_tablet.png",
+        "selector": "document",
+        "fileName": "backstop_default_Actions_--_Crear_post_con_video_de_YouTube_3png_0_document_1_tablet.png",
+        "label": "Actions -- Crear post con video de YouTube (3).png",
+        "misMatchThreshold": 8,
+        "url": "file:///C:/Proyectos/pruebas-automatizadas/pruebas/backstopjs/v4/Actions -- Crear post con video de YouTube (3).png",
+        "expect": 0,
+        "viewportLabel": "tablet",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 4.217783610026041,
+          "misMatchPercentage": "4.22",
+          "analysisTime": 197
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "..\\bitmaps_reference\\backstop_default_Actions_--_Crear_post_con_video_de_YouTube_4png_0_document_0_phone.png",
+        "test": "..\\bitmaps_test\\20220514-114921\\backstop_default_Actions_--_Crear_post_con_video_de_YouTube_4png_0_document_0_phone.png",
+        "selector": "document",
+        "fileName": "backstop_default_Actions_--_Crear_post_con_video_de_YouTube_4png_0_document_0_phone.png",
+        "label": "Actions -- Crear post con video de YouTube (4).png",
+        "misMatchThreshold": 8,
+        "url": "file:///C:/Proyectos/pruebas-automatizadas/pruebas/backstopjs/v4/Actions -- Crear post con video de YouTube (4).png",
+        "expect": 0,
+        "viewportLabel": "phone",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 1.3645833333333333,
+          "misMatchPercentage": "1.36",
+          "analysisTime": 47
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "..\\bitmaps_reference\\backstop_default_Actions_--_Crear_post_con_video_de_YouTube_4png_0_document_1_tablet.png",
+        "test": "..\\bitmaps_test\\20220514-114921\\backstop_default_Actions_--_Crear_post_con_video_de_YouTube_4png_0_document_1_tablet.png",
+        "selector": "document",
+        "fileName": "backstop_default_Actions_--_Crear_post_con_video_de_YouTube_4png_0_document_1_tablet.png",
+        "label": "Actions -- Crear post con video de YouTube (4).png",
+        "misMatchThreshold": 8,
+        "url": "file:///C:/Proyectos/pruebas-automatizadas/pruebas/backstopjs/v4/Actions -- Crear post con video de YouTube (4).png",
+        "expect": 0,
+        "viewportLabel": "tablet",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 1.792144775390625,
+          "misMatchPercentage": "1.79",
+          "analysisTime": 132
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "..\\bitmaps_reference\\backstop_default_Actions_--_Crear_post_con_video_de_YouTube_5png_0_document_0_phone.png",
+        "test": "..\\bitmaps_test\\20220514-114921\\backstop_default_Actions_--_Crear_post_con_video_de_YouTube_5png_0_document_0_phone.png",
+        "selector": "document",
+        "fileName": "backstop_default_Actions_--_Crear_post_con_video_de_YouTube_5png_0_document_0_phone.png",
+        "label": "Actions -- Crear post con video de YouTube (5).png",
+        "misMatchThreshold": 8,
+        "url": "file:///C:/Proyectos/pruebas-automatizadas/pruebas/backstopjs/v4/Actions -- Crear post con video de YouTube (5).png",
+        "expect": 0,
+        "viewportLabel": "phone",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 5.241536458333333,
+          "misMatchPercentage": "5.24",
+          "analysisTime": 56
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "..\\bitmaps_reference\\backstop_default_Actions_--_Crear_post_con_video_de_YouTube_5png_0_document_1_tablet.png",
+        "test": "..\\bitmaps_test\\20220514-114921\\backstop_default_Actions_--_Crear_post_con_video_de_YouTube_5png_0_document_1_tablet.png",
+        "selector": "document",
+        "fileName": "backstop_default_Actions_--_Crear_post_con_video_de_YouTube_5png_0_document_1_tablet.png",
+        "label": "Actions -- Crear post con video de YouTube (5).png",
+        "misMatchThreshold": 8,
+        "url": "file:///C:/Proyectos/pruebas-automatizadas/pruebas/backstopjs/v4/Actions -- Crear post con video de YouTube (5).png",
+        "expect": 0,
+        "viewportLabel": "tablet",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 8.811569213867188,
+          "misMatchPercentage": "8.81",
+          "analysisTime": 104
+        },
+        "diffImage": "..\\bitmaps_test\\20220514-114921\\failed_diff_backstop_default_Actions_--_Crear_post_con_video_de_YouTube_5png_0_document_1_tablet.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "..\\bitmaps_reference\\backstop_default_Actions_--_Crear_post_con_video_de_YouTube_6png_0_document_0_phone.png",
+        "test": "..\\bitmaps_test\\20220514-114921\\backstop_default_Actions_--_Crear_post_con_video_de_YouTube_6png_0_document_0_phone.png",
+        "selector": "document",
+        "fileName": "backstop_default_Actions_--_Crear_post_con_video_de_YouTube_6png_0_document_0_phone.png",
+        "label": "Actions -- Crear post con video de YouTube (6).png",
+        "misMatchThreshold": 8,
+        "url": "file:///C:/Proyectos/pruebas-automatizadas/pruebas/backstopjs/v4/Actions -- Crear post con video de YouTube (6).png",
+        "expect": 0,
+        "viewportLabel": "phone",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 6.9609375,
+          "misMatchPercentage": "6.96",
+          "analysisTime": 118
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "..\\bitmaps_reference\\backstop_default_Actions_--_Crear_post_con_video_de_YouTube_6png_0_document_1_tablet.png",
+        "test": "..\\bitmaps_test\\20220514-114921\\backstop_default_Actions_--_Crear_post_con_video_de_YouTube_6png_0_document_1_tablet.png",
+        "selector": "document",
+        "fileName": "backstop_default_Actions_--_Crear_post_con_video_de_YouTube_6png_0_document_1_tablet.png",
+        "label": "Actions -- Crear post con video de YouTube (6).png",
+        "misMatchThreshold": 8,
+        "url": "file:///C:/Proyectos/pruebas-automatizadas/pruebas/backstopjs/v4/Actions -- Crear post con video de YouTube (6).png",
+        "expect": 0,
+        "viewportLabel": "tablet",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 11.578114827473957,
+          "misMatchPercentage": "11.58",
+          "analysisTime": 140
+        },
+        "diffImage": "..\\bitmaps_test\\20220514-114921\\failed_diff_backstop_default_Actions_--_Crear_post_con_video_de_YouTube_6png_0_document_1_tablet.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "..\\bitmaps_reference\\backstop_default_Actions_--_Crear_post_con_video_de_YouTube_7png_0_document_0_phone.png",
+        "test": "..\\bitmaps_test\\20220514-114921\\backstop_default_Actions_--_Crear_post_con_video_de_YouTube_7png_0_document_0_phone.png",
+        "selector": "document",
+        "fileName": "backstop_default_Actions_--_Crear_post_con_video_de_YouTube_7png_0_document_0_phone.png",
+        "label": "Actions -- Crear post con video de YouTube (7).png",
+        "misMatchThreshold": 8,
+        "url": "file:///C:/Proyectos/pruebas-automatizadas/pruebas/backstopjs/v4/Actions -- Crear post con video de YouTube (7).png",
+        "expect": 0,
+        "viewportLabel": "phone",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 23.315755208333332,
+          "misMatchPercentage": "23.32",
+          "analysisTime": 86
+        },
+        "diffImage": "..\\bitmaps_test\\20220514-114921\\failed_diff_backstop_default_Actions_--_Crear_post_con_video_de_YouTube_7png_0_document_0_phone.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "..\\bitmaps_reference\\backstop_default_Actions_--_Crear_post_con_video_de_YouTube_7png_0_document_1_tablet.png",
+        "test": "..\\bitmaps_test\\20220514-114921\\backstop_default_Actions_--_Crear_post_con_video_de_YouTube_7png_0_document_1_tablet.png",
+        "selector": "document",
+        "fileName": "backstop_default_Actions_--_Crear_post_con_video_de_YouTube_7png_0_document_1_tablet.png",
+        "label": "Actions -- Crear post con video de YouTube (7).png",
+        "misMatchThreshold": 8,
+        "url": "file:///C:/Proyectos/pruebas-automatizadas/pruebas/backstopjs/v4/Actions -- Crear post con video de YouTube (7).png",
+        "expect": 0,
+        "viewportLabel": "tablet",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 42.790476481119796,
+          "misMatchPercentage": "42.79",
+          "analysisTime": 143
+        },
+        "diffImage": "..\\bitmaps_test\\20220514-114921\\failed_diff_backstop_default_Actions_--_Crear_post_con_video_de_YouTube_7png_0_document_1_tablet.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "..\\bitmaps_reference\\backstop_default_Actions_--_Crear_post_con_video_de_YouTube_8png_0_document_0_phone.png",
+        "test": "..\\bitmaps_test\\20220514-114921\\backstop_default_Actions_--_Crear_post_con_video_de_YouTube_8png_0_document_0_phone.png",
+        "selector": "document",
+        "fileName": "backstop_default_Actions_--_Crear_post_con_video_de_YouTube_8png_0_document_0_phone.png",
+        "label": "Actions -- Crear post con video de YouTube (8).png",
+        "misMatchThreshold": 8,
+        "url": "file:///C:/Proyectos/pruebas-automatizadas/pruebas/backstopjs/v4/Actions -- Crear post con video de YouTube (8).png",
+        "expect": 0,
+        "viewportLabel": "phone",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 23.002604166666664,
+          "misMatchPercentage": "23.00",
+          "analysisTime": 41
+        },
+        "diffImage": "..\\bitmaps_test\\20220514-114921\\failed_diff_backstop_default_Actions_--_Crear_post_con_video_de_YouTube_8png_0_document_0_phone.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "..\\bitmaps_reference\\backstop_default_Actions_--_Crear_post_con_video_de_YouTube_8png_0_document_1_tablet.png",
+        "test": "..\\bitmaps_test\\20220514-114921\\backstop_default_Actions_--_Crear_post_con_video_de_YouTube_8png_0_document_1_tablet.png",
+        "selector": "document",
+        "fileName": "backstop_default_Actions_--_Crear_post_con_video_de_YouTube_8png_0_document_1_tablet.png",
+        "label": "Actions -- Crear post con video de YouTube (8).png",
+        "misMatchThreshold": 8,
+        "url": "file:///C:/Proyectos/pruebas-automatizadas/pruebas/backstopjs/v4/Actions -- Crear post con video de YouTube (8).png",
+        "expect": 0,
+        "viewportLabel": "tablet",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 41.89211527506511,
+          "misMatchPercentage": "41.89",
+          "analysisTime": 180
+        },
+        "diffImage": "..\\bitmaps_test\\20220514-114921\\failed_diff_backstop_default_Actions_--_Crear_post_con_video_de_YouTube_8png_0_document_1_tablet.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "..\\bitmaps_reference\\backstop_default_Actions_--_Crear_post_con_video_de_YouTube_9png_0_document_0_phone.png",
+        "test": "..\\bitmaps_test\\20220514-114921\\backstop_default_Actions_--_Crear_post_con_video_de_YouTube_9png_0_document_0_phone.png",
+        "selector": "document",
+        "fileName": "backstop_default_Actions_--_Crear_post_con_video_de_YouTube_9png_0_document_0_phone.png",
+        "label": "Actions -- Crear post con video de YouTube (9).png",
+        "misMatchThreshold": 8,
+        "url": "file:///C:/Proyectos/pruebas-automatizadas/pruebas/backstopjs/v4/Actions -- Crear post con video de YouTube (9).png",
+        "expect": 0,
+        "viewportLabel": "phone",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 5.884765625,
+          "misMatchPercentage": "5.88",
+          "analysisTime": 77
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "..\\bitmaps_reference\\backstop_default_Actions_--_Crear_post_con_video_de_YouTube_9png_0_document_1_tablet.png",
+        "test": "..\\bitmaps_test\\20220514-114921\\backstop_default_Actions_--_Crear_post_con_video_de_YouTube_9png_0_document_1_tablet.png",
+        "selector": "document",
+        "fileName": "backstop_default_Actions_--_Crear_post_con_video_de_YouTube_9png_0_document_1_tablet.png",
+        "label": "Actions -- Crear post con video de YouTube (9).png",
+        "misMatchThreshold": 8,
+        "url": "file:///C:/Proyectos/pruebas-automatizadas/pruebas/backstopjs/v4/Actions -- Crear post con video de YouTube (9).png",
+        "expect": 0,
+        "viewportLabel": "tablet",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 9.535725911458332,
+          "misMatchPercentage": "9.54",
+          "analysisTime": 254
+        },
+        "diffImage": "..\\bitmaps_test\\20220514-114921\\failed_diff_backstop_default_Actions_--_Crear_post_con_video_de_YouTube_9png_0_document_1_tablet.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "..\\bitmaps_reference\\backstop_default_Actions_--_Crear_post_con_video_de_YouTubepng_0_document_0_phone.png",
+        "test": "..\\bitmaps_test\\20220514-114921\\backstop_default_Actions_--_Crear_post_con_video_de_YouTubepng_0_document_0_phone.png",
+        "selector": "document",
+        "fileName": "backstop_default_Actions_--_Crear_post_con_video_de_YouTubepng_0_document_0_phone.png",
+        "label": "Actions -- Crear post con video de YouTube.png",
+        "misMatchThreshold": 8,
+        "url": "file:///C:/Proyectos/pruebas-automatizadas/pruebas/backstopjs/v4/Actions -- Crear post con video de YouTube.png",
+        "expect": 0,
+        "viewportLabel": "phone",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 4.975911458333333,
+          "misMatchPercentage": "4.98",
+          "analysisTime": 68
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "..\\bitmaps_reference\\backstop_default_Actions_--_Crear_post_con_video_de_YouTubepng_0_document_1_tablet.png",
+        "test": "..\\bitmaps_test\\20220514-114921\\backstop_default_Actions_--_Crear_post_con_video_de_YouTubepng_0_document_1_tablet.png",
+        "selector": "document",
+        "fileName": "backstop_default_Actions_--_Crear_post_con_video_de_YouTubepng_0_document_1_tablet.png",
+        "label": "Actions -- Crear post con video de YouTube.png",
+        "misMatchThreshold": 8,
+        "url": "file:///C:/Proyectos/pruebas-automatizadas/pruebas/backstopjs/v4/Actions -- Crear post con video de YouTube.png",
+        "expect": 0,
+        "viewportLabel": "tablet",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 8.869298299153645,
+          "misMatchPercentage": "8.87",
+          "analysisTime": 207
+        },
+        "diffImage": "..\\bitmaps_test\\20220514-114921\\failed_diff_backstop_default_Actions_--_Crear_post_con_video_de_YouTubepng_0_document_1_tablet.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "..\\bitmaps_reference\\backstop_default_Actions_--_Editar_post_con_video_de_YouTube_1png_0_document_0_phone.png",
+        "test": "..\\bitmaps_test\\20220514-114921\\backstop_default_Actions_--_Editar_post_con_video_de_YouTube_1png_0_document_0_phone.png",
+        "selector": "document",
+        "fileName": "backstop_default_Actions_--_Editar_post_con_video_de_YouTube_1png_0_document_0_phone.png",
+        "label": "Actions -- Editar post con video de YouTube (1).png",
+        "misMatchThreshold": 8,
+        "url": "file:///C:/Proyectos/pruebas-automatizadas/pruebas/backstopjs/v4/Actions -- Editar post con video de YouTube (1).png",
+        "expect": 0,
+        "viewportLabel": "phone",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 4.865234375,
+          "misMatchPercentage": "4.87",
+          "analysisTime": 58
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "..\\bitmaps_reference\\backstop_default_Actions_--_Editar_post_con_video_de_YouTube_1png_0_document_1_tablet.png",
+        "test": "..\\bitmaps_test\\20220514-114921\\backstop_default_Actions_--_Editar_post_con_video_de_YouTube_1png_0_document_1_tablet.png",
+        "selector": "document",
+        "fileName": "backstop_default_Actions_--_Editar_post_con_video_de_YouTube_1png_0_document_1_tablet.png",
+        "label": "Actions -- Editar post con video de YouTube (1).png",
+        "misMatchThreshold": 8,
+        "url": "file:///C:/Proyectos/pruebas-automatizadas/pruebas/backstopjs/v4/Actions -- Editar post con video de YouTube (1).png",
+        "expect": 0,
+        "viewportLabel": "tablet",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 8.004506429036457,
+          "misMatchPercentage": "8.00",
+          "analysisTime": 201
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "..\\bitmaps_reference\\backstop_default_Actions_--_Editar_post_con_video_de_YouTube_2png_0_document_0_phone.png",
+        "test": "..\\bitmaps_test\\20220514-114921\\backstop_default_Actions_--_Editar_post_con_video_de_YouTube_2png_0_document_0_phone.png",
+        "selector": "document",
+        "fileName": "backstop_default_Actions_--_Editar_post_con_video_de_YouTube_2png_0_document_0_phone.png",
+        "label": "Actions -- Editar post con video de YouTube (2).png",
+        "misMatchThreshold": 8,
+        "url": "file:///C:/Proyectos/pruebas-automatizadas/pruebas/backstopjs/v4/Actions -- Editar post con video de YouTube (2).png",
+        "expect": 0,
+        "viewportLabel": "phone",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 7.435546875,
+          "misMatchPercentage": "7.44",
+          "analysisTime": 55
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "..\\bitmaps_reference\\backstop_default_Actions_--_Editar_post_con_video_de_YouTube_2png_0_document_1_tablet.png",
+        "test": "..\\bitmaps_test\\20220514-114921\\backstop_default_Actions_--_Editar_post_con_video_de_YouTube_2png_0_document_1_tablet.png",
+        "selector": "document",
+        "fileName": "backstop_default_Actions_--_Editar_post_con_video_de_YouTube_2png_0_document_1_tablet.png",
+        "label": "Actions -- Editar post con video de YouTube (2).png",
+        "misMatchThreshold": 8,
+        "url": "file:///C:/Proyectos/pruebas-automatizadas/pruebas/backstopjs/v4/Actions -- Editar post con video de YouTube (2).png",
+        "expect": 0,
+        "viewportLabel": "tablet",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 11.822255452473957,
+          "misMatchPercentage": "11.82",
+          "analysisTime": 170
+        },
+        "diffImage": "..\\bitmaps_test\\20220514-114921\\failed_diff_backstop_default_Actions_--_Editar_post_con_video_de_YouTube_2png_0_document_1_tablet.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "..\\bitmaps_reference\\backstop_default_Actions_--_Editar_post_con_video_de_YouTube_3png_0_document_0_phone.png",
+        "test": "..\\bitmaps_test\\20220514-114921\\backstop_default_Actions_--_Editar_post_con_video_de_YouTube_3png_0_document_0_phone.png",
+        "selector": "document",
+        "fileName": "backstop_default_Actions_--_Editar_post_con_video_de_YouTube_3png_0_document_0_phone.png",
+        "label": "Actions -- Editar post con video de YouTube (3).png",
+        "misMatchThreshold": 8,
+        "url": "file:///C:/Proyectos/pruebas-automatizadas/pruebas/backstopjs/v4/Actions -- Editar post con video de YouTube (3).png",
+        "expect": 0,
+        "viewportLabel": "phone",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 6.509765625,
+          "misMatchPercentage": "6.51",
+          "analysisTime": 68
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "..\\bitmaps_reference\\backstop_default_Actions_--_Editar_post_con_video_de_YouTube_3png_0_document_1_tablet.png",
+        "test": "..\\bitmaps_test\\20220514-114921\\backstop_default_Actions_--_Editar_post_con_video_de_YouTube_3png_0_document_1_tablet.png",
+        "selector": "document",
+        "fileName": "backstop_default_Actions_--_Editar_post_con_video_de_YouTube_3png_0_document_1_tablet.png",
+        "label": "Actions -- Editar post con video de YouTube (3).png",
+        "misMatchThreshold": 8,
+        "url": "file:///C:/Proyectos/pruebas-automatizadas/pruebas/backstopjs/v4/Actions -- Editar post con video de YouTube (3).png",
+        "expect": 0,
+        "viewportLabel": "tablet",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 11.211395263671875,
+          "misMatchPercentage": "11.21",
+          "analysisTime": 124
+        },
+        "diffImage": "..\\bitmaps_test\\20220514-114921\\failed_diff_backstop_default_Actions_--_Editar_post_con_video_de_YouTube_3png_0_document_1_tablet.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "..\\bitmaps_reference\\backstop_default_Actions_--_Editar_post_con_video_de_YouTube_4png_0_document_0_phone.png",
+        "test": "..\\bitmaps_test\\20220514-114921\\backstop_default_Actions_--_Editar_post_con_video_de_YouTube_4png_0_document_0_phone.png",
+        "selector": "document",
+        "fileName": "backstop_default_Actions_--_Editar_post_con_video_de_YouTube_4png_0_document_0_phone.png",
+        "label": "Actions -- Editar post con video de YouTube (4).png",
+        "misMatchThreshold": 8,
+        "url": "file:///C:/Proyectos/pruebas-automatizadas/pruebas/backstopjs/v4/Actions -- Editar post con video de YouTube (4).png",
+        "expect": 0,
+        "viewportLabel": "phone",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 7.134765625,
+          "misMatchPercentage": "7.13",
+          "analysisTime": 87
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "..\\bitmaps_reference\\backstop_default_Actions_--_Editar_post_con_video_de_YouTube_4png_0_document_1_tablet.png",
+        "test": "..\\bitmaps_test\\20220514-114921\\backstop_default_Actions_--_Editar_post_con_video_de_YouTube_4png_0_document_1_tablet.png",
+        "selector": "document",
+        "fileName": "backstop_default_Actions_--_Editar_post_con_video_de_YouTube_4png_0_document_1_tablet.png",
+        "label": "Actions -- Editar post con video de YouTube (4).png",
+        "misMatchThreshold": 8,
+        "url": "file:///C:/Proyectos/pruebas-automatizadas/pruebas/backstopjs/v4/Actions -- Editar post con video de YouTube (4).png",
+        "expect": 0,
+        "viewportLabel": "tablet",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 11.82543436686198,
+          "misMatchPercentage": "11.83",
+          "analysisTime": 105
+        },
+        "diffImage": "..\\bitmaps_test\\20220514-114921\\failed_diff_backstop_default_Actions_--_Editar_post_con_video_de_YouTube_4png_0_document_1_tablet.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "..\\bitmaps_reference\\backstop_default_Actions_--_Editar_post_con_video_de_YouTube_5png_0_document_0_phone.png",
+        "test": "..\\bitmaps_test\\20220514-114921\\backstop_default_Actions_--_Editar_post_con_video_de_YouTube_5png_0_document_0_phone.png",
+        "selector": "document",
+        "fileName": "backstop_default_Actions_--_Editar_post_con_video_de_YouTube_5png_0_document_0_phone.png",
+        "label": "Actions -- Editar post con video de YouTube (5).png",
+        "misMatchThreshold": 8,
+        "url": "file:///C:/Proyectos/pruebas-automatizadas/pruebas/backstopjs/v4/Actions -- Editar post con video de YouTube (5).png",
+        "expect": 0,
+        "viewportLabel": "phone",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 8.233723958333334,
+          "misMatchPercentage": "8.23",
+          "analysisTime": 76
+        },
+        "diffImage": "..\\bitmaps_test\\20220514-114921\\failed_diff_backstop_default_Actions_--_Editar_post_con_video_de_YouTube_5png_0_document_0_phone.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "..\\bitmaps_reference\\backstop_default_Actions_--_Editar_post_con_video_de_YouTube_5png_0_document_1_tablet.png",
+        "test": "..\\bitmaps_test\\20220514-114921\\backstop_default_Actions_--_Editar_post_con_video_de_YouTube_5png_0_document_1_tablet.png",
+        "selector": "document",
+        "fileName": "backstop_default_Actions_--_Editar_post_con_video_de_YouTube_5png_0_document_1_tablet.png",
+        "label": "Actions -- Editar post con video de YouTube (5).png",
+        "misMatchThreshold": 8,
+        "url": "file:///C:/Proyectos/pruebas-automatizadas/pruebas/backstopjs/v4/Actions -- Editar post con video de YouTube (5).png",
+        "expect": 0,
+        "viewportLabel": "tablet",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 13.462320963541666,
+          "misMatchPercentage": "13.46",
+          "analysisTime": 154
+        },
+        "diffImage": "..\\bitmaps_test\\20220514-114921\\failed_diff_backstop_default_Actions_--_Editar_post_con_video_de_YouTube_5png_0_document_1_tablet.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "..\\bitmaps_reference\\backstop_default_Actions_--_Editar_post_con_video_de_YouTube_6png_0_document_0_phone.png",
+        "test": "..\\bitmaps_test\\20220514-114921\\backstop_default_Actions_--_Editar_post_con_video_de_YouTube_6png_0_document_0_phone.png",
+        "selector": "document",
+        "fileName": "backstop_default_Actions_--_Editar_post_con_video_de_YouTube_6png_0_document_0_phone.png",
+        "label": "Actions -- Editar post con video de YouTube (6).png",
+        "misMatchThreshold": 8,
+        "url": "file:///C:/Proyectos/pruebas-automatizadas/pruebas/backstopjs/v4/Actions -- Editar post con video de YouTube (6).png",
+        "expect": 0,
+        "viewportLabel": "phone",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 7.578776041666667,
+          "misMatchPercentage": "7.58",
+          "analysisTime": 113
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "..\\bitmaps_reference\\backstop_default_Actions_--_Editar_post_con_video_de_YouTube_6png_0_document_1_tablet.png",
+        "test": "..\\bitmaps_test\\20220514-114921\\backstop_default_Actions_--_Editar_post_con_video_de_YouTube_6png_0_document_1_tablet.png",
+        "selector": "document",
+        "fileName": "backstop_default_Actions_--_Editar_post_con_video_de_YouTube_6png_0_document_1_tablet.png",
+        "label": "Actions -- Editar post con video de YouTube (6).png",
+        "misMatchThreshold": 8,
+        "url": "file:///C:/Proyectos/pruebas-automatizadas/pruebas/backstopjs/v4/Actions -- Editar post con video de YouTube (6).png",
+        "expect": 0,
+        "viewportLabel": "tablet",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 12.168375651041668,
+          "misMatchPercentage": "12.17",
+          "analysisTime": 107
+        },
+        "diffImage": "..\\bitmaps_test\\20220514-114921\\failed_diff_backstop_default_Actions_--_Editar_post_con_video_de_YouTube_6png_0_document_1_tablet.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "..\\bitmaps_reference\\backstop_default_Actions_--_Editar_post_con_video_de_YouTube_7png_0_document_0_phone.png",
+        "test": "..\\bitmaps_test\\20220514-114921\\backstop_default_Actions_--_Editar_post_con_video_de_YouTube_7png_0_document_0_phone.png",
+        "selector": "document",
+        "fileName": "backstop_default_Actions_--_Editar_post_con_video_de_YouTube_7png_0_document_0_phone.png",
+        "label": "Actions -- Editar post con video de YouTube (7).png",
+        "misMatchThreshold": 8,
+        "url": "file:///C:/Proyectos/pruebas-automatizadas/pruebas/backstopjs/v4/Actions -- Editar post con video de YouTube (7).png",
+        "expect": 0,
+        "viewportLabel": "phone",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 7.652994791666666,
+          "misMatchPercentage": "7.65",
+          "analysisTime": 107
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "..\\bitmaps_reference\\backstop_default_Actions_--_Editar_post_con_video_de_YouTube_7png_0_document_1_tablet.png",
+        "test": "..\\bitmaps_test\\20220514-114921\\backstop_default_Actions_--_Editar_post_con_video_de_YouTube_7png_0_document_1_tablet.png",
+        "selector": "document",
+        "fileName": "backstop_default_Actions_--_Editar_post_con_video_de_YouTube_7png_0_document_1_tablet.png",
+        "label": "Actions -- Editar post con video de YouTube (7).png",
+        "misMatchThreshold": 8,
+        "url": "file:///C:/Proyectos/pruebas-automatizadas/pruebas/backstopjs/v4/Actions -- Editar post con video de YouTube (7).png",
+        "expect": 0,
+        "viewportLabel": "tablet",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 12.20715840657552,
+          "misMatchPercentage": "12.21",
+          "analysisTime": 127
+        },
+        "diffImage": "..\\bitmaps_test\\20220514-114921\\failed_diff_backstop_default_Actions_--_Editar_post_con_video_de_YouTube_7png_0_document_1_tablet.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "..\\bitmaps_reference\\backstop_default_Actions_--_Editar_post_con_video_de_YouTube_8png_0_document_0_phone.png",
+        "test": "..\\bitmaps_test\\20220514-114921\\backstop_default_Actions_--_Editar_post_con_video_de_YouTube_8png_0_document_0_phone.png",
+        "selector": "document",
+        "fileName": "backstop_default_Actions_--_Editar_post_con_video_de_YouTube_8png_0_document_0_phone.png",
+        "label": "Actions -- Editar post con video de YouTube (8).png",
+        "misMatchThreshold": 8,
+        "url": "file:///C:/Proyectos/pruebas-automatizadas/pruebas/backstopjs/v4/Actions -- Editar post con video de YouTube (8).png",
+        "expect": 0,
+        "viewportLabel": "phone",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 22.201171875,
+          "misMatchPercentage": "22.20",
+          "analysisTime": 70
+        },
+        "diffImage": "..\\bitmaps_test\\20220514-114921\\failed_diff_backstop_default_Actions_--_Editar_post_con_video_de_YouTube_8png_0_document_0_phone.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "..\\bitmaps_reference\\backstop_default_Actions_--_Editar_post_con_video_de_YouTube_8png_0_document_1_tablet.png",
+        "test": "..\\bitmaps_test\\20220514-114921\\backstop_default_Actions_--_Editar_post_con_video_de_YouTube_8png_0_document_1_tablet.png",
+        "selector": "document",
+        "fileName": "backstop_default_Actions_--_Editar_post_con_video_de_YouTube_8png_0_document_1_tablet.png",
+        "label": "Actions -- Editar post con video de YouTube (8).png",
+        "misMatchThreshold": 8,
+        "url": "file:///C:/Proyectos/pruebas-automatizadas/pruebas/backstopjs/v4/Actions -- Editar post con video de YouTube (8).png",
+        "expect": 0,
+        "viewportLabel": "tablet",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 39.763641357421875,
+          "misMatchPercentage": "39.76",
+          "analysisTime": 156
+        },
+        "diffImage": "..\\bitmaps_test\\20220514-114921\\failed_diff_backstop_default_Actions_--_Editar_post_con_video_de_YouTube_8png_0_document_1_tablet.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "..\\bitmaps_reference\\backstop_default_Actions_--_Editar_post_con_video_de_YouTube_9png_0_document_0_phone.png",
+        "test": "..\\bitmaps_test\\20220514-114921\\backstop_default_Actions_--_Editar_post_con_video_de_YouTube_9png_0_document_0_phone.png",
+        "selector": "document",
+        "fileName": "backstop_default_Actions_--_Editar_post_con_video_de_YouTube_9png_0_document_0_phone.png",
+        "label": "Actions -- Editar post con video de YouTube (9).png",
+        "misMatchThreshold": 8,
+        "url": "file:///C:/Proyectos/pruebas-automatizadas/pruebas/backstopjs/v4/Actions -- Editar post con video de YouTube (9).png",
+        "expect": 0,
+        "viewportLabel": "phone",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 22.826822916666668,
+          "misMatchPercentage": "22.83",
+          "analysisTime": 41
+        },
+        "diffImage": "..\\bitmaps_test\\20220514-114921\\failed_diff_backstop_default_Actions_--_Editar_post_con_video_de_YouTube_9png_0_document_0_phone.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "..\\bitmaps_reference\\backstop_default_Actions_--_Editar_post_con_video_de_YouTube_9png_0_document_1_tablet.png",
+        "test": "..\\bitmaps_test\\20220514-114921\\backstop_default_Actions_--_Editar_post_con_video_de_YouTube_9png_0_document_1_tablet.png",
+        "selector": "document",
+        "fileName": "backstop_default_Actions_--_Editar_post_con_video_de_YouTube_9png_0_document_1_tablet.png",
+        "label": "Actions -- Editar post con video de YouTube (9).png",
+        "misMatchThreshold": 8,
+        "url": "file:///C:/Proyectos/pruebas-automatizadas/pruebas/backstopjs/v4/Actions -- Editar post con video de YouTube (9).png",
+        "expect": 0,
+        "viewportLabel": "tablet",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 41.255060831705734,
+          "misMatchPercentage": "41.26",
+          "analysisTime": 164
+        },
+        "diffImage": "..\\bitmaps_test\\20220514-114921\\failed_diff_backstop_default_Actions_--_Editar_post_con_video_de_YouTube_9png_0_document_1_tablet.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "..\\bitmaps_reference\\backstop_default_Actions_--_Editar_post_con_video_de_YouTubepng_0_document_0_phone.png",
+        "test": "..\\bitmaps_test\\20220514-114921\\backstop_default_Actions_--_Editar_post_con_video_de_YouTubepng_0_document_0_phone.png",
+        "selector": "document",
+        "fileName": "backstop_default_Actions_--_Editar_post_con_video_de_YouTubepng_0_document_0_phone.png",
+        "label": "Actions -- Editar post con video de YouTube.png",
+        "misMatchThreshold": 8,
+        "url": "file:///C:/Proyectos/pruebas-automatizadas/pruebas/backstopjs/v4/Actions -- Editar post con video de YouTube.png",
+        "expect": 0,
+        "viewportLabel": "phone",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 4.975911458333333,
+          "misMatchPercentage": "4.98",
+          "analysisTime": 67
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "..\\bitmaps_reference\\backstop_default_Actions_--_Editar_post_con_video_de_YouTubepng_0_document_1_tablet.png",
+        "test": "..\\bitmaps_test\\20220514-114921\\backstop_default_Actions_--_Editar_post_con_video_de_YouTubepng_0_document_1_tablet.png",
+        "selector": "document",
+        "fileName": "backstop_default_Actions_--_Editar_post_con_video_de_YouTubepng_0_document_1_tablet.png",
+        "label": "Actions -- Editar post con video de YouTube.png",
+        "misMatchThreshold": 8,
+        "url": "file:///C:/Proyectos/pruebas-automatizadas/pruebas/backstopjs/v4/Actions -- Editar post con video de YouTube.png",
+        "expect": 0,
+        "viewportLabel": "tablet",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 8.869298299153645,
+          "misMatchPercentage": "8.87",
+          "analysisTime": 209
+        },
+        "diffImage": "..\\bitmaps_test\\20220514-114921\\failed_diff_backstop_default_Actions_--_Editar_post_con_video_de_YouTubepng_0_document_1_tablet.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "..\\bitmaps_reference\\backstop_default_Actions_--_Eliminar_vista_posts_1png_0_document_0_phone.png",
+        "test": "..\\bitmaps_test\\20220514-114921\\backstop_default_Actions_--_Eliminar_vista_posts_1png_0_document_0_phone.png",
+        "selector": "document",
+        "fileName": "backstop_default_Actions_--_Eliminar_vista_posts_1png_0_document_0_phone.png",
+        "label": "Actions -- Eliminar vista posts (1).png",
+        "misMatchThreshold": 8,
+        "url": "file:///C:/Proyectos/pruebas-automatizadas/pruebas/backstopjs/v4/Actions -- Eliminar vista posts (1).png",
+        "expect": 0,
+        "viewportLabel": "phone",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 4.869791666666667,
+          "misMatchPercentage": "4.87",
+          "analysisTime": 52
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "..\\bitmaps_reference\\backstop_default_Actions_--_Eliminar_vista_posts_1png_0_document_1_tablet.png",
+        "test": "..\\bitmaps_test\\20220514-114921\\backstop_default_Actions_--_Eliminar_vista_posts_1png_0_document_1_tablet.png",
+        "selector": "document",
+        "fileName": "backstop_default_Actions_--_Eliminar_vista_posts_1png_0_document_1_tablet.png",
+        "label": "Actions -- Eliminar vista posts (1).png",
+        "misMatchThreshold": 8,
+        "url": "file:///C:/Proyectos/pruebas-automatizadas/pruebas/backstopjs/v4/Actions -- Eliminar vista posts (1).png",
+        "expect": 0,
+        "viewportLabel": "tablet",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 7.9947153727213545,
+          "misMatchPercentage": "7.99",
+          "analysisTime": 221
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "..\\bitmaps_reference\\backstop_default_Actions_--_Eliminar_vista_posts_2png_0_document_0_phone.png",
+        "test": "..\\bitmaps_test\\20220514-114921\\backstop_default_Actions_--_Eliminar_vista_posts_2png_0_document_0_phone.png",
+        "selector": "document",
+        "fileName": "backstop_default_Actions_--_Eliminar_vista_posts_2png_0_document_0_phone.png",
+        "label": "Actions -- Eliminar vista posts (2).png",
+        "misMatchThreshold": 8,
+        "url": "file:///C:/Proyectos/pruebas-automatizadas/pruebas/backstopjs/v4/Actions -- Eliminar vista posts (2).png",
+        "expect": 0,
+        "viewportLabel": "phone",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 43.927083333333336,
+          "misMatchPercentage": "43.93",
+          "analysisTime": 94
+        },
+        "diffImage": "..\\bitmaps_test\\20220514-114921\\failed_diff_backstop_default_Actions_--_Eliminar_vista_posts_2png_0_document_0_phone.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "..\\bitmaps_reference\\backstop_default_Actions_--_Eliminar_vista_posts_2png_0_document_1_tablet.png",
+        "test": "..\\bitmaps_test\\20220514-114921\\backstop_default_Actions_--_Eliminar_vista_posts_2png_0_document_1_tablet.png",
+        "selector": "document",
+        "fileName": "backstop_default_Actions_--_Eliminar_vista_posts_2png_0_document_1_tablet.png",
+        "label": "Actions -- Eliminar vista posts (2).png",
+        "misMatchThreshold": 8,
+        "url": "file:///C:/Proyectos/pruebas-automatizadas/pruebas/backstopjs/v4/Actions -- Eliminar vista posts (2).png",
+        "expect": 0,
+        "viewportLabel": "tablet",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 83.80177815755209,
+          "misMatchPercentage": "83.80",
+          "analysisTime": 214
+        },
+        "diffImage": "..\\bitmaps_test\\20220514-114921\\failed_diff_backstop_default_Actions_--_Eliminar_vista_posts_2png_0_document_1_tablet.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "..\\bitmaps_reference\\backstop_default_Actions_--_Eliminar_vista_posts_3png_0_document_0_phone.png",
+        "test": "..\\bitmaps_test\\20220514-114921\\backstop_default_Actions_--_Eliminar_vista_posts_3png_0_document_0_phone.png",
+        "selector": "document",
+        "fileName": "backstop_default_Actions_--_Eliminar_vista_posts_3png_0_document_0_phone.png",
+        "label": "Actions -- Eliminar vista posts (3).png",
+        "misMatchThreshold": 8,
+        "url": "file:///C:/Proyectos/pruebas-automatizadas/pruebas/backstopjs/v4/Actions -- Eliminar vista posts (3).png",
+        "expect": 0,
+        "viewportLabel": "phone",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 42.927734375,
+          "misMatchPercentage": "42.93",
+          "analysisTime": 70
+        },
+        "diffImage": "..\\bitmaps_test\\20220514-114921\\failed_diff_backstop_default_Actions_--_Eliminar_vista_posts_3png_0_document_0_phone.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "..\\bitmaps_reference\\backstop_default_Actions_--_Eliminar_vista_posts_3png_0_document_1_tablet.png",
+        "test": "..\\bitmaps_test\\20220514-114921\\backstop_default_Actions_--_Eliminar_vista_posts_3png_0_document_1_tablet.png",
+        "selector": "document",
+        "fileName": "backstop_default_Actions_--_Eliminar_vista_posts_3png_0_document_1_tablet.png",
+        "label": "Actions -- Eliminar vista posts (3).png",
+        "misMatchThreshold": 8,
+        "url": "file:///C:/Proyectos/pruebas-automatizadas/pruebas/backstopjs/v4/Actions -- Eliminar vista posts (3).png",
+        "expect": 0,
+        "viewportLabel": "tablet",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 82.40331013997397,
+          "misMatchPercentage": "82.40",
+          "analysisTime": 187
+        },
+        "diffImage": "..\\bitmaps_test\\20220514-114921\\failed_diff_backstop_default_Actions_--_Eliminar_vista_posts_3png_0_document_1_tablet.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "..\\bitmaps_reference\\backstop_default_Actions_--_Eliminar_vista_posts_4png_0_document_0_phone.png",
+        "test": "..\\bitmaps_test\\20220514-114921\\backstop_default_Actions_--_Eliminar_vista_posts_4png_0_document_0_phone.png",
+        "selector": "document",
+        "fileName": "backstop_default_Actions_--_Eliminar_vista_posts_4png_0_document_0_phone.png",
+        "label": "Actions -- Eliminar vista posts (4).png",
+        "misMatchThreshold": 8,
+        "url": "file:///C:/Proyectos/pruebas-automatizadas/pruebas/backstopjs/v4/Actions -- Eliminar vista posts (4).png",
+        "expect": 0,
+        "viewportLabel": "phone",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 42.927734375,
+          "misMatchPercentage": "42.93",
+          "analysisTime": 52
+        },
+        "diffImage": "..\\bitmaps_test\\20220514-114921\\failed_diff_backstop_default_Actions_--_Eliminar_vista_posts_4png_0_document_0_phone.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "..\\bitmaps_reference\\backstop_default_Actions_--_Eliminar_vista_posts_4png_0_document_1_tablet.png",
+        "test": "..\\bitmaps_test\\20220514-114921\\backstop_default_Actions_--_Eliminar_vista_posts_4png_0_document_1_tablet.png",
+        "selector": "document",
+        "fileName": "backstop_default_Actions_--_Eliminar_vista_posts_4png_0_document_1_tablet.png",
+        "label": "Actions -- Eliminar vista posts (4).png",
+        "misMatchThreshold": 8,
+        "url": "file:///C:/Proyectos/pruebas-automatizadas/pruebas/backstopjs/v4/Actions -- Eliminar vista posts (4).png",
+        "expect": 0,
+        "viewportLabel": "tablet",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 82.40038553873697,
+          "misMatchPercentage": "82.40",
+          "analysisTime": 248
+        },
+        "diffImage": "..\\bitmaps_test\\20220514-114921\\failed_diff_backstop_default_Actions_--_Eliminar_vista_posts_4png_0_document_1_tablet.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "..\\bitmaps_reference\\backstop_default_Actions_--_Eliminar_vista_posts_5png_0_document_0_phone.png",
+        "test": "..\\bitmaps_test\\20220514-114921\\backstop_default_Actions_--_Eliminar_vista_posts_5png_0_document_0_phone.png",
+        "selector": "document",
+        "fileName": "backstop_default_Actions_--_Eliminar_vista_posts_5png_0_document_0_phone.png",
+        "label": "Actions -- Eliminar vista posts (5).png",
+        "misMatchThreshold": 8,
+        "url": "file:///C:/Proyectos/pruebas-automatizadas/pruebas/backstopjs/v4/Actions -- Eliminar vista posts (5).png",
+        "expect": 0,
+        "viewportLabel": "phone",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 42.927734375,
+          "misMatchPercentage": "42.93",
+          "analysisTime": 67
+        },
+        "diffImage": "..\\bitmaps_test\\20220514-114921\\failed_diff_backstop_default_Actions_--_Eliminar_vista_posts_5png_0_document_0_phone.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "..\\bitmaps_reference\\backstop_default_Actions_--_Eliminar_vista_posts_5png_0_document_1_tablet.png",
+        "test": "..\\bitmaps_test\\20220514-114921\\backstop_default_Actions_--_Eliminar_vista_posts_5png_0_document_1_tablet.png",
+        "selector": "document",
+        "fileName": "backstop_default_Actions_--_Eliminar_vista_posts_5png_0_document_1_tablet.png",
+        "label": "Actions -- Eliminar vista posts (5).png",
+        "misMatchThreshold": 8,
+        "url": "file:///C:/Proyectos/pruebas-automatizadas/pruebas/backstopjs/v4/Actions -- Eliminar vista posts (5).png",
+        "expect": 0,
+        "viewportLabel": "tablet",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 82.40038553873697,
+          "misMatchPercentage": "82.40",
+          "analysisTime": 242
+        },
+        "diffImage": "..\\bitmaps_test\\20220514-114921\\failed_diff_backstop_default_Actions_--_Eliminar_vista_posts_5png_0_document_1_tablet.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "..\\bitmaps_reference\\backstop_default_Actions_--_Eliminar_vista_posts_6png_0_document_0_phone.png",
+        "test": "..\\bitmaps_test\\20220514-114921\\backstop_default_Actions_--_Eliminar_vista_posts_6png_0_document_0_phone.png",
+        "selector": "document",
+        "fileName": "backstop_default_Actions_--_Eliminar_vista_posts_6png_0_document_0_phone.png",
+        "label": "Actions -- Eliminar vista posts (6).png",
+        "misMatchThreshold": 8,
+        "url": "file:///C:/Proyectos/pruebas-automatizadas/pruebas/backstopjs/v4/Actions -- Eliminar vista posts (6).png",
+        "expect": 0,
+        "viewportLabel": "phone",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 42.927734375,
+          "misMatchPercentage": "42.93",
+          "analysisTime": 90
+        },
+        "diffImage": "..\\bitmaps_test\\20220514-114921\\failed_diff_backstop_default_Actions_--_Eliminar_vista_posts_6png_0_document_0_phone.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "..\\bitmaps_reference\\backstop_default_Actions_--_Eliminar_vista_posts_6png_0_document_1_tablet.png",
+        "test": "..\\bitmaps_test\\20220514-114921\\backstop_default_Actions_--_Eliminar_vista_posts_6png_0_document_1_tablet.png",
+        "selector": "document",
+        "fileName": "backstop_default_Actions_--_Eliminar_vista_posts_6png_0_document_1_tablet.png",
+        "label": "Actions -- Eliminar vista posts (6).png",
+        "misMatchThreshold": 8,
+        "url": "file:///C:/Proyectos/pruebas-automatizadas/pruebas/backstopjs/v4/Actions -- Eliminar vista posts (6).png",
+        "expect": 0,
+        "viewportLabel": "tablet",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 82.40038553873697,
+          "misMatchPercentage": "82.40",
+          "analysisTime": 167
+        },
+        "diffImage": "..\\bitmaps_test\\20220514-114921\\failed_diff_backstop_default_Actions_--_Eliminar_vista_posts_6png_0_document_1_tablet.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "..\\bitmaps_reference\\backstop_default_Actions_--_Eliminar_vista_posts_7png_0_document_0_phone.png",
+        "test": "..\\bitmaps_test\\20220514-114921\\backstop_default_Actions_--_Eliminar_vista_posts_7png_0_document_0_phone.png",
+        "selector": "document",
+        "fileName": "backstop_default_Actions_--_Eliminar_vista_posts_7png_0_document_0_phone.png",
+        "label": "Actions -- Eliminar vista posts (7).png",
+        "misMatchThreshold": 8,
+        "url": "file:///C:/Proyectos/pruebas-automatizadas/pruebas/backstopjs/v4/Actions -- Eliminar vista posts (7).png",
+        "expect": 0,
+        "viewportLabel": "phone",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 43.9296875,
+          "misMatchPercentage": "43.93",
+          "analysisTime": 89
+        },
+        "diffImage": "..\\bitmaps_test\\20220514-114921\\failed_diff_backstop_default_Actions_--_Eliminar_vista_posts_7png_0_document_0_phone.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "..\\bitmaps_reference\\backstop_default_Actions_--_Eliminar_vista_posts_7png_0_document_1_tablet.png",
+        "test": "..\\bitmaps_test\\20220514-114921\\backstop_default_Actions_--_Eliminar_vista_posts_7png_0_document_1_tablet.png",
+        "selector": "document",
+        "fileName": "backstop_default_Actions_--_Eliminar_vista_posts_7png_0_document_1_tablet.png",
+        "label": "Actions -- Eliminar vista posts (7).png",
+        "misMatchThreshold": 8,
+        "url": "file:///C:/Proyectos/pruebas-automatizadas/pruebas/backstopjs/v4/Actions -- Eliminar vista posts (7).png",
+        "expect": 0,
+        "viewportLabel": "tablet",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 83.80279541015625,
+          "misMatchPercentage": "83.80",
+          "analysisTime": 179
+        },
+        "diffImage": "..\\bitmaps_test\\20220514-114921\\failed_diff_backstop_default_Actions_--_Eliminar_vista_posts_7png_0_document_1_tablet.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "..\\bitmaps_reference\\backstop_default_Actions_--_Eliminar_vista_posts_8png_0_document_0_phone.png",
+        "test": "..\\bitmaps_test\\20220514-114921\\backstop_default_Actions_--_Eliminar_vista_posts_8png_0_document_0_phone.png",
+        "selector": "document",
+        "fileName": "backstop_default_Actions_--_Eliminar_vista_posts_8png_0_document_0_phone.png",
+        "label": "Actions -- Eliminar vista posts (8).png",
+        "misMatchThreshold": 8,
+        "url": "file:///C:/Proyectos/pruebas-automatizadas/pruebas/backstopjs/v4/Actions -- Eliminar vista posts (8).png",
+        "expect": 0,
+        "viewportLabel": "phone",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 42.895182291666664,
+          "misMatchPercentage": "42.90",
+          "analysisTime": 94
+        },
+        "diffImage": "..\\bitmaps_test\\20220514-114921\\failed_diff_backstop_default_Actions_--_Eliminar_vista_posts_8png_0_document_0_phone.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "..\\bitmaps_reference\\backstop_default_Actions_--_Eliminar_vista_posts_8png_0_document_1_tablet.png",
+        "test": "..\\bitmaps_test\\20220514-114921\\backstop_default_Actions_--_Eliminar_vista_posts_8png_0_document_1_tablet.png",
+        "selector": "document",
+        "fileName": "backstop_default_Actions_--_Eliminar_vista_posts_8png_0_document_1_tablet.png",
+        "label": "Actions -- Eliminar vista posts (8).png",
+        "misMatchThreshold": 8,
+        "url": "file:///C:/Proyectos/pruebas-automatizadas/pruebas/backstopjs/v4/Actions -- Eliminar vista posts (8).png",
+        "expect": 0,
+        "viewportLabel": "tablet",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 82.35829671223959,
+          "misMatchPercentage": "82.36",
+          "analysisTime": 182
+        },
+        "diffImage": "..\\bitmaps_test\\20220514-114921\\failed_diff_backstop_default_Actions_--_Eliminar_vista_posts_8png_0_document_1_tablet.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "..\\bitmaps_reference\\backstop_default_Actions_--_Eliminar_vista_posts_9png_0_document_0_phone.png",
+        "test": "..\\bitmaps_test\\20220514-114921\\backstop_default_Actions_--_Eliminar_vista_posts_9png_0_document_0_phone.png",
+        "selector": "document",
+        "fileName": "backstop_default_Actions_--_Eliminar_vista_posts_9png_0_document_0_phone.png",
+        "label": "Actions -- Eliminar vista posts (9).png",
+        "misMatchThreshold": 8,
+        "url": "file:///C:/Proyectos/pruebas-automatizadas/pruebas/backstopjs/v4/Actions -- Eliminar vista posts (9).png",
+        "expect": 0,
+        "viewportLabel": "phone",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 37.561197916666664,
+          "misMatchPercentage": "37.56",
+          "analysisTime": 79
+        },
+        "diffImage": "..\\bitmaps_test\\20220514-114921\\failed_diff_backstop_default_Actions_--_Eliminar_vista_posts_9png_0_document_0_phone.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "..\\bitmaps_reference\\backstop_default_Actions_--_Eliminar_vista_posts_9png_0_document_1_tablet.png",
+        "test": "..\\bitmaps_test\\20220514-114921\\backstop_default_Actions_--_Eliminar_vista_posts_9png_0_document_1_tablet.png",
+        "selector": "document",
+        "fileName": "backstop_default_Actions_--_Eliminar_vista_posts_9png_0_document_1_tablet.png",
+        "label": "Actions -- Eliminar vista posts (9).png",
+        "misMatchThreshold": 8,
+        "url": "file:///C:/Proyectos/pruebas-automatizadas/pruebas/backstopjs/v4/Actions -- Eliminar vista posts (9).png",
+        "expect": 0,
+        "viewportLabel": "tablet",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 71.2945302327474,
+          "misMatchPercentage": "71.29",
+          "analysisTime": 230
+        },
+        "diffImage": "..\\bitmaps_test\\20220514-114921\\failed_diff_backstop_default_Actions_--_Eliminar_vista_posts_9png_0_document_1_tablet.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "..\\bitmaps_reference\\backstop_default_Actions_--_Eliminar_vista_postspng_0_document_0_phone.png",
+        "test": "..\\bitmaps_test\\20220514-114921\\backstop_default_Actions_--_Eliminar_vista_postspng_0_document_0_phone.png",
+        "selector": "document",
+        "fileName": "backstop_default_Actions_--_Eliminar_vista_postspng_0_document_0_phone.png",
+        "label": "Actions -- Eliminar vista posts.png",
+        "misMatchThreshold": 8,
+        "url": "file:///C:/Proyectos/pruebas-automatizadas/pruebas/backstopjs/v4/Actions -- Eliminar vista posts.png",
+        "expect": 0,
+        "viewportLabel": "phone",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 4.975911458333333,
+          "misMatchPercentage": "4.98",
+          "analysisTime": 99
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "..\\bitmaps_reference\\backstop_default_Actions_--_Eliminar_vista_postspng_0_document_1_tablet.png",
+        "test": "..\\bitmaps_test\\20220514-114921\\backstop_default_Actions_--_Eliminar_vista_postspng_0_document_1_tablet.png",
+        "selector": "document",
+        "fileName": "backstop_default_Actions_--_Eliminar_vista_postspng_0_document_1_tablet.png",
+        "label": "Actions -- Eliminar vista posts.png",
+        "misMatchThreshold": 8,
+        "url": "file:///C:/Proyectos/pruebas-automatizadas/pruebas/backstopjs/v4/Actions -- Eliminar vista posts.png",
+        "expect": 0,
+        "viewportLabel": "tablet",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 8.869298299153645,
+          "misMatchPercentage": "8.87",
+          "analysisTime": 185
+        },
+        "diffImage": "..\\bitmaps_test\\20220514-114921\\failed_diff_backstop_default_Actions_--_Eliminar_vista_postspng_0_document_1_tablet.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "..\\bitmaps_reference\\backstop_default_Actions_--_Guardar_vista_posts_1png_0_document_0_phone.png",
+        "test": "..\\bitmaps_test\\20220514-114921\\backstop_default_Actions_--_Guardar_vista_posts_1png_0_document_0_phone.png",
+        "selector": "document",
+        "fileName": "backstop_default_Actions_--_Guardar_vista_posts_1png_0_document_0_phone.png",
+        "label": "Actions -- Guardar vista posts (1).png",
+        "misMatchThreshold": 8,
+        "url": "file:///C:/Proyectos/pruebas-automatizadas/pruebas/backstopjs/v4/Actions -- Guardar vista posts (1).png",
+        "expect": 0,
+        "viewportLabel": "phone",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 43.94140625,
+          "misMatchPercentage": "43.94",
+          "analysisTime": 44
+        },
+        "diffImage": "..\\bitmaps_test\\20220514-114921\\failed_diff_backstop_default_Actions_--_Guardar_vista_posts_1png_0_document_0_phone.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "..\\bitmaps_reference\\backstop_default_Actions_--_Guardar_vista_posts_1png_0_document_1_tablet.png",
+        "test": "..\\bitmaps_test\\20220514-114921\\backstop_default_Actions_--_Guardar_vista_posts_1png_0_document_1_tablet.png",
+        "selector": "document",
+        "fileName": "backstop_default_Actions_--_Guardar_vista_posts_1png_0_document_1_tablet.png",
+        "label": "Actions -- Guardar vista posts (1).png",
+        "misMatchThreshold": 8,
+        "url": "file:///C:/Proyectos/pruebas-automatizadas/pruebas/backstopjs/v4/Actions -- Guardar vista posts (1).png",
+        "expect": 0,
+        "viewportLabel": "tablet",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 83.8226318359375,
+          "misMatchPercentage": "83.82",
+          "analysisTime": 147
+        },
+        "diffImage": "..\\bitmaps_test\\20220514-114921\\failed_diff_backstop_default_Actions_--_Guardar_vista_posts_1png_0_document_1_tablet.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "..\\bitmaps_reference\\backstop_default_Actions_--_Guardar_vista_posts_2png_0_document_0_phone.png",
+        "test": "..\\bitmaps_test\\20220514-114921\\backstop_default_Actions_--_Guardar_vista_posts_2png_0_document_0_phone.png",
+        "selector": "document",
+        "fileName": "backstop_default_Actions_--_Guardar_vista_posts_2png_0_document_0_phone.png",
+        "label": "Actions -- Guardar vista posts (2).png",
+        "misMatchThreshold": 8,
+        "url": "file:///C:/Proyectos/pruebas-automatizadas/pruebas/backstopjs/v4/Actions -- Guardar vista posts (2).png",
+        "expect": 0,
+        "viewportLabel": "phone",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 42.873697916666664,
+          "misMatchPercentage": "42.87",
+          "analysisTime": 59
+        },
+        "diffImage": "..\\bitmaps_test\\20220514-114921\\failed_diff_backstop_default_Actions_--_Guardar_vista_posts_2png_0_document_0_phone.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "..\\bitmaps_reference\\backstop_default_Actions_--_Guardar_vista_posts_2png_0_document_1_tablet.png",
+        "test": "..\\bitmaps_test\\20220514-114921\\backstop_default_Actions_--_Guardar_vista_posts_2png_0_document_1_tablet.png",
+        "selector": "document",
+        "fileName": "backstop_default_Actions_--_Guardar_vista_posts_2png_0_document_1_tablet.png",
+        "label": "Actions -- Guardar vista posts (2).png",
+        "misMatchThreshold": 8,
+        "url": "file:///C:/Proyectos/pruebas-automatizadas/pruebas/backstopjs/v4/Actions -- Guardar vista posts (2).png",
+        "expect": 0,
+        "viewportLabel": "tablet",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 82.31722513834634,
+          "misMatchPercentage": "82.32",
+          "analysisTime": 174
+        },
+        "diffImage": "..\\bitmaps_test\\20220514-114921\\failed_diff_backstop_default_Actions_--_Guardar_vista_posts_2png_0_document_1_tablet.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "..\\bitmaps_reference\\backstop_default_Actions_--_Guardar_vista_posts_3png_0_document_0_phone.png",
+        "test": "..\\bitmaps_test\\20220514-114921\\backstop_default_Actions_--_Guardar_vista_posts_3png_0_document_0_phone.png",
+        "selector": "document",
+        "fileName": "backstop_default_Actions_--_Guardar_vista_posts_3png_0_document_0_phone.png",
+        "label": "Actions -- Guardar vista posts (3).png",
+        "misMatchThreshold": 8,
+        "url": "file:///C:/Proyectos/pruebas-automatizadas/pruebas/backstopjs/v4/Actions -- Guardar vista posts (3).png",
+        "expect": 0,
+        "viewportLabel": "phone",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 42.873697916666664,
+          "misMatchPercentage": "42.87",
+          "analysisTime": 64
+        },
+        "diffImage": "..\\bitmaps_test\\20220514-114921\\failed_diff_backstop_default_Actions_--_Guardar_vista_posts_3png_0_document_0_phone.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "..\\bitmaps_reference\\backstop_default_Actions_--_Guardar_vista_posts_3png_0_document_1_tablet.png",
+        "test": "..\\bitmaps_test\\20220514-114921\\backstop_default_Actions_--_Guardar_vista_posts_3png_0_document_1_tablet.png",
+        "selector": "document",
+        "fileName": "backstop_default_Actions_--_Guardar_vista_posts_3png_0_document_1_tablet.png",
+        "label": "Actions -- Guardar vista posts (3).png",
+        "misMatchThreshold": 8,
+        "url": "file:///C:/Proyectos/pruebas-automatizadas/pruebas/backstopjs/v4/Actions -- Guardar vista posts (3).png",
+        "expect": 0,
+        "viewportLabel": "tablet",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 82.31430053710938,
+          "misMatchPercentage": "82.31",
+          "analysisTime": 203
+        },
+        "diffImage": "..\\bitmaps_test\\20220514-114921\\failed_diff_backstop_default_Actions_--_Guardar_vista_posts_3png_0_document_1_tablet.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "..\\bitmaps_reference\\backstop_default_Actions_--_Guardar_vista_posts_4png_0_document_0_phone.png",
+        "test": "..\\bitmaps_test\\20220514-114921\\backstop_default_Actions_--_Guardar_vista_posts_4png_0_document_0_phone.png",
+        "selector": "document",
+        "fileName": "backstop_default_Actions_--_Guardar_vista_posts_4png_0_document_0_phone.png",
+        "label": "Actions -- Guardar vista posts (4).png",
+        "misMatchThreshold": 8,
+        "url": "file:///C:/Proyectos/pruebas-automatizadas/pruebas/backstopjs/v4/Actions -- Guardar vista posts (4).png",
+        "expect": 0,
+        "viewportLabel": "phone",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 42.90625,
+          "misMatchPercentage": "42.91",
+          "analysisTime": 85
+        },
+        "diffImage": "..\\bitmaps_test\\20220514-114921\\failed_diff_backstop_default_Actions_--_Guardar_vista_posts_4png_0_document_0_phone.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "..\\bitmaps_reference\\backstop_default_Actions_--_Guardar_vista_posts_4png_0_document_1_tablet.png",
+        "test": "..\\bitmaps_test\\20220514-114921\\backstop_default_Actions_--_Guardar_vista_posts_4png_0_document_1_tablet.png",
+        "selector": "document",
+        "fileName": "backstop_default_Actions_--_Guardar_vista_posts_4png_0_document_1_tablet.png",
+        "label": "Actions -- Guardar vista posts (4).png",
+        "misMatchThreshold": 8,
+        "url": "file:///C:/Proyectos/pruebas-automatizadas/pruebas/backstopjs/v4/Actions -- Guardar vista posts (4).png",
+        "expect": 0,
+        "viewportLabel": "tablet",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 82.35638936360678,
+          "misMatchPercentage": "82.36",
+          "analysisTime": 202
+        },
+        "diffImage": "..\\bitmaps_test\\20220514-114921\\failed_diff_backstop_default_Actions_--_Guardar_vista_posts_4png_0_document_1_tablet.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "..\\bitmaps_reference\\backstop_default_Actions_--_Guardar_vista_posts_5png_0_document_0_phone.png",
+        "test": "..\\bitmaps_test\\20220514-114921\\backstop_default_Actions_--_Guardar_vista_posts_5png_0_document_0_phone.png",
+        "selector": "document",
+        "fileName": "backstop_default_Actions_--_Guardar_vista_posts_5png_0_document_0_phone.png",
+        "label": "Actions -- Guardar vista posts (5).png",
+        "misMatchThreshold": 8,
+        "url": "file:///C:/Proyectos/pruebas-automatizadas/pruebas/backstopjs/v4/Actions -- Guardar vista posts (5).png",
+        "expect": 0,
+        "viewportLabel": "phone",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 37.41276041666667,
+          "misMatchPercentage": "37.41",
+          "analysisTime": 95
+        },
+        "diffImage": "..\\bitmaps_test\\20220514-114921\\failed_diff_backstop_default_Actions_--_Guardar_vista_posts_5png_0_document_0_phone.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "..\\bitmaps_reference\\backstop_default_Actions_--_Guardar_vista_posts_5png_0_document_1_tablet.png",
+        "test": "..\\bitmaps_test\\20220514-114921\\backstop_default_Actions_--_Guardar_vista_posts_5png_0_document_1_tablet.png",
+        "selector": "document",
+        "fileName": "backstop_default_Actions_--_Guardar_vista_posts_5png_0_document_1_tablet.png",
+        "label": "Actions -- Guardar vista posts (5).png",
+        "misMatchThreshold": 8,
+        "url": "file:///C:/Proyectos/pruebas-automatizadas/pruebas/backstopjs/v4/Actions -- Guardar vista posts (5).png",
+        "expect": 0,
+        "viewportLabel": "tablet",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 70.99520365397134,
+          "misMatchPercentage": "71.00",
+          "analysisTime": 164
+        },
+        "diffImage": "..\\bitmaps_test\\20220514-114921\\failed_diff_backstop_default_Actions_--_Guardar_vista_posts_5png_0_document_1_tablet.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "..\\bitmaps_reference\\backstop_default_Actions_--_Guardar_vista_postspng_0_document_0_phone.png",
+        "test": "..\\bitmaps_test\\20220514-114921\\backstop_default_Actions_--_Guardar_vista_postspng_0_document_0_phone.png",
+        "selector": "document",
+        "fileName": "backstop_default_Actions_--_Guardar_vista_postspng_0_document_0_phone.png",
+        "label": "Actions -- Guardar vista posts.png",
+        "misMatchThreshold": 8,
+        "url": "file:///C:/Proyectos/pruebas-automatizadas/pruebas/backstopjs/v4/Actions -- Guardar vista posts.png",
+        "expect": 0,
+        "viewportLabel": "phone",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 5.053385416666667,
+          "misMatchPercentage": "5.05",
+          "analysisTime": 54
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "..\\bitmaps_reference\\backstop_default_Actions_--_Guardar_vista_postspng_0_document_1_tablet.png",
+        "test": "..\\bitmaps_test\\20220514-114921\\backstop_default_Actions_--_Guardar_vista_postspng_0_document_1_tablet.png",
+        "selector": "document",
+        "fileName": "backstop_default_Actions_--_Guardar_vista_postspng_0_document_1_tablet.png",
+        "label": "Actions -- Guardar vista posts.png",
+        "misMatchThreshold": 8,
+        "url": "file:///C:/Proyectos/pruebas-automatizadas/pruebas/backstopjs/v4/Actions -- Guardar vista posts.png",
+        "expect": 0,
+        "viewportLabel": "tablet",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 8.901468912760418,
+          "misMatchPercentage": "8.90",
+          "analysisTime": 233
+        },
+        "diffImage": "..\\bitmaps_test\\20220514-114921\\failed_diff_backstop_default_Actions_--_Guardar_vista_postspng_0_document_1_tablet.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "..\\bitmaps_reference\\backstop_default_Actions_--_PRUEBA_17_-_Crear_pagina_nueva_crear_tag_la_publica_y_listar_por_tag_creado_1png_0_document_0_phone.png",
+        "test": "..\\bitmaps_test\\20220514-114921\\backstop_default_Actions_--_PRUEBA_17_-_Crear_pagina_nueva_crear_tag_la_publica_y_listar_por_tag_creado_1png_0_document_0_phone.png",
+        "selector": "document",
+        "fileName": "backstop_default_Actions_--_PRUEBA_17_-_Crear_pagina_nueva_crear_tag_la_publica_y_listar_por_tag_creado_1png_0_document_0_phone.png",
+        "label": "Actions -- PRUEBA 17 - Crear pagina nueva, crear tag, la publica y listar por tag creado (1).png",
+        "misMatchThreshold": 8,
+        "url": "file:///C:/Proyectos/pruebas-automatizadas/pruebas/backstopjs/v4/Actions -- PRUEBA 17 - Crear pagina nueva, crear tag, la publica y listar por tag creado (1).png",
+        "expect": 0,
+        "viewportLabel": "phone",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 0.9609375,
+          "misMatchPercentage": "0.96",
+          "analysisTime": 68
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "..\\bitmaps_reference\\backstop_default_Actions_--_PRUEBA_17_-_Crear_pagina_nueva_crear_tag_la_publica_y_listar_por_tag_creado_1png_0_document_1_tablet.png",
+        "test": "..\\bitmaps_test\\20220514-114921\\backstop_default_Actions_--_PRUEBA_17_-_Crear_pagina_nueva_crear_tag_la_publica_y_listar_por_tag_creado_1png_0_document_1_tablet.png",
+        "selector": "document",
+        "fileName": "backstop_default_Actions_--_PRUEBA_17_-_Crear_pagina_nueva_crear_tag_la_publica_y_listar_por_tag_creado_1png_0_document_1_tablet.png",
+        "label": "Actions -- PRUEBA 17 - Crear pagina nueva, crear tag, la publica y listar por tag creado (1).png",
+        "misMatchThreshold": 8,
+        "url": "file:///C:/Proyectos/pruebas-automatizadas/pruebas/backstopjs/v4/Actions -- PRUEBA 17 - Crear pagina nueva, crear tag, la publica y listar por tag creado (1).png",
+        "expect": 0,
+        "viewportLabel": "tablet",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 1.4063517252604165,
+          "misMatchPercentage": "1.41",
+          "analysisTime": 129
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "..\\bitmaps_reference\\backstop_default_Actions_--_PRUEBA_17_-_Crear_pagina_nueva_crear_tag_la_publica_y_listar_por_tag_creado_10png_0_document_0_phone.png",
+        "test": "..\\bitmaps_test\\20220514-114921\\backstop_default_Actions_--_PRUEBA_17_-_Crear_pagina_nueva_crear_tag_la_publica_y_listar_por_tag_creado_10png_0_document_0_phone.png",
+        "selector": "document",
+        "fileName": "backstop_default_Actions_--_PRUEBA_17_-_Crear_pagina_nueva_crear_tag_la_publica_y_listar_por_tag_creado_10png_0_document_0_phone.png",
+        "label": "Actions -- PRUEBA 17 - Crear pagina nueva, crear tag, la publica y listar por tag creado (10).png",
+        "misMatchThreshold": 8,
+        "url": "file:///C:/Proyectos/pruebas-automatizadas/pruebas/backstopjs/v4/Actions -- PRUEBA 17 - Crear pagina nueva, crear tag, la publica y listar por tag creado (10).png",
+        "expect": 0,
+        "viewportLabel": "phone",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 4.7421875,
+          "misMatchPercentage": "4.74",
+          "analysisTime": 82
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "..\\bitmaps_reference\\backstop_default_Actions_--_PRUEBA_17_-_Crear_pagina_nueva_crear_tag_la_publica_y_listar_por_tag_creado_10png_0_document_1_tablet.png",
+        "test": "..\\bitmaps_test\\20220514-114921\\backstop_default_Actions_--_PRUEBA_17_-_Crear_pagina_nueva_crear_tag_la_publica_y_listar_por_tag_creado_10png_0_document_1_tablet.png",
+        "selector": "document",
+        "fileName": "backstop_default_Actions_--_PRUEBA_17_-_Crear_pagina_nueva_crear_tag_la_publica_y_listar_por_tag_creado_10png_0_document_1_tablet.png",
+        "label": "Actions -- PRUEBA 17 - Crear pagina nueva, crear tag, la publica y listar por tag creado (10).png",
+        "misMatchThreshold": 8,
+        "url": "file:///C:/Proyectos/pruebas-automatizadas/pruebas/backstopjs/v4/Actions -- PRUEBA 17 - Crear pagina nueva, crear tag, la publica y listar por tag creado (10).png",
+        "expect": 0,
+        "viewportLabel": "tablet",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 7.486724853515625,
+          "misMatchPercentage": "7.49",
+          "analysisTime": 124
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "..\\bitmaps_reference\\backstop_default_Actions_--_PRUEBA_17_-_Crear_pagina_nueva_crear_tag_la_publica_y_listar_por_tag_creado_11png_0_document_0_phone.png",
+        "test": "..\\bitmaps_test\\20220514-114921\\backstop_default_Actions_--_PRUEBA_17_-_Crear_pagina_nueva_crear_tag_la_publica_y_listar_por_tag_creado_11png_0_document_0_phone.png",
+        "selector": "document",
+        "fileName": "backstop_default_Actions_--_PRUEBA_17_-_Crear_pagina_nueva_crear_tag_la_publica_y_listar_por_tag_creado_11png_0_document_0_phone.png",
+        "label": "Actions -- PRUEBA 17 - Crear pagina nueva, crear tag, la publica y listar por tag creado (11).png",
+        "misMatchThreshold": 8,
+        "url": "file:///C:/Proyectos/pruebas-automatizadas/pruebas/backstopjs/v4/Actions -- PRUEBA 17 - Crear pagina nueva, crear tag, la publica y listar por tag creado (11).png",
+        "expect": 0,
+        "viewportLabel": "phone",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 6.6328125,
+          "misMatchPercentage": "6.63",
+          "analysisTime": 56
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "..\\bitmaps_reference\\backstop_default_Actions_--_PRUEBA_17_-_Crear_pagina_nueva_crear_tag_la_publica_y_listar_por_tag_creado_11png_0_document_1_tablet.png",
+        "test": "..\\bitmaps_test\\20220514-114921\\backstop_default_Actions_--_PRUEBA_17_-_Crear_pagina_nueva_crear_tag_la_publica_y_listar_por_tag_creado_11png_0_document_1_tablet.png",
+        "selector": "document",
+        "fileName": "backstop_default_Actions_--_PRUEBA_17_-_Crear_pagina_nueva_crear_tag_la_publica_y_listar_por_tag_creado_11png_0_document_1_tablet.png",
+        "label": "Actions -- PRUEBA 17 - Crear pagina nueva, crear tag, la publica y listar por tag creado (11).png",
+        "misMatchThreshold": 8,
+        "url": "file:///C:/Proyectos/pruebas-automatizadas/pruebas/backstopjs/v4/Actions -- PRUEBA 17 - Crear pagina nueva, crear tag, la publica y listar por tag creado (11).png",
+        "expect": 0,
+        "viewportLabel": "tablet",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 10.349019368489582,
+          "misMatchPercentage": "10.35",
+          "analysisTime": 217
+        },
+        "diffImage": "..\\bitmaps_test\\20220514-114921\\failed_diff_backstop_default_Actions_--_PRUEBA_17_-_Crear_pagina_nueva_crear_tag_la_publica_y_listar_por_tag_creado_11png_0_document_1_tablet.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "..\\bitmaps_reference\\backstop_default_Actions_--_PRUEBA_17_-_Crear_pagina_nueva_crear_tag_la_publica_y_listar_por_tag_creado_12png_0_document_0_phone.png",
+        "test": "..\\bitmaps_test\\20220514-114921\\backstop_default_Actions_--_PRUEBA_17_-_Crear_pagina_nueva_crear_tag_la_publica_y_listar_por_tag_creado_12png_0_document_0_phone.png",
+        "selector": "document",
+        "fileName": "backstop_default_Actions_--_PRUEBA_17_-_Crear_pagina_nueva_crear_tag_la_publica_y_listar_por_tag_creado_12png_0_document_0_phone.png",
+        "label": "Actions -- PRUEBA 17 - Crear pagina nueva, crear tag, la publica y listar por tag creado (12).png",
+        "misMatchThreshold": 8,
+        "url": "file:///C:/Proyectos/pruebas-automatizadas/pruebas/backstopjs/v4/Actions -- PRUEBA 17 - Crear pagina nueva, crear tag, la publica y listar por tag creado (12).png",
+        "expect": 0,
+        "viewportLabel": "phone",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 6.91796875,
+          "misMatchPercentage": "6.92",
+          "analysisTime": 65
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "..\\bitmaps_reference\\backstop_default_Actions_--_PRUEBA_17_-_Crear_pagina_nueva_crear_tag_la_publica_y_listar_por_tag_creado_12png_0_document_1_tablet.png",
+        "test": "..\\bitmaps_test\\20220514-114921\\backstop_default_Actions_--_PRUEBA_17_-_Crear_pagina_nueva_crear_tag_la_publica_y_listar_por_tag_creado_12png_0_document_1_tablet.png",
+        "selector": "document",
+        "fileName": "backstop_default_Actions_--_PRUEBA_17_-_Crear_pagina_nueva_crear_tag_la_publica_y_listar_por_tag_creado_12png_0_document_1_tablet.png",
+        "label": "Actions -- PRUEBA 17 - Crear pagina nueva, crear tag, la publica y listar por tag creado (12).png",
+        "misMatchThreshold": 8,
+        "url": "file:///C:/Proyectos/pruebas-automatizadas/pruebas/backstopjs/v4/Actions -- PRUEBA 17 - Crear pagina nueva, crear tag, la publica y listar por tag creado (12).png",
+        "expect": 0,
+        "viewportLabel": "tablet",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 10.812759399414062,
+          "misMatchPercentage": "10.81",
+          "analysisTime": 220
+        },
+        "diffImage": "..\\bitmaps_test\\20220514-114921\\failed_diff_backstop_default_Actions_--_PRUEBA_17_-_Crear_pagina_nueva_crear_tag_la_publica_y_listar_por_tag_creado_12png_0_document_1_tablet.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "..\\bitmaps_reference\\backstop_default_Actions_--_PRUEBA_17_-_Crear_pagina_nueva_crear_tag_la_publica_y_listar_por_tag_creado_13png_0_document_0_phone.png",
+        "test": "..\\bitmaps_test\\20220514-114921\\backstop_default_Actions_--_PRUEBA_17_-_Crear_pagina_nueva_crear_tag_la_publica_y_listar_por_tag_creado_13png_0_document_0_phone.png",
+        "selector": "document",
+        "fileName": "backstop_default_Actions_--_PRUEBA_17_-_Crear_pagina_nueva_crear_tag_la_publica_y_listar_por_tag_creado_13png_0_document_0_phone.png",
+        "label": "Actions -- PRUEBA 17 - Crear pagina nueva, crear tag, la publica y listar por tag creado (13).png",
+        "misMatchThreshold": 8,
+        "url": "file:///C:/Proyectos/pruebas-automatizadas/pruebas/backstopjs/v4/Actions -- PRUEBA 17 - Crear pagina nueva, crear tag, la publica y listar por tag creado (13).png",
+        "expect": 0,
+        "viewportLabel": "phone",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 5.397135416666667,
+          "misMatchPercentage": "5.40",
+          "analysisTime": 62
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "..\\bitmaps_reference\\backstop_default_Actions_--_PRUEBA_17_-_Crear_pagina_nueva_crear_tag_la_publica_y_listar_por_tag_creado_13png_0_document_1_tablet.png",
+        "test": "..\\bitmaps_test\\20220514-114921\\backstop_default_Actions_--_PRUEBA_17_-_Crear_pagina_nueva_crear_tag_la_publica_y_listar_por_tag_creado_13png_0_document_1_tablet.png",
+        "selector": "document",
+        "fileName": "backstop_default_Actions_--_PRUEBA_17_-_Crear_pagina_nueva_crear_tag_la_publica_y_listar_por_tag_creado_13png_0_document_1_tablet.png",
+        "label": "Actions -- PRUEBA 17 - Crear pagina nueva, crear tag, la publica y listar por tag creado (13).png",
+        "misMatchThreshold": 8,
+        "url": "file:///C:/Proyectos/pruebas-automatizadas/pruebas/backstopjs/v4/Actions -- PRUEBA 17 - Crear pagina nueva, crear tag, la publica y listar por tag creado (13).png",
+        "expect": 0,
+        "viewportLabel": "tablet",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 8.524322509765625,
+          "misMatchPercentage": "8.52",
+          "analysisTime": 194
+        },
+        "diffImage": "..\\bitmaps_test\\20220514-114921\\failed_diff_backstop_default_Actions_--_PRUEBA_17_-_Crear_pagina_nueva_crear_tag_la_publica_y_listar_por_tag_creado_13png_0_document_1_tablet.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "..\\bitmaps_reference\\backstop_default_Actions_--_PRUEBA_17_-_Crear_pagina_nueva_crear_tag_la_publica_y_listar_por_tag_creado_2png_0_document_0_phone.png",
+        "test": "..\\bitmaps_test\\20220514-114921\\backstop_default_Actions_--_PRUEBA_17_-_Crear_pagina_nueva_crear_tag_la_publica_y_listar_por_tag_creado_2png_0_document_0_phone.png",
+        "selector": "document",
+        "fileName": "backstop_default_Actions_--_PRUEBA_17_-_Crear_pagina_nueva_crear_tag_la_publica_y_listar_por_tag_creado_2png_0_document_0_phone.png",
+        "label": "Actions -- PRUEBA 17 - Crear pagina nueva, crear tag, la publica y listar por tag creado (2).png",
+        "misMatchThreshold": 8,
+        "url": "file:///C:/Proyectos/pruebas-automatizadas/pruebas/backstopjs/v4/Actions -- PRUEBA 17 - Crear pagina nueva, crear tag, la publica y listar por tag creado (2).png",
+        "expect": 0,
+        "viewportLabel": "phone",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 1.876953125,
+          "misMatchPercentage": "1.88",
+          "analysisTime": 78
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "..\\bitmaps_reference\\backstop_default_Actions_--_PRUEBA_17_-_Crear_pagina_nueva_crear_tag_la_publica_y_listar_por_tag_creado_2png_0_document_1_tablet.png",
+        "test": "..\\bitmaps_test\\20220514-114921\\backstop_default_Actions_--_PRUEBA_17_-_Crear_pagina_nueva_crear_tag_la_publica_y_listar_por_tag_creado_2png_0_document_1_tablet.png",
+        "selector": "document",
+        "fileName": "backstop_default_Actions_--_PRUEBA_17_-_Crear_pagina_nueva_crear_tag_la_publica_y_listar_por_tag_creado_2png_0_document_1_tablet.png",
+        "label": "Actions -- PRUEBA 17 - Crear pagina nueva, crear tag, la publica y listar por tag creado (2).png",
+        "misMatchThreshold": 8,
+        "url": "file:///C:/Proyectos/pruebas-automatizadas/pruebas/backstopjs/v4/Actions -- PRUEBA 17 - Crear pagina nueva, crear tag, la publica y listar por tag creado (2).png",
+        "expect": 0,
+        "viewportLabel": "tablet",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 2.5725046793619795,
+          "misMatchPercentage": "2.57",
+          "analysisTime": 134
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "..\\bitmaps_reference\\backstop_default_Actions_--_PRUEBA_17_-_Crear_pagina_nueva_crear_tag_la_publica_y_listar_por_tag_creado_3png_0_document_0_phone.png",
+        "test": "..\\bitmaps_test\\20220514-114921\\backstop_default_Actions_--_PRUEBA_17_-_Crear_pagina_nueva_crear_tag_la_publica_y_listar_por_tag_creado_3png_0_document_0_phone.png",
+        "selector": "document",
+        "fileName": "backstop_default_Actions_--_PRUEBA_17_-_Crear_pagina_nueva_crear_tag_la_publica_y_listar_por_tag_creado_3png_0_document_0_phone.png",
+        "label": "Actions -- PRUEBA 17 - Crear pagina nueva, crear tag, la publica y listar por tag creado (3).png",
+        "misMatchThreshold": 8,
+        "url": "file:///C:/Proyectos/pruebas-automatizadas/pruebas/backstopjs/v4/Actions -- PRUEBA 17 - Crear pagina nueva, crear tag, la publica y listar por tag creado (3).png",
+        "expect": 0,
+        "viewportLabel": "phone",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 2.0729166666666665,
+          "misMatchPercentage": "2.07",
+          "analysisTime": 68
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "..\\bitmaps_reference\\backstop_default_Actions_--_PRUEBA_17_-_Crear_pagina_nueva_crear_tag_la_publica_y_listar_por_tag_creado_3png_0_document_1_tablet.png",
+        "test": "..\\bitmaps_test\\20220514-114921\\backstop_default_Actions_--_PRUEBA_17_-_Crear_pagina_nueva_crear_tag_la_publica_y_listar_por_tag_creado_3png_0_document_1_tablet.png",
+        "selector": "document",
+        "fileName": "backstop_default_Actions_--_PRUEBA_17_-_Crear_pagina_nueva_crear_tag_la_publica_y_listar_por_tag_creado_3png_0_document_1_tablet.png",
+        "label": "Actions -- PRUEBA 17 - Crear pagina nueva, crear tag, la publica y listar por tag creado (3).png",
+        "misMatchThreshold": 8,
+        "url": "file:///C:/Proyectos/pruebas-automatizadas/pruebas/backstopjs/v4/Actions -- PRUEBA 17 - Crear pagina nueva, crear tag, la publica y listar por tag creado (3).png",
+        "expect": 0,
+        "viewportLabel": "tablet",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 2.7496337890625,
+          "misMatchPercentage": "2.75",
+          "analysisTime": 132
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "..\\bitmaps_reference\\backstop_default_Actions_--_PRUEBA_17_-_Crear_pagina_nueva_crear_tag_la_publica_y_listar_por_tag_creado_4png_0_document_0_phone.png",
+        "test": "..\\bitmaps_test\\20220514-114921\\backstop_default_Actions_--_PRUEBA_17_-_Crear_pagina_nueva_crear_tag_la_publica_y_listar_por_tag_creado_4png_0_document_0_phone.png",
+        "selector": "document",
+        "fileName": "backstop_default_Actions_--_PRUEBA_17_-_Crear_pagina_nueva_crear_tag_la_publica_y_listar_por_tag_creado_4png_0_document_0_phone.png",
+        "label": "Actions -- PRUEBA 17 - Crear pagina nueva, crear tag, la publica y listar por tag creado (4).png",
+        "misMatchThreshold": 8,
+        "url": "file:///C:/Proyectos/pruebas-automatizadas/pruebas/backstopjs/v4/Actions -- PRUEBA 17 - Crear pagina nueva, crear tag, la publica y listar por tag creado (4).png",
+        "expect": 0,
+        "viewportLabel": "phone",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 26.242187500000004,
+          "misMatchPercentage": "26.24",
+          "analysisTime": 55
+        },
+        "diffImage": "..\\bitmaps_test\\20220514-114921\\failed_diff_backstop_default_Actions_--_PRUEBA_17_-_Crear_pagina_nueva_crear_tag_la_publica_y_listar_por_tag_creado_4png_0_document_0_phone.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "..\\bitmaps_reference\\backstop_default_Actions_--_PRUEBA_17_-_Crear_pagina_nueva_crear_tag_la_publica_y_listar_por_tag_creado_4png_0_document_1_tablet.png",
+        "test": "..\\bitmaps_test\\20220514-114921\\backstop_default_Actions_--_PRUEBA_17_-_Crear_pagina_nueva_crear_tag_la_publica_y_listar_por_tag_creado_4png_0_document_1_tablet.png",
+        "selector": "document",
+        "fileName": "backstop_default_Actions_--_PRUEBA_17_-_Crear_pagina_nueva_crear_tag_la_publica_y_listar_por_tag_creado_4png_0_document_1_tablet.png",
+        "label": "Actions -- PRUEBA 17 - Crear pagina nueva, crear tag, la publica y listar por tag creado (4).png",
+        "misMatchThreshold": 8,
+        "url": "file:///C:/Proyectos/pruebas-automatizadas/pruebas/backstopjs/v4/Actions -- PRUEBA 17 - Crear pagina nueva, crear tag, la publica y listar por tag creado (4).png",
+        "expect": 0,
+        "viewportLabel": "tablet",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 35.2691650390625,
+          "misMatchPercentage": "35.27",
+          "analysisTime": 170
+        },
+        "diffImage": "..\\bitmaps_test\\20220514-114921\\failed_diff_backstop_default_Actions_--_PRUEBA_17_-_Crear_pagina_nueva_crear_tag_la_publica_y_listar_por_tag_creado_4png_0_document_1_tablet.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "..\\bitmaps_reference\\backstop_default_Actions_--_PRUEBA_17_-_Crear_pagina_nueva_crear_tag_la_publica_y_listar_por_tag_creado_5png_0_document_0_phone.png",
+        "test": "..\\bitmaps_test\\20220514-114921\\backstop_default_Actions_--_PRUEBA_17_-_Crear_pagina_nueva_crear_tag_la_publica_y_listar_por_tag_creado_5png_0_document_0_phone.png",
+        "selector": "document",
+        "fileName": "backstop_default_Actions_--_PRUEBA_17_-_Crear_pagina_nueva_crear_tag_la_publica_y_listar_por_tag_creado_5png_0_document_0_phone.png",
+        "label": "Actions -- PRUEBA 17 - Crear pagina nueva, crear tag, la publica y listar por tag creado (5).png",
+        "misMatchThreshold": 8,
+        "url": "file:///C:/Proyectos/pruebas-automatizadas/pruebas/backstopjs/v4/Actions -- PRUEBA 17 - Crear pagina nueva, crear tag, la publica y listar por tag creado (5).png",
+        "expect": 0,
+        "viewportLabel": "phone",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 4.764973958333334,
+          "misMatchPercentage": "4.76",
+          "analysisTime": 84
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "..\\bitmaps_reference\\backstop_default_Actions_--_PRUEBA_17_-_Crear_pagina_nueva_crear_tag_la_publica_y_listar_por_tag_creado_5png_0_document_1_tablet.png",
+        "test": "..\\bitmaps_test\\20220514-114921\\backstop_default_Actions_--_PRUEBA_17_-_Crear_pagina_nueva_crear_tag_la_publica_y_listar_por_tag_creado_5png_0_document_1_tablet.png",
+        "selector": "document",
+        "fileName": "backstop_default_Actions_--_PRUEBA_17_-_Crear_pagina_nueva_crear_tag_la_publica_y_listar_por_tag_creado_5png_0_document_1_tablet.png",
+        "label": "Actions -- PRUEBA 17 - Crear pagina nueva, crear tag, la publica y listar por tag creado (5).png",
+        "misMatchThreshold": 8,
+        "url": "file:///C:/Proyectos/pruebas-automatizadas/pruebas/backstopjs/v4/Actions -- PRUEBA 17 - Crear pagina nueva, crear tag, la publica y listar por tag creado (5).png",
+        "expect": 0,
+        "viewportLabel": "tablet",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 6.5224965413411455,
+          "misMatchPercentage": "6.52",
+          "analysisTime": 176
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "..\\bitmaps_reference\\backstop_default_Actions_--_PRUEBA_17_-_Crear_pagina_nueva_crear_tag_la_publica_y_listar_por_tag_creado_6png_0_document_0_phone.png",
+        "test": "..\\bitmaps_test\\20220514-114921\\backstop_default_Actions_--_PRUEBA_17_-_Crear_pagina_nueva_crear_tag_la_publica_y_listar_por_tag_creado_6png_0_document_0_phone.png",
+        "selector": "document",
+        "fileName": "backstop_default_Actions_--_PRUEBA_17_-_Crear_pagina_nueva_crear_tag_la_publica_y_listar_por_tag_creado_6png_0_document_0_phone.png",
+        "label": "Actions -- PRUEBA 17 - Crear pagina nueva, crear tag, la publica y listar por tag creado (6).png",
+        "misMatchThreshold": 8,
+        "url": "file:///C:/Proyectos/pruebas-automatizadas/pruebas/backstopjs/v4/Actions -- PRUEBA 17 - Crear pagina nueva, crear tag, la publica y listar por tag creado (6).png",
+        "expect": 0,
+        "viewportLabel": "phone",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 4.381510416666667,
+          "misMatchPercentage": "4.38",
+          "analysisTime": 89
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "..\\bitmaps_reference\\backstop_default_Actions_--_PRUEBA_17_-_Crear_pagina_nueva_crear_tag_la_publica_y_listar_por_tag_creado_6png_0_document_1_tablet.png",
+        "test": "..\\bitmaps_test\\20220514-114921\\backstop_default_Actions_--_PRUEBA_17_-_Crear_pagina_nueva_crear_tag_la_publica_y_listar_por_tag_creado_6png_0_document_1_tablet.png",
+        "selector": "document",
+        "fileName": "backstop_default_Actions_--_PRUEBA_17_-_Crear_pagina_nueva_crear_tag_la_publica_y_listar_por_tag_creado_6png_0_document_1_tablet.png",
+        "label": "Actions -- PRUEBA 17 - Crear pagina nueva, crear tag, la publica y listar por tag creado (6).png",
+        "misMatchThreshold": 8,
+        "url": "file:///C:/Proyectos/pruebas-automatizadas/pruebas/backstopjs/v4/Actions -- PRUEBA 17 - Crear pagina nueva, crear tag, la publica y listar por tag creado (6).png",
+        "expect": 0,
+        "viewportLabel": "tablet",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 6.4032236735026045,
+          "misMatchPercentage": "6.40",
+          "analysisTime": 147
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "..\\bitmaps_reference\\backstop_default_Actions_--_PRUEBA_17_-_Crear_pagina_nueva_crear_tag_la_publica_y_listar_por_tag_creado_7png_0_document_0_phone.png",
+        "test": "..\\bitmaps_test\\20220514-114921\\backstop_default_Actions_--_PRUEBA_17_-_Crear_pagina_nueva_crear_tag_la_publica_y_listar_por_tag_creado_7png_0_document_0_phone.png",
+        "selector": "document",
+        "fileName": "backstop_default_Actions_--_PRUEBA_17_-_Crear_pagina_nueva_crear_tag_la_publica_y_listar_por_tag_creado_7png_0_document_0_phone.png",
+        "label": "Actions -- PRUEBA 17 - Crear pagina nueva, crear tag, la publica y listar por tag creado (7).png",
+        "misMatchThreshold": 8,
+        "url": "file:///C:/Proyectos/pruebas-automatizadas/pruebas/backstopjs/v4/Actions -- PRUEBA 17 - Crear pagina nueva, crear tag, la publica y listar por tag creado (7).png",
+        "expect": 0,
+        "viewportLabel": "phone",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 2.1119791666666665,
+          "misMatchPercentage": "2.11",
+          "analysisTime": 58
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "..\\bitmaps_reference\\backstop_default_Actions_--_PRUEBA_17_-_Crear_pagina_nueva_crear_tag_la_publica_y_listar_por_tag_creado_7png_0_document_1_tablet.png",
+        "test": "..\\bitmaps_test\\20220514-114921\\backstop_default_Actions_--_PRUEBA_17_-_Crear_pagina_nueva_crear_tag_la_publica_y_listar_por_tag_creado_7png_0_document_1_tablet.png",
+        "selector": "document",
+        "fileName": "backstop_default_Actions_--_PRUEBA_17_-_Crear_pagina_nueva_crear_tag_la_publica_y_listar_por_tag_creado_7png_0_document_1_tablet.png",
+        "label": "Actions -- PRUEBA 17 - Crear pagina nueva, crear tag, la publica y listar por tag creado (7).png",
+        "misMatchThreshold": 8,
+        "url": "file:///C:/Proyectos/pruebas-automatizadas/pruebas/backstopjs/v4/Actions -- PRUEBA 17 - Crear pagina nueva, crear tag, la publica y listar por tag creado (7).png",
+        "expect": 0,
+        "viewportLabel": "tablet",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 2.761586507161458,
+          "misMatchPercentage": "2.76",
+          "analysisTime": 129
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "..\\bitmaps_reference\\backstop_default_Actions_--_PRUEBA_17_-_Crear_pagina_nueva_crear_tag_la_publica_y_listar_por_tag_creado_8png_0_document_0_phone.png",
+        "test": "..\\bitmaps_test\\20220514-114921\\backstop_default_Actions_--_PRUEBA_17_-_Crear_pagina_nueva_crear_tag_la_publica_y_listar_por_tag_creado_8png_0_document_0_phone.png",
+        "selector": "document",
+        "fileName": "backstop_default_Actions_--_PRUEBA_17_-_Crear_pagina_nueva_crear_tag_la_publica_y_listar_por_tag_creado_8png_0_document_0_phone.png",
+        "label": "Actions -- PRUEBA 17 - Crear pagina nueva, crear tag, la publica y listar por tag creado (8).png",
+        "misMatchThreshold": 8,
+        "url": "file:///C:/Proyectos/pruebas-automatizadas/pruebas/backstopjs/v4/Actions -- PRUEBA 17 - Crear pagina nueva, crear tag, la publica y listar por tag creado (8).png",
+        "expect": 0,
+        "viewportLabel": "phone",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 3.5911458333333335,
+          "misMatchPercentage": "3.59",
+          "analysisTime": 113
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "..\\bitmaps_reference\\backstop_default_Actions_--_PRUEBA_17_-_Crear_pagina_nueva_crear_tag_la_publica_y_listar_por_tag_creado_8png_0_document_1_tablet.png",
+        "test": "..\\bitmaps_test\\20220514-114921\\backstop_default_Actions_--_PRUEBA_17_-_Crear_pagina_nueva_crear_tag_la_publica_y_listar_por_tag_creado_8png_0_document_1_tablet.png",
+        "selector": "document",
+        "fileName": "backstop_default_Actions_--_PRUEBA_17_-_Crear_pagina_nueva_crear_tag_la_publica_y_listar_por_tag_creado_8png_0_document_1_tablet.png",
+        "label": "Actions -- PRUEBA 17 - Crear pagina nueva, crear tag, la publica y listar por tag creado (8).png",
+        "misMatchThreshold": 8,
+        "url": "file:///C:/Proyectos/pruebas-automatizadas/pruebas/backstopjs/v4/Actions -- PRUEBA 17 - Crear pagina nueva, crear tag, la publica y listar por tag creado (8).png",
+        "expect": 0,
+        "viewportLabel": "tablet",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 5.198415120442709,
+          "misMatchPercentage": "5.20",
+          "analysisTime": 167
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "..\\bitmaps_reference\\backstop_default_Actions_--_PRUEBA_17_-_Crear_pagina_nueva_crear_tag_la_publica_y_listar_por_tag_creado_9png_0_document_0_phone.png",
+        "test": "..\\bitmaps_test\\20220514-114921\\backstop_default_Actions_--_PRUEBA_17_-_Crear_pagina_nueva_crear_tag_la_publica_y_listar_por_tag_creado_9png_0_document_0_phone.png",
+        "selector": "document",
+        "fileName": "backstop_default_Actions_--_PRUEBA_17_-_Crear_pagina_nueva_crear_tag_la_publica_y_listar_por_tag_creado_9png_0_document_0_phone.png",
+        "label": "Actions -- PRUEBA 17 - Crear pagina nueva, crear tag, la publica y listar por tag creado (9).png",
+        "misMatchThreshold": 8,
+        "url": "file:///C:/Proyectos/pruebas-automatizadas/pruebas/backstopjs/v4/Actions -- PRUEBA 17 - Crear pagina nueva, crear tag, la publica y listar por tag creado (9).png",
+        "expect": 0,
+        "viewportLabel": "phone",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 3.5911458333333335,
+          "misMatchPercentage": "3.59",
+          "analysisTime": 91
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "..\\bitmaps_reference\\backstop_default_Actions_--_PRUEBA_17_-_Crear_pagina_nueva_crear_tag_la_publica_y_listar_por_tag_creado_9png_0_document_1_tablet.png",
+        "test": "..\\bitmaps_test\\20220514-114921\\backstop_default_Actions_--_PRUEBA_17_-_Crear_pagina_nueva_crear_tag_la_publica_y_listar_por_tag_creado_9png_0_document_1_tablet.png",
+        "selector": "document",
+        "fileName": "backstop_default_Actions_--_PRUEBA_17_-_Crear_pagina_nueva_crear_tag_la_publica_y_listar_por_tag_creado_9png_0_document_1_tablet.png",
+        "label": "Actions -- PRUEBA 17 - Crear pagina nueva, crear tag, la publica y listar por tag creado (9).png",
+        "misMatchThreshold": 8,
+        "url": "file:///C:/Proyectos/pruebas-automatizadas/pruebas/backstopjs/v4/Actions -- PRUEBA 17 - Crear pagina nueva, crear tag, la publica y listar por tag creado (9).png",
+        "expect": 0,
+        "viewportLabel": "tablet",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 5.198415120442709,
+          "misMatchPercentage": "5.20",
+          "analysisTime": 134
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "..\\bitmaps_reference\\backstop_default_Actions_--_PRUEBA_17_-_Crear_pagina_nueva_crear_tag_la_publica_y_listar_por_tag_creadopng_0_document_0_phone.png",
+        "test": "..\\bitmaps_test\\20220514-114921\\backstop_default_Actions_--_PRUEBA_17_-_Crear_pagina_nueva_crear_tag_la_publica_y_listar_por_tag_creadopng_0_document_0_phone.png",
+        "selector": "document",
+        "fileName": "backstop_default_Actions_--_PRUEBA_17_-_Crear_pagina_nueva_crear_tag_la_publica_y_listar_por_tag_creadopng_0_document_0_phone.png",
+        "label": "Actions -- PRUEBA 17 - Crear pagina nueva, crear tag, la publica y listar por tag creado.png",
+        "misMatchThreshold": 8,
+        "url": "file:///C:/Proyectos/pruebas-automatizadas/pruebas/backstopjs/v4/Actions -- PRUEBA 17 - Crear pagina nueva, crear tag, la publica y listar por tag creado.png",
+        "expect": 0,
+        "viewportLabel": "phone",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 5.777994791666666,
+          "misMatchPercentage": "5.78",
+          "analysisTime": 48
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "..\\bitmaps_reference\\backstop_default_Actions_--_PRUEBA_17_-_Crear_pagina_nueva_crear_tag_la_publica_y_listar_por_tag_creadopng_0_document_1_tablet.png",
+        "test": "..\\bitmaps_test\\20220514-114921\\backstop_default_Actions_--_PRUEBA_17_-_Crear_pagina_nueva_crear_tag_la_publica_y_listar_por_tag_creadopng_0_document_1_tablet.png",
+        "selector": "document",
+        "fileName": "backstop_default_Actions_--_PRUEBA_17_-_Crear_pagina_nueva_crear_tag_la_publica_y_listar_por_tag_creadopng_0_document_1_tablet.png",
+        "label": "Actions -- PRUEBA 17 - Crear pagina nueva, crear tag, la publica y listar por tag creado.png",
+        "misMatchThreshold": 8,
+        "url": "file:///C:/Proyectos/pruebas-automatizadas/pruebas/backstopjs/v4/Actions -- PRUEBA 17 - Crear pagina nueva, crear tag, la publica y listar por tag creado.png",
+        "expect": 0,
+        "viewportLabel": "tablet",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 8.14501444498698,
+          "misMatchPercentage": "8.15",
+          "analysisTime": 215
+        },
+        "diffImage": "..\\bitmaps_test\\20220514-114921\\failed_diff_backstop_default_Actions_--_PRUEBA_17_-_Crear_pagina_nueva_crear_tag_la_publica_y_listar_por_tag_creadopng_0_document_1_tablet.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "..\\bitmaps_reference\\backstop_default_Actions_--_PRUEBA_19_-_Elimina_pagina_con_tag_1png_0_document_0_phone.png",
+        "test": "..\\bitmaps_test\\20220514-114921\\backstop_default_Actions_--_PRUEBA_19_-_Elimina_pagina_con_tag_1png_0_document_0_phone.png",
+        "selector": "document",
+        "fileName": "backstop_default_Actions_--_PRUEBA_19_-_Elimina_pagina_con_tag_1png_0_document_0_phone.png",
+        "label": "Actions -- PRUEBA 19 - Elimina pagina con tag (1).png",
+        "misMatchThreshold": 8,
+        "url": "file:///C:/Proyectos/pruebas-automatizadas/pruebas/backstopjs/v4/Actions -- PRUEBA 19 - Elimina pagina con tag (1).png",
+        "expect": 0,
+        "viewportLabel": "phone",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 5.186848958333334,
+          "misMatchPercentage": "5.19",
+          "analysisTime": 89
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "..\\bitmaps_reference\\backstop_default_Actions_--_PRUEBA_19_-_Elimina_pagina_con_tag_1png_0_document_1_tablet.png",
+        "test": "..\\bitmaps_test\\20220514-114921\\backstop_default_Actions_--_PRUEBA_19_-_Elimina_pagina_con_tag_1png_0_document_1_tablet.png",
+        "selector": "document",
+        "fileName": "backstop_default_Actions_--_PRUEBA_19_-_Elimina_pagina_con_tag_1png_0_document_1_tablet.png",
+        "label": "Actions -- PRUEBA 19 - Elimina pagina con tag (1).png",
+        "misMatchThreshold": 8,
+        "url": "file:///C:/Proyectos/pruebas-automatizadas/pruebas/backstopjs/v4/Actions -- PRUEBA 19 - Elimina pagina con tag (1).png",
+        "expect": 0,
+        "viewportLabel": "tablet",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 7.408650716145833,
+          "misMatchPercentage": "7.41",
+          "analysisTime": 266
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "..\\bitmaps_reference\\backstop_default_Actions_--_PRUEBA_19_-_Elimina_pagina_con_tag_2png_0_document_0_phone.png",
+        "test": "..\\bitmaps_test\\20220514-114921\\backstop_default_Actions_--_PRUEBA_19_-_Elimina_pagina_con_tag_2png_0_document_0_phone.png",
+        "selector": "document",
+        "fileName": "backstop_default_Actions_--_PRUEBA_19_-_Elimina_pagina_con_tag_2png_0_document_0_phone.png",
+        "label": "Actions -- PRUEBA 19 - Elimina pagina con tag (2).png",
+        "misMatchThreshold": 8,
+        "url": "file:///C:/Proyectos/pruebas-automatizadas/pruebas/backstopjs/v4/Actions -- PRUEBA 19 - Elimina pagina con tag (2).png",
+        "expect": 0,
+        "viewportLabel": "phone",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 4.768880208333334,
+          "misMatchPercentage": "4.77",
+          "analysisTime": 71
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "..\\bitmaps_reference\\backstop_default_Actions_--_PRUEBA_19_-_Elimina_pagina_con_tag_2png_0_document_1_tablet.png",
+        "test": "..\\bitmaps_test\\20220514-114921\\backstop_default_Actions_--_PRUEBA_19_-_Elimina_pagina_con_tag_2png_0_document_1_tablet.png",
+        "selector": "document",
+        "fileName": "backstop_default_Actions_--_PRUEBA_19_-_Elimina_pagina_con_tag_2png_0_document_1_tablet.png",
+        "label": "Actions -- PRUEBA 19 - Elimina pagina con tag (2).png",
+        "misMatchThreshold": 8,
+        "url": "file:///C:/Proyectos/pruebas-automatizadas/pruebas/backstopjs/v4/Actions -- PRUEBA 19 - Elimina pagina con tag (2).png",
+        "expect": 0,
+        "viewportLabel": "tablet",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 6.974029541015625,
+          "misMatchPercentage": "6.97",
+          "analysisTime": 172
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "..\\bitmaps_reference\\backstop_default_Actions_--_PRUEBA_19_-_Elimina_pagina_con_tag_3png_0_document_0_phone.png",
+        "test": "..\\bitmaps_test\\20220514-114921\\backstop_default_Actions_--_PRUEBA_19_-_Elimina_pagina_con_tag_3png_0_document_0_phone.png",
+        "selector": "document",
+        "fileName": "backstop_default_Actions_--_PRUEBA_19_-_Elimina_pagina_con_tag_3png_0_document_0_phone.png",
+        "label": "Actions -- PRUEBA 19 - Elimina pagina con tag (3).png",
+        "misMatchThreshold": 8,
+        "url": "file:///C:/Proyectos/pruebas-automatizadas/pruebas/backstopjs/v4/Actions -- PRUEBA 19 - Elimina pagina con tag (3).png",
+        "expect": 0,
+        "viewportLabel": "phone",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 5.240234375,
+          "misMatchPercentage": "5.24",
+          "analysisTime": 94
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "..\\bitmaps_reference\\backstop_default_Actions_--_PRUEBA_19_-_Elimina_pagina_con_tag_3png_0_document_1_tablet.png",
+        "test": "..\\bitmaps_test\\20220514-114921\\backstop_default_Actions_--_PRUEBA_19_-_Elimina_pagina_con_tag_3png_0_document_1_tablet.png",
+        "selector": "document",
+        "fileName": "backstop_default_Actions_--_PRUEBA_19_-_Elimina_pagina_con_tag_3png_0_document_1_tablet.png",
+        "label": "Actions -- PRUEBA 19 - Elimina pagina con tag (3).png",
+        "misMatchThreshold": 8,
+        "url": "file:///C:/Proyectos/pruebas-automatizadas/pruebas/backstopjs/v4/Actions -- PRUEBA 19 - Elimina pagina con tag (3).png",
+        "expect": 0,
+        "viewportLabel": "tablet",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 7.509358723958333,
+          "misMatchPercentage": "7.51",
+          "analysisTime": 181
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "..\\bitmaps_reference\\backstop_default_Actions_--_PRUEBA_19_-_Elimina_pagina_con_tag_4png_0_document_0_phone.png",
+        "test": "..\\bitmaps_test\\20220514-114921\\backstop_default_Actions_--_PRUEBA_19_-_Elimina_pagina_con_tag_4png_0_document_0_phone.png",
+        "selector": "document",
+        "fileName": "backstop_default_Actions_--_PRUEBA_19_-_Elimina_pagina_con_tag_4png_0_document_0_phone.png",
+        "label": "Actions -- PRUEBA 19 - Elimina pagina con tag (4).png",
+        "misMatchThreshold": 8,
+        "url": "file:///C:/Proyectos/pruebas-automatizadas/pruebas/backstopjs/v4/Actions -- PRUEBA 19 - Elimina pagina con tag (4).png",
+        "expect": 0,
+        "viewportLabel": "phone",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 4.422526041666667,
+          "misMatchPercentage": "4.42",
+          "analysisTime": 85
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "..\\bitmaps_reference\\backstop_default_Actions_--_PRUEBA_19_-_Elimina_pagina_con_tag_4png_0_document_1_tablet.png",
+        "test": "..\\bitmaps_test\\20220514-114921\\backstop_default_Actions_--_PRUEBA_19_-_Elimina_pagina_con_tag_4png_0_document_1_tablet.png",
+        "selector": "document",
+        "fileName": "backstop_default_Actions_--_PRUEBA_19_-_Elimina_pagina_con_tag_4png_0_document_1_tablet.png",
+        "label": "Actions -- PRUEBA 19 - Elimina pagina con tag (4).png",
+        "misMatchThreshold": 8,
+        "url": "file:///C:/Proyectos/pruebas-automatizadas/pruebas/backstopjs/v4/Actions -- PRUEBA 19 - Elimina pagina con tag (4).png",
+        "expect": 0,
+        "viewportLabel": "tablet",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 6.4128875732421875,
+          "misMatchPercentage": "6.41",
+          "analysisTime": 172
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "..\\bitmaps_reference\\backstop_default_Actions_--_PRUEBA_19_-_Elimina_pagina_con_tag_5png_0_document_0_phone.png",
+        "test": "..\\bitmaps_test\\20220514-114921\\backstop_default_Actions_--_PRUEBA_19_-_Elimina_pagina_con_tag_5png_0_document_0_phone.png",
+        "selector": "document",
+        "fileName": "backstop_default_Actions_--_PRUEBA_19_-_Elimina_pagina_con_tag_5png_0_document_0_phone.png",
+        "label": "Actions -- PRUEBA 19 - Elimina pagina con tag (5).png",
+        "misMatchThreshold": 8,
+        "url": "file:///C:/Proyectos/pruebas-automatizadas/pruebas/backstopjs/v4/Actions -- PRUEBA 19 - Elimina pagina con tag (5).png",
+        "expect": 0,
+        "viewportLabel": "phone",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 1.900390625,
+          "misMatchPercentage": "1.90",
+          "analysisTime": 92
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "..\\bitmaps_reference\\backstop_default_Actions_--_PRUEBA_19_-_Elimina_pagina_con_tag_5png_0_document_1_tablet.png",
+        "test": "..\\bitmaps_test\\20220514-114921\\backstop_default_Actions_--_PRUEBA_19_-_Elimina_pagina_con_tag_5png_0_document_1_tablet.png",
+        "selector": "document",
+        "fileName": "backstop_default_Actions_--_PRUEBA_19_-_Elimina_pagina_con_tag_5png_0_document_1_tablet.png",
+        "label": "Actions -- PRUEBA 19 - Elimina pagina con tag (5).png",
+        "misMatchThreshold": 8,
+        "url": "file:///C:/Proyectos/pruebas-automatizadas/pruebas/backstopjs/v4/Actions -- PRUEBA 19 - Elimina pagina con tag (5).png",
+        "expect": 0,
+        "viewportLabel": "tablet",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 2.622222900390625,
+          "misMatchPercentage": "2.62",
+          "analysisTime": 248
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "..\\bitmaps_reference\\backstop_default_Actions_--_PRUEBA_19_-_Elimina_pagina_con_tag_6png_0_document_0_phone.png",
+        "test": "..\\bitmaps_test\\20220514-114921\\backstop_default_Actions_--_PRUEBA_19_-_Elimina_pagina_con_tag_6png_0_document_0_phone.png",
+        "selector": "document",
+        "fileName": "backstop_default_Actions_--_PRUEBA_19_-_Elimina_pagina_con_tag_6png_0_document_0_phone.png",
+        "label": "Actions -- PRUEBA 19 - Elimina pagina con tag (6).png",
+        "misMatchThreshold": 8,
+        "url": "file:///C:/Proyectos/pruebas-automatizadas/pruebas/backstopjs/v4/Actions -- PRUEBA 19 - Elimina pagina con tag (6).png",
+        "expect": 0,
+        "viewportLabel": "phone",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 26.770182291666668,
+          "misMatchPercentage": "26.77",
+          "analysisTime": 80
+        },
+        "diffImage": "..\\bitmaps_test\\20220514-114921\\failed_diff_backstop_default_Actions_--_PRUEBA_19_-_Elimina_pagina_con_tag_6png_0_document_0_phone.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "..\\bitmaps_reference\\backstop_default_Actions_--_PRUEBA_19_-_Elimina_pagina_con_tag_6png_0_document_1_tablet.png",
+        "test": "..\\bitmaps_test\\20220514-114921\\backstop_default_Actions_--_PRUEBA_19_-_Elimina_pagina_con_tag_6png_0_document_1_tablet.png",
+        "selector": "document",
+        "fileName": "backstop_default_Actions_--_PRUEBA_19_-_Elimina_pagina_con_tag_6png_0_document_1_tablet.png",
+        "label": "Actions -- PRUEBA 19 - Elimina pagina con tag (6).png",
+        "misMatchThreshold": 8,
+        "url": "file:///C:/Proyectos/pruebas-automatizadas/pruebas/backstopjs/v4/Actions -- PRUEBA 19 - Elimina pagina con tag (6).png",
+        "expect": 0,
+        "viewportLabel": "tablet",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 35.94411214192708,
+          "misMatchPercentage": "35.94",
+          "analysisTime": 268
+        },
+        "diffImage": "..\\bitmaps_test\\20220514-114921\\failed_diff_backstop_default_Actions_--_PRUEBA_19_-_Elimina_pagina_con_tag_6png_0_document_1_tablet.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "..\\bitmaps_reference\\backstop_default_Actions_--_PRUEBA_19_-_Elimina_pagina_con_tag_7png_0_document_0_phone.png",
+        "test": "..\\bitmaps_test\\20220514-114921\\backstop_default_Actions_--_PRUEBA_19_-_Elimina_pagina_con_tag_7png_0_document_0_phone.png",
+        "selector": "document",
+        "fileName": "backstop_default_Actions_--_PRUEBA_19_-_Elimina_pagina_con_tag_7png_0_document_0_phone.png",
+        "label": "Actions -- PRUEBA 19 - Elimina pagina con tag (7).png",
+        "misMatchThreshold": 8,
+        "url": "file:///C:/Proyectos/pruebas-automatizadas/pruebas/backstopjs/v4/Actions -- PRUEBA 19 - Elimina pagina con tag (7).png",
+        "expect": 0,
+        "viewportLabel": "phone",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 38.87174479166667,
+          "misMatchPercentage": "38.87",
+          "analysisTime": 80
+        },
+        "diffImage": "..\\bitmaps_test\\20220514-114921\\failed_diff_backstop_default_Actions_--_PRUEBA_19_-_Elimina_pagina_con_tag_7png_0_document_0_phone.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "..\\bitmaps_reference\\backstop_default_Actions_--_PRUEBA_19_-_Elimina_pagina_con_tag_7png_0_document_1_tablet.png",
+        "test": "..\\bitmaps_test\\20220514-114921\\backstop_default_Actions_--_PRUEBA_19_-_Elimina_pagina_con_tag_7png_0_document_1_tablet.png",
+        "selector": "document",
+        "fileName": "backstop_default_Actions_--_PRUEBA_19_-_Elimina_pagina_con_tag_7png_0_document_1_tablet.png",
+        "label": "Actions -- PRUEBA 19 - Elimina pagina con tag (7).png",
+        "misMatchThreshold": 8,
+        "url": "file:///C:/Proyectos/pruebas-automatizadas/pruebas/backstopjs/v4/Actions -- PRUEBA 19 - Elimina pagina con tag (7).png",
+        "expect": 0,
+        "viewportLabel": "tablet",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 73.24129740397134,
+          "misMatchPercentage": "73.24",
+          "analysisTime": 128
+        },
+        "diffImage": "..\\bitmaps_test\\20220514-114921\\failed_diff_backstop_default_Actions_--_PRUEBA_19_-_Elimina_pagina_con_tag_7png_0_document_1_tablet.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "..\\bitmaps_reference\\backstop_default_Actions_--_PRUEBA_19_-_Elimina_pagina_con_tag_8png_0_document_0_phone.png",
+        "test": "..\\bitmaps_test\\20220514-114921\\backstop_default_Actions_--_PRUEBA_19_-_Elimina_pagina_con_tag_8png_0_document_0_phone.png",
+        "selector": "document",
+        "fileName": "backstop_default_Actions_--_PRUEBA_19_-_Elimina_pagina_con_tag_8png_0_document_0_phone.png",
+        "label": "Actions -- PRUEBA 19 - Elimina pagina con tag (8).png",
+        "misMatchThreshold": 8,
+        "url": "file:///C:/Proyectos/pruebas-automatizadas/pruebas/backstopjs/v4/Actions -- PRUEBA 19 - Elimina pagina con tag (8).png",
+        "expect": 0,
+        "viewportLabel": "phone",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 4.033203125,
+          "misMatchPercentage": "4.03",
+          "analysisTime": 53
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "..\\bitmaps_reference\\backstop_default_Actions_--_PRUEBA_19_-_Elimina_pagina_con_tag_8png_0_document_1_tablet.png",
+        "test": "..\\bitmaps_test\\20220514-114921\\backstop_default_Actions_--_PRUEBA_19_-_Elimina_pagina_con_tag_8png_0_document_1_tablet.png",
+        "selector": "document",
+        "fileName": "backstop_default_Actions_--_PRUEBA_19_-_Elimina_pagina_con_tag_8png_0_document_1_tablet.png",
+        "label": "Actions -- PRUEBA 19 - Elimina pagina con tag (8).png",
+        "misMatchThreshold": 8,
+        "url": "file:///C:/Proyectos/pruebas-automatizadas/pruebas/backstopjs/v4/Actions -- PRUEBA 19 - Elimina pagina con tag (8).png",
+        "expect": 0,
+        "viewportLabel": "tablet",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 5.396779378255209,
+          "misMatchPercentage": "5.40",
+          "analysisTime": 117
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "..\\bitmaps_reference\\backstop_default_Actions_--_PRUEBA_19_-_Elimina_pagina_con_tagpng_0_document_0_phone.png",
+        "test": "..\\bitmaps_test\\20220514-114921\\backstop_default_Actions_--_PRUEBA_19_-_Elimina_pagina_con_tagpng_0_document_0_phone.png",
+        "selector": "document",
+        "fileName": "backstop_default_Actions_--_PRUEBA_19_-_Elimina_pagina_con_tagpng_0_document_0_phone.png",
+        "label": "Actions -- PRUEBA 19 - Elimina pagina con tag.png",
+        "misMatchThreshold": 8,
+        "url": "file:///C:/Proyectos/pruebas-automatizadas/pruebas/backstopjs/v4/Actions -- PRUEBA 19 - Elimina pagina con tag.png",
+        "expect": 0,
+        "viewportLabel": "phone",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 4.688802083333334,
+          "misMatchPercentage": "4.69",
+          "analysisTime": 61
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "..\\bitmaps_reference\\backstop_default_Actions_--_PRUEBA_19_-_Elimina_pagina_con_tagpng_0_document_1_tablet.png",
+        "test": "..\\bitmaps_test\\20220514-114921\\backstop_default_Actions_--_PRUEBA_19_-_Elimina_pagina_con_tagpng_0_document_1_tablet.png",
+        "selector": "document",
+        "fileName": "backstop_default_Actions_--_PRUEBA_19_-_Elimina_pagina_con_tagpng_0_document_1_tablet.png",
+        "label": "Actions -- PRUEBA 19 - Elimina pagina con tag.png",
+        "misMatchThreshold": 8,
+        "url": "file:///C:/Proyectos/pruebas-automatizadas/pruebas/backstopjs/v4/Actions -- PRUEBA 19 - Elimina pagina con tag.png",
+        "expect": 0,
+        "viewportLabel": "tablet",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 6.873321533203125,
+          "misMatchPercentage": "6.87",
+          "analysisTime": 109
+        }
+      },
+      "status": "pass"
+    }
+  ],
+  "id": "backstop_default"
+});
