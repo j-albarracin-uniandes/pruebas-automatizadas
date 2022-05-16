@@ -50,9 +50,9 @@ for idx, x in enumerate(issuesList):
     misMatchThreshold = str(x["pair"]["misMatchThreshold"])
     misMatchPercentage = x["pair"]["diff"]["misMatchPercentage"]
     hotxixName = "[HOTFIX-VRT-"+id+"]"+label
-    pathReference = "https://raw.githubusercontent.com/j-albarracin-uniandes/pruebas-automatizadas/master/pruebas/backstopjs/backstop_data/bitmaps_reference/"
-    pathTest = "https://raw.githubusercontent.com/j-albarracin-uniandes/pruebas-automatizadas/master/pruebas/backstopjs/backstop_data/bitmaps_test/20220513-141203/failed_diff_"
-    pathV4 = "https://raw.githubusercontent.com/j-albarracin-uniandes/pruebas-automatizadas/master/pruebas/backstopjs/v4/"
+    pathReference = "https://github.com/j-albarracin-uniandes/pruebas-automatizadas/tree/master/pruebas-kraken-ghost_3.42/backstopjs/backstop_data/bitmaps_reference/"
+    pathTest = "https://github.com/j-albarracin-uniandes/pruebas-automatizadas/tree/master/pruebas-kraken-ghost_3.42/backstopjs/backstop_data/bitmaps_test/20220514-235640/failed_diff_"
+    pathV4 = "https://github.com/j-albarracin-uniandes/pruebas-automatizadas/tree/master/pruebas-kraken-ghost_3.42/backstopjs/v4/"
     with open("./issues/list/"+hotxixName+".md", "a", encoding='utf-8') as file:
         imgV3 = pathReference+x["pair"]["fileName"]
         imgV4 = pathV4+x["pair"]["label"].replace(" ", "%20")
