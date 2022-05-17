@@ -1,0 +1,289 @@
+{
+    "id": "backstop_default",
+    "viewports": [
+        {
+            "label": "phone",
+            "width": 320,
+            "height": 480
+        },
+        {
+            "label": "tablet",
+            "width": 1024,
+            "height": 768
+        }
+    ],
+    "onBeforeScript": "puppet/onBefore.js",
+    "onReadyScript": "puppet/onReady.js",
+    "scenarios": [
+        {
+            "label": "T1-1.png",
+            "url": "file:///C:/Proyectos/pruebas-automatizadas/pruebas-kraken-ghost_3.42/backstopjs/v4/T1-1.png",
+            "misMatchThreshold": 8
+        },
+        {
+            "label": "T1-10.png",
+            "url": "file:///C:/Proyectos/pruebas-automatizadas/pruebas-kraken-ghost_3.42/backstopjs/v4/T1-10.png",
+            "misMatchThreshold": 8
+        },
+        {
+            "label": "T1-11.png",
+            "url": "file:///C:/Proyectos/pruebas-automatizadas/pruebas-kraken-ghost_3.42/backstopjs/v4/T1-11.png",
+            "misMatchThreshold": 8
+        },
+        {
+            "label": "T1-2.png",
+            "url": "file:///C:/Proyectos/pruebas-automatizadas/pruebas-kraken-ghost_3.42/backstopjs/v4/T1-2.png",
+            "misMatchThreshold": 8
+        },
+        {
+            "label": "T1-3.png",
+            "url": "file:///C:/Proyectos/pruebas-automatizadas/pruebas-kraken-ghost_3.42/backstopjs/v4/T1-3.png",
+            "misMatchThreshold": 8
+        },
+        {
+            "label": "T1-4.png",
+            "url": "file:///C:/Proyectos/pruebas-automatizadas/pruebas-kraken-ghost_3.42/backstopjs/v4/T1-4.png",
+            "misMatchThreshold": 8
+        },
+        {
+            "label": "T1-5.png",
+            "url": "file:///C:/Proyectos/pruebas-automatizadas/pruebas-kraken-ghost_3.42/backstopjs/v4/T1-5.png",
+            "misMatchThreshold": 8
+        },
+        {
+            "label": "T1-6.png",
+            "url": "file:///C:/Proyectos/pruebas-automatizadas/pruebas-kraken-ghost_3.42/backstopjs/v4/T1-6.png",
+            "misMatchThreshold": 8
+        },
+        {
+            "label": "T1-7.png",
+            "url": "file:///C:/Proyectos/pruebas-automatizadas/pruebas-kraken-ghost_3.42/backstopjs/v4/T1-7.png",
+            "misMatchThreshold": 8
+        },
+        {
+            "label": "T1-8.png",
+            "url": "file:///C:/Proyectos/pruebas-automatizadas/pruebas-kraken-ghost_3.42/backstopjs/v4/T1-8.png",
+            "misMatchThreshold": 8
+        },
+        {
+            "label": "T1-9.png",
+            "url": "file:///C:/Proyectos/pruebas-automatizadas/pruebas-kraken-ghost_3.42/backstopjs/v4/T1-9.png",
+            "misMatchThreshold": 8
+        },
+        {
+            "label": "T2-1.png",
+            "url": "file:///C:/Proyectos/pruebas-automatizadas/pruebas-kraken-ghost_3.42/backstopjs/v4/T2-1.png",
+            "misMatchThreshold": 8
+        },
+        {
+            "label": "T2-10.png",
+            "url": "file:///C:/Proyectos/pruebas-automatizadas/pruebas-kraken-ghost_3.42/backstopjs/v4/T2-10.png",
+            "misMatchThreshold": 8
+        },
+        {
+            "label": "T2-11.png",
+            "url": "file:///C:/Proyectos/pruebas-automatizadas/pruebas-kraken-ghost_3.42/backstopjs/v4/T2-11.png",
+            "misMatchThreshold": 8
+        },
+        {
+            "label": "T2-2.png",
+            "url": "file:///C:/Proyectos/pruebas-automatizadas/pruebas-kraken-ghost_3.42/backstopjs/v4/T2-2.png",
+            "misMatchThreshold": 8
+        },
+        {
+            "label": "T2-3.png",
+            "url": "file:///C:/Proyectos/pruebas-automatizadas/pruebas-kraken-ghost_3.42/backstopjs/v4/T2-3.png",
+            "misMatchThreshold": 8
+        },
+        {
+            "label": "T2-4.png",
+            "url": "file:///C:/Proyectos/pruebas-automatizadas/pruebas-kraken-ghost_3.42/backstopjs/v4/T2-4.png",
+            "misMatchThreshold": 8
+        },
+        {
+            "label": "T2-5.png",
+            "url": "file:///C:/Proyectos/pruebas-automatizadas/pruebas-kraken-ghost_3.42/backstopjs/v4/T2-5.png",
+            "misMatchThreshold": 8
+        },
+        {
+            "label": "T2-6.png",
+            "url": "file:///C:/Proyectos/pruebas-automatizadas/pruebas-kraken-ghost_3.42/backstopjs/v4/T2-6.png",
+            "misMatchThreshold": 8
+        },
+        {
+            "label": "T2-7.png",
+            "url": "file:///C:/Proyectos/pruebas-automatizadas/pruebas-kraken-ghost_3.42/backstopjs/v4/T2-7.png",
+            "misMatchThreshold": 8
+        },
+        {
+            "label": "T2-8.png",
+            "url": "file:///C:/Proyectos/pruebas-automatizadas/pruebas-kraken-ghost_3.42/backstopjs/v4/T2-8.png",
+            "misMatchThreshold": 8
+        },
+        {
+            "label": "T2-9.png",
+            "url": "file:///C:/Proyectos/pruebas-automatizadas/pruebas-kraken-ghost_3.42/backstopjs/v4/T2-9.png",
+            "misMatchThreshold": 8
+        },
+        {
+            "label": "T3-1.png",
+            "url": "file:///C:/Proyectos/pruebas-automatizadas/pruebas-kraken-ghost_3.42/backstopjs/v4/T3-1.png",
+            "misMatchThreshold": 8
+        },
+        {
+            "label": "T3-10.png",
+            "url": "file:///C:/Proyectos/pruebas-automatizadas/pruebas-kraken-ghost_3.42/backstopjs/v4/T3-10.png",
+            "misMatchThreshold": 8
+        },
+        {
+            "label": "T3-2.png",
+            "url": "file:///C:/Proyectos/pruebas-automatizadas/pruebas-kraken-ghost_3.42/backstopjs/v4/T3-2.png",
+            "misMatchThreshold": 8
+        },
+        {
+            "label": "T3-3.png",
+            "url": "file:///C:/Proyectos/pruebas-automatizadas/pruebas-kraken-ghost_3.42/backstopjs/v4/T3-3.png",
+            "misMatchThreshold": 8
+        },
+        {
+            "label": "T3-4.png",
+            "url": "file:///C:/Proyectos/pruebas-automatizadas/pruebas-kraken-ghost_3.42/backstopjs/v4/T3-4.png",
+            "misMatchThreshold": 8
+        },
+        {
+            "label": "T3-5.png",
+            "url": "file:///C:/Proyectos/pruebas-automatizadas/pruebas-kraken-ghost_3.42/backstopjs/v4/T3-5.png",
+            "misMatchThreshold": 8
+        },
+        {
+            "label": "T3-6.png",
+            "url": "file:///C:/Proyectos/pruebas-automatizadas/pruebas-kraken-ghost_3.42/backstopjs/v4/T3-6.png",
+            "misMatchThreshold": 8
+        },
+        {
+            "label": "T3-7.png",
+            "url": "file:///C:/Proyectos/pruebas-automatizadas/pruebas-kraken-ghost_3.42/backstopjs/v4/T3-7.png",
+            "misMatchThreshold": 8
+        },
+        {
+            "label": "T3-8.png",
+            "url": "file:///C:/Proyectos/pruebas-automatizadas/pruebas-kraken-ghost_3.42/backstopjs/v4/T3-8.png",
+            "misMatchThreshold": 8
+        },
+        {
+            "label": "T3-9.png",
+            "url": "file:///C:/Proyectos/pruebas-automatizadas/pruebas-kraken-ghost_3.42/backstopjs/v4/T3-9.png",
+            "misMatchThreshold": 8
+        },
+        {
+            "label": "T4-1.png",
+            "url": "file:///C:/Proyectos/pruebas-automatizadas/pruebas-kraken-ghost_3.42/backstopjs/v4/T4-1.png",
+            "misMatchThreshold": 8
+        },
+        {
+            "label": "T4-2.png",
+            "url": "file:///C:/Proyectos/pruebas-automatizadas/pruebas-kraken-ghost_3.42/backstopjs/v4/T4-2.png",
+            "misMatchThreshold": 8
+        },
+        {
+            "label": "T4-3.png",
+            "url": "file:///C:/Proyectos/pruebas-automatizadas/pruebas-kraken-ghost_3.42/backstopjs/v4/T4-3.png",
+            "misMatchThreshold": 8
+        },
+        {
+            "label": "T4-4.png",
+            "url": "file:///C:/Proyectos/pruebas-automatizadas/pruebas-kraken-ghost_3.42/backstopjs/v4/T4-4.png",
+            "misMatchThreshold": 8
+        },
+        {
+            "label": "T4-5.png",
+            "url": "file:///C:/Proyectos/pruebas-automatizadas/pruebas-kraken-ghost_3.42/backstopjs/v4/T4-5.png",
+            "misMatchThreshold": 8
+        },
+        {
+            "label": "T4-6.png",
+            "url": "file:///C:/Proyectos/pruebas-automatizadas/pruebas-kraken-ghost_3.42/backstopjs/v4/T4-6.png",
+            "misMatchThreshold": 8
+        },
+        {
+            "label": "T4-7.png",
+            "url": "file:///C:/Proyectos/pruebas-automatizadas/pruebas-kraken-ghost_3.42/backstopjs/v4/T4-7.png",
+            "misMatchThreshold": 8
+        },
+        {
+            "label": "T4-8.png",
+            "url": "file:///C:/Proyectos/pruebas-automatizadas/pruebas-kraken-ghost_3.42/backstopjs/v4/T4-8.png",
+            "misMatchThreshold": 8
+        },
+        {
+            "label": "T5-1.png",
+            "url": "file:///C:/Proyectos/pruebas-automatizadas/pruebas-kraken-ghost_3.42/backstopjs/v4/T5-1.png",
+            "misMatchThreshold": 8
+        },
+        {
+            "label": "T5-10.png",
+            "url": "file:///C:/Proyectos/pruebas-automatizadas/pruebas-kraken-ghost_3.42/backstopjs/v4/T5-10.png",
+            "misMatchThreshold": 8
+        },
+        {
+            "label": "T5-2.png",
+            "url": "file:///C:/Proyectos/pruebas-automatizadas/pruebas-kraken-ghost_3.42/backstopjs/v4/T5-2.png",
+            "misMatchThreshold": 8
+        },
+        {
+            "label": "T5-3.png",
+            "url": "file:///C:/Proyectos/pruebas-automatizadas/pruebas-kraken-ghost_3.42/backstopjs/v4/T5-3.png",
+            "misMatchThreshold": 8
+        },
+        {
+            "label": "T5-4.png",
+            "url": "file:///C:/Proyectos/pruebas-automatizadas/pruebas-kraken-ghost_3.42/backstopjs/v4/T5-4.png",
+            "misMatchThreshold": 8
+        },
+        {
+            "label": "T5-5.png",
+            "url": "file:///C:/Proyectos/pruebas-automatizadas/pruebas-kraken-ghost_3.42/backstopjs/v4/T5-5.png",
+            "misMatchThreshold": 8
+        },
+        {
+            "label": "T5-6.png",
+            "url": "file:///C:/Proyectos/pruebas-automatizadas/pruebas-kraken-ghost_3.42/backstopjs/v4/T5-6.png",
+            "misMatchThreshold": 8
+        },
+        {
+            "label": "T5-7.png",
+            "url": "file:///C:/Proyectos/pruebas-automatizadas/pruebas-kraken-ghost_3.42/backstopjs/v4/T5-7.png",
+            "misMatchThreshold": 8
+        },
+        {
+            "label": "T5-8.png",
+            "url": "file:///C:/Proyectos/pruebas-automatizadas/pruebas-kraken-ghost_3.42/backstopjs/v4/T5-8.png",
+            "misMatchThreshold": 8
+        },
+        {
+            "label": "T5-9.png",
+            "url": "file:///C:/Proyectos/pruebas-automatizadas/pruebas-kraken-ghost_3.42/backstopjs/v4/T5-9.png",
+            "misMatchThreshold": 8
+        }
+    ],
+    "paths": {
+        "bitmaps_reference": "backstop_data/bitmaps_reference",
+        "bitmaps_test": "backstop_data/bitmaps_test",
+        "engine_scripts": "backstop_data/engine_scripts",
+        "html_report": "backstop_data/html_report",
+        "ci_report": "backstop_data/ci_report"
+    },
+    "report": [
+        "browser"
+    ],
+    "engine": "puppeteer",
+    "engineOptions": {
+        "args": [
+            "--no-sandbox"
+        ]
+    },
+    "asyncCaptureLimit": 5,
+    "asyncCompareLimit": 50,
+    "debug": false,
+    "debugWindow": false
+}
