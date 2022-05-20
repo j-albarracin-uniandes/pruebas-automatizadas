@@ -1,9 +1,9 @@
 {
-  "host": "http://localhost:3002/ghost/",
+  "host": "http://localhost:2368/ghost/",
   "signin": {
     "user": {
-      "email": "ingeo.jhonap@gmail.com",
-      "password": "J_Q1w2e3r4t5!!"
+      "email": "w.palomino@uniandes.edu.co",
+      "password": "tgh3wxf3ujr9GMD-bhy"
     },
     "selectors": {
       "email": "input[name='identification']",

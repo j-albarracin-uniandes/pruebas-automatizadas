@@ -1,4 +1,4 @@
-import gC from "./form.json";
+import gC from "./parameters.json";
 const sel = gC.pages.selectors;
 const req = gC.pages.requests;
 const limits = gC.pages.limits;

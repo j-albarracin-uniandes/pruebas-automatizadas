@@ -1,7 +1,8 @@
-import gC from "../integration/pages/form.json";
+import gC from "../integration/ghost/parameters.json";
 const req = gC.pages.requests;
 const sel = gC.pages.selectors;
 const errors = gC.pages.errors;
+
 Cypress.Commands.add("login", (email, password) => {
   cy.visit(gC.host + "#/signin");
   cy.get(gC.signin.selectors.email).type(gC.signin.user.email);
