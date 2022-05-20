@@ -1,7 +1,7 @@
-Feature: Crear POST con nombre largo
+Feature: POST
 
 @user4 @web
-Scenario: Como un usuario inicio sesión y creo un post y lo agrego como featured
+Scenario: TEST090
     Given I navigate to page "<LOGIN_URL>"
     And I wait for 1 seconds
     And I set text "<USERNAME>" on element with xpath "<USERNAME_EID>"
@@ -13,6 +13,18 @@ Scenario: Como un usuario inicio sesión y creo un post y lo agrego como feature
     And I wait for 2 seconds
     And I click element with xpath "<FILTER_VIEW_XPATH>"
     And I wait for 2 seconds
-    And I set text "Featured View" on element with xpath "<FILTER_VIEW_INPUT_XPATH>"
+    And I set text "$name_1" on element with xpath "<FILTER_VIEW_INPUT_XPATH>"
+    And I wait for 2 seconds
+    And I click element with xpath "<FILTER_VIEW_BUTTON_SAVE_XPATH>"
+    And I wait for 2 seconds
+    And I click element with xpath "<FILTER_VIEW_XPATH>"
+    And I wait for 2 seconds
+    And I set text "$name_1" on element with xpath "<FILTER_VIEW_INPUT_XPATH>"
+    And I wait for 2 seconds
+    And I click element with xpath "<FILTER_VIEW_BUTTON_SAVE_XPATH>"
+    And I wait for 2 seconds
+    And I click element with xpath "<FILTER_VIEW_XPATH>"
+    And I wait for 2 seconds
+    And I set text "$number_1" on element with xpath "<FILTER_VIEW_INPUT_XPATH>"
     And I wait for 2 seconds
     And I click element with xpath "<FILTER_VIEW_BUTTON_SAVE_XPATH>"
