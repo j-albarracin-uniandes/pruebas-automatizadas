@@ -52,6 +52,25 @@
 
   "CODE_INJ_BUTTON": ".nav-list-block > li:nth-child(5) > button:nth-child(1)",
   "CODE_INJ_TEXT": "#post-setting-codeinjection-foot > div:nth-child(2) > div:nth-child(6) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(5) > div:nth-child(1) > pre:nth-child(2) > span:nth-child(1)",
-  "HTML_TEXT_FOOTER": "<footer> <p>Author: Franz</p> <p><a href='mailto:frogelez@zenware.com.co'>frogelez@zenware.com.co</a></p> </footer>"
+  "HTML_TEXT_FOOTER": "<footer> <p>Author: Franz</p> <p><a href='mailto:frogelez@zenware.com.co'>frogelez@zenware.com.co</a></p> </footer>",
+ 
+  "TEXT_ESCENARIO_ALEATORIO": "PRUEBA :: Escenario Aleatorio",
+  "TEXT_ESCENARIO_APRIORI": "PRUEBA :: Escenario A-priori",
+  "TEXT_ESCENARIO_PSEUDO": "PRUEBA :: Escenario Pseudo aleatorio dinámico",
+  "TEXT_PRUEBA": "PRUEBA",
+
+  "POST_URL_XPATH": "#url",
+  "POST_DATE_XPATH": ".gh-date-time-picker-date input:nth-child(1)",
+  "POST_DATE_ERROR_XPATH": ".gh-date-time-picker-error",
+  "FILE_PATH_JSON": "../../data/dates.json",
+  
+  "POST_TIME_XPATH": ".gh-date-time-picker-time  input:nth-child(1)",
+  "POST_TIME_ERROR_XPATH": ".gh-date-time-picker-time error",
+  "FILE_TIME_PATH_JSON": "../../data/times.json",
+  "FILTER_VIEW_INPUT_TAG_XPATH":"#tag-input",
+  "SETTING_MENU_CONTENT":".settings-menu-content",
+  "FILTER_VIEW_INPUT_EXCERPT_XPATH" :"#custom-excerpt",
+  "FILTER_VIEW_INPUT_AUTHORS_XPHAT": "#author-list",
+  "INPUT_SELECT_AUTHORS": ".ember-power-select-option"
 
 }
