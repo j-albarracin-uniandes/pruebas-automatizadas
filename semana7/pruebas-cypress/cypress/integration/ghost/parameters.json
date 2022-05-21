@@ -1,5 +1,5 @@
 {
-  "host": "http://localhost:2368/ghost/",
+  "host": "http://localhost:3002/ghost/",
   "signin": {
     "user": {
       "email": "w.palomino@uniandes.edu.co",

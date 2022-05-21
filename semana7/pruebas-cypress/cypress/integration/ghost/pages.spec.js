@@ -251,7 +251,7 @@ context("Actions", () => {
     const text = cy.faker.date.future(2000);
     cy.setDate(sel.inputPublishDate, text);
 
-    cy.validateFormEdit(false);
+    cy.validateFormEdit(false,'.gh-date-time-picker-error');
   });
   it("TEST-PAGES-20 Page PublishDate datos aleatorios", () => {
     cy.initSettings();
@@ -281,7 +281,7 @@ context("Actions", () => {
     const text = cy.faker.date.future(2000);
     cy.setDate(sel.inputPublishDate, text);
     cy.setTime(sel.inputPublishTime, text);
-    cy.validateFormEdit(false);
+    cy.validateFormEdit(false,'.gh-date-time-picker-error');
   });
   it("TEST-PAGES-24 Page PublishDate(time) datos aleatorios", () => {
     cy.initSettings();
@@ -295,13 +295,13 @@ context("Actions", () => {
     const text = cy.faker.datatype.string();
     cy.setDate(sel.inputPublishDate, text);
     cy.setTime(sel.inputPublishTime, text);
-    cy.validateFormEdit(false);
+    cy.validateFormEdit(false,'.gh-date-time-picker-error');
   });
   it("TEST-PAGES-26 Page PublishDate formato incorrecto", () => {
     cy.initSettings();
     const text = cy.faker.datatype.string();
     cy.setDate(sel.inputPublishDate, text);
-    cy.validateFormEdit(false);
+    cy.validateFormEdit(false,'.gh-date-time-picker-error');
   });
 
   it("TEST-PAGES-27 Page YouTube a-priori", () => {

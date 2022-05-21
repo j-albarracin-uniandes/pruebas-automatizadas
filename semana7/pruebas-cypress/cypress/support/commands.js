@@ -49,10 +49,14 @@ Cypress.Commands.add("validateForm", (seCrea) => {
     cy.validateCreatePage();
   }
 });
-Cypress.Commands.add("validateFormEdit", (seCrea) => {
-  if (seCrea == false) {
-    cy.get('.gh-date-time-picker-error').should("have.length", 1);
-  } else {
+Cypress.Commands.add("validateFormEdit", (seCrea, selectorError) => {
+  if (seCrea == false && selectorError) {
+    cy.get(".gh-date-time-picker-error").should("have.length", 1);
+  }
+  if (seCrea == false && !selectorError) {
+    cy.leaveCreatePage();
+  }
+  if (seCrea == true) {
     cy.validateEditPage();
   }
 });
