@@ -1,2 +1,0 @@
-## Ejecución de los escenarios
-
