@@ -1,12 +1,3 @@
-# Ejecutar las pruebas de Ghost realizadas con KRAKEN 
-
-1. 
-2. 
-3. Ubicarse en la carpeta del proyecto y ejecutar este comando 
-./node_modules/kraken-node/bin/kraken-node run
-
-
-
 ## Ejecución de los escenarios
 
 ### Precondiciones
