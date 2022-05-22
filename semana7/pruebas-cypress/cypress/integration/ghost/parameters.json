@@ -67,10 +67,14 @@
       "slugs":"api/admin/slugs/post/"
     },
     "limits":{
+      "nameTagMax":191,
+      "colorTagMax":6,
+      "descriptionTagMax":500,
       "titleMax":300,
       "descriptionMax":5000,
       "urlMax":200,
-      "exerptMax":300
+      "exerptMax":300,
+      "canonicalURL":2000
     },
     "errors":{
       "maxlength":"Excerpt cannot be longer than @length characters.",
