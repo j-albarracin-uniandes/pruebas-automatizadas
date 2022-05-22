@@ -16,7 +16,7 @@ context("Actions", () => {
 		return false;
 	});
 
-	it("PRUEBA - 1 - Crear pagina nueva y publicarla ", () => {
+	it("TEST-PAGES-31 - Crear pagina nueva y publicarla ", () => {
 		cy.get(".gh-nav-top").contains("Pages").click();
 		cy.wait(1000);
 		cy.url().should("eq", "http://localhost:3002/ghost/#/pages");
@@ -49,29 +49,7 @@ context("Actions", () => {
 			.and("include", titulPaginaSepareted);
 	});
 
-	it("PRUEBA - 2 - Listar page y ordenar por publicados a-priori", () => {
-		cy.get(".gh-nav-top").contains("Pages").click();
-		cy.wait(1000);
-
-		cy.url().should("eq", "http://localhost:3002/ghost/#/pages");
-		cy.get(".gh-canvas-header-content").contains("All pages").click();
-		cy.wait(1000);
-
-		cy.get("#ember-basic-dropdown-wormhole")
-			.contains("Published pages")
-			.click();
-		cy.wait(1000);
-
-		cy.url().should("eq", "http://localhost:3002/ghost/#/pages?type=published");
-		cy.get(".gh-list");
-		cy.get(".gh-posts-list-item");
-		cy.get(".gh-post-list-status")
-			.should("contain", "Published")
-			.and("not.contain", "Draft")
-			.and("not.contain", "Scheduled");
-	});
-
-	it("PRUEBA - 3 - Editar pagina previamente creada y publicada a-priori", () => {
+	it("TEST-PAGES-32 - Editar pagina previamente creada y publicada a-priori", () => {
 		cy.get(".gh-nav-top").contains("Pages").click();
 		cy.wait(1000);
 
@@ -140,7 +118,7 @@ context("Actions", () => {
 			.should("contain", titulPaginaEditado);
 	});
 
-	it("PRUEBA - 4 - Agregar un tag a una pagina previamente creada y publicada, para hacer filtrado por este a-priori", () => {
+	it("TEST-PAGES-33 - Agregar un tag a una pagina previamente creada y publicada, para hacer filtrado por este a-priori", () => {
 		cy.get(".gh-nav-top").contains("Pages").click();
 		cy.wait(1000);
 
@@ -237,7 +215,7 @@ context("Actions", () => {
 		);
 	});
 
-	it("PRUEBA - 5 - Crear pagina dejarla en draf, volver a entrar editarla y publcarla a-priori", () => {
+	it("TEST-PAGES-34 - Crear pagina dejarla en draf, volver a entrar editarla y publcarla a-priori", () => {
 		cy.get(".gh-nav-top").contains("Pages").click();
 		cy.wait(1000);
 
@@ -329,7 +307,7 @@ context("Actions", () => {
 		cy.wait(1000);
 	});
 
-	it("PRUEBA - 6 - Crear pagina nueva, crear tag, la publica y listar por tag creado a-priori", () => {
+	it("TEST-PAGES-35 - Crear pagina nueva, crear tag, la publica y listar por tag creado a-priori", () => {
 		cy.get(".gh-nav-top").contains("Pages").click();
 		cy.wait(1000);
 
@@ -398,7 +376,7 @@ context("Actions", () => {
 		);
 	});
 
-	it("PRUEBA - 7 - Elimina pagina previamente creada a-priori", () => {
+	it("TEST-PAGES-36 - Elimina pagina previamente creada a-priori", () => {
 		cy.get(".gh-nav-top").contains("Pages").click();
 		cy.wait(1000);
 
@@ -444,7 +422,7 @@ context("Actions", () => {
 		cy.wait(1000);
 	});
 
-	it("PRUEBA - 8 - Elimina pagina con tag a-priori", () => {
+	it("TEST-PAGES-37 - Elimina pagina con tag a-priori", () => {
 		cy.get(".gh-nav-top").contains("Pages").click();
 		cy.wait(1000);
 
@@ -499,7 +477,7 @@ context("Actions", () => {
 		cy.wait(1000);
 	});
 
-	it("PRUEBA - 9 - Elimina pagina previamente creada a-priori", () => {
+	it("TEST-PAGES-38 - Elimina pagina previamente creada a-priori", () => {
 		cy.get(".gh-nav-top").contains("Pages").click();
 		cy.wait(1000);
 
@@ -556,7 +534,7 @@ context("Actions", () => {
 
 	// ---------------------------------------
 
-	it("PRUEBA - 10 - TAG nombre a-priori", () => {
+	it("TEST-PAGES-39 - TAG nombre a-priori", () => {
 		cy.get(".gh-nav-top").contains("Tags").click();
 		cy.wait(1000);
 		cy.url().should("eq", "http://localhost:3002/ghost/#/tags");
@@ -572,8 +550,7 @@ context("Actions", () => {
 		cy.wait(1000);
 	});
 
-	it(
-		"PRUEBA - 12 - TAG input nombre longitud dentro de las fronteras- Pseudo(1 - " +
+	it("TEST-PAGES-40 - TAG input nombre longitud dentro de las fronteras- Pseudo(1 - " +
 			limits.nameTagMax +
 			")",
 		() => {
@@ -599,8 +576,7 @@ context("Actions", () => {
 		}
 	);
 
-	it(
-		"PRUEBA - 13 - TAG input nombre longitud fuera de las fronteras- Pseudo( > " +
+	it("TEST-PAGES-41 - TAG input nombre longitud fuera de las fronteras- Pseudo( > " +
 			limits.nameTagMax +
 			")",
 		() => {
@@ -626,7 +602,7 @@ context("Actions", () => {
 		}
 	);
 
-	it("PRUEBA - 14 - TAG input nombre dinámico )", () => {
+	it("TEST-PAGES-42 - TAG input nombre dinámico )", () => {
 		cy.get(".gh-nav-top").contains("Tags").click();
 		cy.wait(1000);
 		cy.url().should("eq", "http://localhost:3002/ghost/#/tags");
@@ -646,7 +622,7 @@ context("Actions", () => {
 
 	// ---------------------------------------
 
-	it("PRUEBA - 15 - TAG Color a-priori", () => {
+	it("TEST-PAGES-43 - TAG Color a-priori", () => {
 		cy.get(".gh-nav-top").contains("Tags").click();
 		cy.wait(1000);
 		cy.url().should("eq", "http://localhost:3002/ghost/#/tags");
@@ -669,7 +645,7 @@ context("Actions", () => {
 		cy.wait(1000);
 	});
 
-	it("PRUEBA - 16 - TAG input Color nombre dinámico genera valor default negro)", () => {
+	it("TEST-PAGES-44 - TAG input Color nombre dinámico genera valor default negro)", () => {
 		cy.get(".gh-nav-top").contains("Tags").click();
 		cy.wait(1000);
 		cy.url().should("eq", "http://localhost:3002/ghost/#/tags");
@@ -701,7 +677,7 @@ context("Actions", () => {
 
 	// ---------------------------------------
 
-	it("PRUEBA - 17 - TAG descripcion a-priori", () => {
+	it("TEST-PAGES-45 - TAG descripcion a-priori", () => {
 		cy.get(".gh-nav-top").contains("Tags").click();
 		cy.wait(1000);
 		cy.url().should("eq", "http://localhost:3002/ghost/#/tags");
@@ -726,8 +702,7 @@ context("Actions", () => {
 		cy.get(".gh-canvas-title").should("contain", nombreTag);
 	});
 
-	it(
-		"PRUEBA - 18 - TAG input descripcion longitud dentro de las fronteras- Pseudo(1 - " +
+	it("TEST-PAGES-46 - TAG input descripcion longitud dentro de las fronteras- Pseudo(1 - " +
 			limits.descriptionTagMax +
 			")",
 		() => {
@@ -763,8 +738,7 @@ context("Actions", () => {
 		}
 	);
 
-	it(
-		"PRUEBA - 19 - TAG input descripcion longitud fuera de las fronteras- Pseudo( >  " +
+	it("TEST-PAGES-47 - TAG input descripcion longitud fuera de las fronteras- Pseudo( >  " +
 			limits.descriptionTagMax +
 			")",
 		() => {
@@ -800,7 +774,7 @@ context("Actions", () => {
 		}
 	);
 
-	it("PRUEBA - 20 - TAG input nombre dinámico ", () => {
+	it("TEST-PAGES-48 - TAG input nombre dinámico ", () => {
 		cy.get(".gh-nav-top").contains("Tags").click();
 		cy.wait(1000);
 		cy.url().should("eq", "http://localhost:3002/ghost/#/tags");
@@ -826,7 +800,7 @@ context("Actions", () => {
 
 	// ---------------------------------------
 
-	it("PRUEBA - 21 - TAG Slug a-priori", () => {
+	it("TEST-PAGES-49 - TAG Slug a-priori", () => {
 		cy.get(".gh-nav-top").contains("Tags").click();
 		cy.wait(1000);
 		cy.url().should("eq", "http://localhost:3002/ghost/#/tags");
@@ -851,8 +825,7 @@ context("Actions", () => {
 		cy.get(".gh-canvas-title").should("contain", nombreTag);
 	});
 
-	it(
-		"PRUEBA - 22 - TAG input Slug longitud dentro de las fronteras- Pseudo(1 - " +
+	it("TEST-PAGES-50 - TAG input Slug longitud dentro de las fronteras- Pseudo(1 - " +
 			limits.urlMax +
 			")",
 		() => {
@@ -888,8 +861,7 @@ context("Actions", () => {
 		}
 	);
 
-	it(
-		"PRUEBA - 23 - TAG input Slug longitud fuera de las fronteras- Pseudo( >  " +
+	it("TEST-PAGES-51 - TAG input Slug longitud fuera de las fronteras- Pseudo( >  " +
 			limits.urlMax +
 			")",
 		() => {
@@ -925,7 +897,7 @@ context("Actions", () => {
 		}
 	);
 
-	it("PRUEBA - 24 - TAG input Slug dinámico )", () => {
+	it("TEST-PAGES-52 - TAG input Slug dinámico )", () => {
 		cy.get(".gh-nav-top").contains("Tags").click();
 		cy.wait(1000);
 		cy.url().should("eq", "http://localhost:3002/ghost/#/tags");
@@ -951,7 +923,7 @@ context("Actions", () => {
 
 	// ---------------------------------------
 
-	it("PRUEBA - 25 - TAG Meta title a-priori", () => {
+	it("TEST-PAGES-53 - TAG Meta title a-priori", () => {
 		cy.get(".gh-nav-top").contains("Tags").click();
 		cy.wait(1000);
 		cy.url().should("eq", "http://localhost:3002/ghost/#/tags");
@@ -978,8 +950,7 @@ context("Actions", () => {
 		cy.get(".gh-canvas-title").should("contain", nombreTag);
 	});
 
-	it(
-		"PRUEBA - 26 - TAG input Meta title longitud dentro de las fronteras- Pseudo(1 - " +
+	it("TEST-PAGES-54 - TAG input Meta title longitud dentro de las fronteras- Pseudo(1 - " +
 			limits.exerptMax +
 			")",
 		() => {
@@ -1017,8 +988,7 @@ context("Actions", () => {
 		}
 	);
 
-	it(
-		"PRUEBA - 27 - TAG input Meta title longitud fuera de las fronteras- Pseudo( >  " +
+	it("TEST-PAGES-55 - TAG input Meta title longitud fuera de las fronteras- Pseudo( >  " +
 			limits.exerptMax +
 			")",
 		() => {
@@ -1056,7 +1026,7 @@ context("Actions", () => {
 		}
 	);
 
-	it("PRUEBA - 28 - TAG input Meta title dinámico )", () => {
+	it("TEST-PAGES-56 - TAG input Meta title dinámico )", () => {
 		cy.get(".gh-nav-top").contains("Tags").click();
 		cy.wait(1000);
 		cy.url().should("eq", "http://localhost:3002/ghost/#/tags");
@@ -1084,7 +1054,7 @@ context("Actions", () => {
 
 	// ---------------------------------------
 
-	it("PRUEBA - 29 - TAG Meta Canonical URL a-priori", () => {
+	it("TEST-PAGES-57 - TAG Meta Canonical URL a-priori", () => {
 		cy.get(".gh-nav-top").contains("Tags").click();
 		cy.wait(1000);
 		cy.url().should("eq", "http://localhost:3002/ghost/#/tags");
@@ -1112,8 +1082,7 @@ context("Actions", () => {
 		cy.get(".gh-canvas-title").should("contain", nombreTag);
 	});
 
-	it(
-		"PRUEBA - 30 - TAG Meta Canonical URL longitud dentro de las fronteras- Pseudo(1 - " +
+	it("TEST-PAGES-58 - TAG Meta Canonical URL longitud dentro de las fronteras- Pseudo(1 - " +
 			limits.canonicalURL +
 			")",
 		() => {
@@ -1151,8 +1120,7 @@ context("Actions", () => {
 		}
 	);
 
-	it(
-		"PRUEBA - 31 - TAG Meta Canonical URL longitud fuera de las fronteras- Pseudo( >  " +
+	it("TEST-PAGES-59 - TAG Meta Canonical URL longitud fuera de las fronteras- Pseudo( >  " +
 			limits.canonicalURL +
 			")",
 		() => {
@@ -1194,7 +1162,7 @@ context("Actions", () => {
 		}
 	);
 
-	it("PRUEBA - 32 - TAG Meta Canonical URL dinámico )", () => {
+	it("TEST-PAGES-60 - TAG Meta Canonical URL dinámico )", () => {
 		cy.get(".gh-nav-top").contains("Tags").click();
 		cy.wait(1000);
 		cy.url().should("eq", "http://localhost:3002/ghost/#/tags");
