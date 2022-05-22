@@ -1,5 +1,6 @@
 {
-  "host": "http://localhost:3002/ghost/",
+  "host": "http://localhost:2368/ghost/",
+  "host_users": "http://localhost:2368/",
   "signin": {
     "user": {
       "email": "w.palomino@uniandes.edu.co",
@@ -47,24 +48,23 @@
       "inputTitle": "textarea.gh-editor-title",
       "botonMas": ".koenig-plus-menu-button",
       "editorPane": ".gh-koenig-editor-pane",
-      "returnPages":"a[href='#/pages/']",
+      "returnPages": "a[href='#/pages/']",
       "leaveButton": "button[class='gh-btn gh-btn-red']",
       "listaPages": ".gh-list",
-      "inputDescription":".koenig-editor__editor-wrapper",
+      "inputDescription": ".koenig-editor__editor-wrapper",
       "settingsButton": "button[title='Settings']",
-      "inputSettingsUrl":"input[name='post-setting-slug']",
-      "inputExerpt":"textarea.post-setting-custom-excerpt",
-      "formGroup":".form-group",
-      "inputPublishDate":".gh-date-time-picker-date",
-      "inputPublishTime":".gh-date-time-picker-time",
-      "buttonPlus":".koenig-plus-menu-button",
+      "inputSettingsUrl": "input[name='post-setting-slug']",
+      "inputExerpt": "textarea.post-setting-custom-excerpt",
+      "formGroup": ".form-group",
+      "inputPublishDate": ".gh-date-time-picker-date",
+      "inputPublishTime": ".gh-date-time-picker-time",
+      "buttonPlus": ".koenig-plus-menu-button",
       "opcionYouTube": ".middarkgrey[title=YouTube]",
       "urlInput": "input[placeholder='Paste URL to add embedded content...']"
-     
     },
-    "requests":{
-      "create":"api/admin/pages",
-      "slugs":"api/admin/slugs/post/"
+    "requests": {
+      "create": "api/admin/pages",
+      "slugs": "api/admin/slugs/post/"
     },
     "limits":{
       "nameTagMax":191,
@@ -76,10 +76,10 @@
       "exerptMax":300,
       "canonicalURL":2000
     },
-    "errors":{
-      "maxlength":"Excerpt cannot be longer than @length characters.",
-      "date":"Invalid date format, must be @format",
-      "time":"Must be in format: @format"
+    "errors": {
+      "maxlength": "Excerpt cannot be longer than @length characters.",
+      "date": "Invalid date format, must be @format",
+      "time": "Must be in format: @format"
     }
   }
 }

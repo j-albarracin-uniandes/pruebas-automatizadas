@@ -3,6 +3,14 @@ const req = gC.pages.requests;
 const sel = gC.pages.selectors;
 const errors = gC.pages.errors;
 
+Cypress.Commands.add("login_simple", () => {
+  cy.visit(gC.host + "#/signin");
+  cy.get(gC.signin.selectors.email).type(gC.signin.user.email);
+  cy.get(gC.signin.selectors.password).type(gC.signin.user.password);
+  cy.get(gC.signin.selectors.submit).click();
+});
+
+
 Cypress.Commands.add("login", (email, password) => {
   cy.visit(gC.host + "#/signin");
   cy.get(gC.signin.selectors.email).type(gC.signin.user.email);
