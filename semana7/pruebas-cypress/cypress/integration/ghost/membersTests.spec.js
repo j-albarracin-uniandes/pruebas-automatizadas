@@ -37,7 +37,6 @@ context("Actions", () => {
     cy.get("div.gh-member-details-identity")
       .find("h3")
       .should("have.length", 1);
-    // cy.get("div.gh-member-details-identity").find("h3").should("have.text", email);
   });
 
   it("TEST-MEMBERS, a valid email long name, random", () => {
