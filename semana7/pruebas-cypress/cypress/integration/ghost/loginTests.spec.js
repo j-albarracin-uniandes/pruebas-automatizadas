@@ -14,7 +14,9 @@ context("Actions", () => {
   it("TEST-LOGIN, valid email address no password, random", () => {
     cy.get(gC.signin.selectors.email).type(cy.faker.internet.exampleEmail());
     cy.get(gC.signin.selectors.submit).click();
-    cy.get(".error").find(gC.signin.selectors.password).should("have.length", 1);
+    cy.get(".error")
+      .find(gC.signin.selectors.password)
+      .should("have.length", 1);
   });
 
   it("TEST-LOGIN, valid email address invalid email and password, random", () => {
@@ -29,14 +31,13 @@ context("Actions", () => {
     cy.get(gC.signin.selectors.password).type(cy.faker.internet.password());
     cy.get(gC.signin.selectors.submit).click();
     cy.get("p").get(".main-error").should("have.length", 1);
-    // cy.get(".gh-flow-content").find(".main-error").should('have.text', 'Your password is incorrect. ');
   });
 
   it("TEST-LOGIN, actual email address valid email and password, apriori", () => {
     cy.get(gC.signin.selectors.email).type(gC.signin.user.email);
     cy.get(gC.signin.selectors.password).type(gC.signin.user.password);
     cy.get(gC.signin.selectors.submit).click();
-    cy.contains('Dashboard');
+    cy.contains("Dashboard");
   });
 
   it("TEST-LOGIN, invalid email forgot password, random", () => {
@@ -51,5 +52,4 @@ context("Actions", () => {
     cy.get("button.forgotten-link").click();
     cy.get("p").get(".main-error").should("have.length", 1);
   });
-
 });
