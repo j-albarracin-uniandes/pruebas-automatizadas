@@ -10,7 +10,7 @@
 * Código estrategia de pruebas E2E: [enlace](https://github.com/j-albarracin-uniandes/pruebas-automatizadas/tree/master/semana8/PruebasE2E)
 * Video de presentación de la estrategia de pruebas: [enlace](enlace)
 * Los issues encontrados con las estrategias de pruebas manuales, e2e y reconocimiento se encuentran en el siguiente [enlace](https://github.com/j-albarracin-uniandes/pruebas-automatizadas/issues). Los issues encontrados con las pruebas VRT se encuentran en el siguiente [enlace](https://github.com/j-albarracin-uniandes/pruebas-automatizadas/tree/master/semana8/PruebasVRT/issues/list).
-# Contexto
+## Contexto
 
 + **Ghost version:** v3.42, v4.41.3
 
