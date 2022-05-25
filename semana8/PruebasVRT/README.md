@@ -1,5 +1,5 @@
 # Pruebas VRT
-* Se debe descargar la carpeta [html_report](https://github.com/j-albarracin-uniandes/pruebas-automatizadas/tree/master/semana8/PruebasVRT/backstop_data/html_report)
+* Se debe descargar la carpeta [html_report](https://github.com/j-albarracin-uniandes/pruebas-automatizadas/tree/master/semana8/PruebasVRT/backstop_data/html_report) para visualizar el resultado de las pruebas
 * Los issues encontrados con estas pruebas se encuentran en la siguiente [carpeta](https://github.com/j-albarracin-uniandes/pruebas-automatizadas/tree/master/semana8/PruebasVRT/issues/list)
 
 ## Contexto
