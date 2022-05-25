@@ -43,3 +43,10 @@
 	}
   }
 ```
+## Contexto
+
++ **Ghost version:**  v4.41.3
+
++ **Navegador:** Google Chrome 1000.04896.60
+
++ **SO:** Windows 11.
